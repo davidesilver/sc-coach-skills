@@ -1,0 +1,21 @@
+{
+  "name": "sc-coach-skills",
+  "description": "Elite Strength & Conditioning coach skill pack: 16 skills covering intake, clinical screening, periodization, weekly programming governance, and sport-specific domains (powerlifting, olympic weightlifting, football/RB, HYROX/hybrid, general population)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Davide Silvestri"
+  },
+  "homepage": "https://github.com/davidesilver/sc-coach-skills",
+  "repository": "https://github.com/davidesilver/sc-coach-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "strength-and-conditioning",
+    "coaching",
+    "powerlifting",
+    "hyrox",
+    "football",
+    "sports-science",
+    "periodization"
+  ]
+}

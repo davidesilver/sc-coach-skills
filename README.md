@@ -1,16 +1,55 @@
-# Elite Strength & Conditioning — Skill Package
+# sc-coach-skills
 
-Pacchetto completo di 16 skill modulari per costruire un "coach S&C personale" per qualunque profilo atleta: powerlifting, weightlifting olimpico, football americano/running back, atleti ibridi/HYROX, popolazione generale.
-
-Le skill vivono in `skills/<nome>/SKILL.md` (layout flat, compatibile con la discovery di [skills.sh](https://www.skills.sh/) e con Claude Code / Amp).
+Il coaching Strength & Conditioning a livello elite è riservato a chi ha accesso a un programma pro o college. Questo repo lo rende open source: **16 Claude Agent Skill** che coprono l'intero ciclo di un coach S&C — intake, screening clinico, periodizzazione, programmazione settimanale, dominio sport-specifico, bioenergetica/recupero — per qualunque profilo atleta: powerlifting, weightlifting olimpico, football americano/running back, atleti ibridi/HYROX, popolazione generale.
 
 **Nessun dato personale di atleti reali è incluso.** Solo framework metodologici verificati, generici, riutilizzabili.
 
-## Come iniziare (per qualunque atleta)
+## Quickstart
 
-Carica sempre per prima la skill `coach-builder-router`: pone una domanda di profilazione e assembla automaticamente lo stack di skill corretto per il tuo caso (powerlifter, weightlifter, football/RB, HYROX, general population, o preparatore multi-atleta).
+```bash
+npx skills add davidesilver/sc-coach-skills
+```
+
+Poi, in qualunque conversazione con il tuo agente (Claude Code, Amp, ecc.):
+
+```
+usa coach-builder-router per costruire il mio coach S&C
+```
+
+`coach-builder-router` fa una domanda di profilazione e assembla automaticamente lo stack di skill corretto per il tuo caso.
+
+## Come funziona
+
+```
+coach-builder-router (entry point, profila l'atleta)
+        │
+        ▼
+athlete-profiling-benchmarking + biomechanics-movement-screen   (assessment: mai programmare senza dati)
+        │
+        ▼
+periodization-block-planner + programming-audit-council          (governance: macrociclo + audit settimanale a 3 giudici)
+        │
+        ▼
+skill di dominio sport-specifico                                  (powerlifting / weightlifting / football-RB / HYROX / general population)
+        │
+        ▼
+energy-systems-recovery + clinical-prehab-system + vbt-rfd-open-sets   (livelli trasversali: recupero, filtro clinico, autoregolazione)
+```
+
+Ogni skill dichiara nel proprio `SKILL.md` quando attivarsi e con quali altre skill collabora — non serve orchestrarle a mano.
+
+## Filosofia
+
+Principi non negoziabili applicati in tutto il pacchetto:
+
+- **Mai prescrivere carico senza intake.** `athlete-profiling-benchmarking` è un prerequisito operativo, non un opzionale: niente v1 di programmazione senza i 4 output richiesti (readiness, massimali, flag clinici, obiettivo).
+- **Il dolore ha sempre veto.** Il filtro clinico (Sanford Soreness Rules, Copenhagen protocol) in `clinical-prehab-system` interrompe la progressione indipendentemente dall'entusiasmo dell'atleta o dal calendario.
+- **Autoregolazione, non tabelle rigide.** RPE/RIR/VBT (`vbt-rfd-open-sets`) governano il carico reale; la programmazione si adatta ai marker di recupero, non al foglio Excel.
+- **Governance esplicita.** `programming-audit-council` audita ogni settimana attraverso 3 giudici interni (Strength Science, Sport-Specific, Clinical/Prehab) prima di emettere la v2 — nessuna settimana viene generata e usata senza revisione.
 
 ## Struttura del pacchetto
+
+Le skill vivono in `skills/<nome>/SKILL.md` (layout flat, compatibile con la discovery di [skills.sh](https://www.skills.sh/) e con Claude Code / Amp).
 
 | # | Skill | Livello | Profilo target |
 |---|---|---|---|
@@ -47,21 +86,22 @@ Carica sempre per prima la skill `coach-builder-router`: pone una domanda di pro
 
 Coperti con fonti verificate: football/RB, COD/footwork, tendine/RFD, VBT/open sets, clinica/prehab (Sanford, Copenhagen), HYROX/ibridi (soglie fisiologiche, zone HR, protocollo Brick, cue tecnici delle 8 stazioni, benchmark Open/Pro), bioenergetica/recupero (sistemi energetici, protocolli RSA, creatina, recovery elite stack), profiling/assessment (intervista NFL-style, batteria test ordinata, profiling neuromuscolare, regola atleta decondizionato), movement screening (FMS 6-pattern), periodizzazione macrociclo (Block/Lineare/DUP/Coniugato), powerlifting (RTS block model, peaking, tapering), weightlifting olimpico (fasi tecniche, correzione early arm bend), popolazione generale (NSCA movement patterns).
 
-Non coperti in questa versione, perché mancano fonti verificate sufficienti nello Space o online al momento della ricerca: throwing sports specifici (lancio del peso, giavellotto), youth/adolescent athletic development, endurance puro (maratona/triathlon non ibrido), sport di combattimento.
+Non coperti in questa versione, perché mancano fonti verificate sufficienti al momento della ricerca: throwing sports specifici (lancio del peso, giavellotto), youth/adolescent athletic development, endurance puro (maratona/triathlon non ibrido), sport di combattimento. Proposte benvenute — vedi [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Strumenti complementari
 
 - `notion/` — template di database Notion importabile per tracciare atleti, settimane di programmazione e feedback sheet.
 - `data/` — schema SQL compatibile MotherDuck/DuckDB per analisi quantitativa dei log di allenamento nel tempo.
+- `scripts/validate-skills.sh` — valida frontmatter e riferimenti incrociati tra skill prima di ogni commit/PR (eseguito anche in CI).
 
 ## Fonti
 
-Framework derivati da: report tecnici dello Space Perplexity (tendon resilience, football/RB, footwork, MTSS/Sanford, Copenhagen protocol, VBT/Squillante-Bosco, HYROX), integrati con fonti esterne verificate su powerlifting peaking (RTS/Emerging Strategies, JTS, tapering research), weightlifting tecnico (Catalyst Athletics, TrainHeroic), popolazione generale (NSCA), movement screening (functionalmovement.com, Indiana State University Scholars) e periodizzazione a blocchi (TrainingPeaks, Thibarmy, phase.fitness).
+Framework derivati da report tecnici su tendon resilience, football/RB, footwork, MTSS/Sanford, Copenhagen protocol, VBT/Squillante-Bosco, HYROX, integrati con fonti esterne verificate su powerlifting peaking (RTS/Emerging Strategies, JTS, tapering research), weightlifting tecnico (Catalyst Athletics, TrainHeroic), popolazione generale (NSCA), movement screening (functionalmovement.com, Indiana State University Scholars) e periodizzazione a blocchi (TrainingPeaks, Thibarmy, phase.fitness).
 
 ## Licenza
 
-MIT — vedi `LICENSE`.
+MIT — vedi [LICENSE](LICENSE).
 
 ## Compatibilità
 
-Ogni `SKILL.md` include header YAML compatibile con Amp (`.agents/skills`, `~/.config/agents/skills`) e Claude Code (`~/.claude/skills`). Il layout `skills/<nome>/SKILL.md` segue lo standard di discovery di [skills.sh](https://www.skills.sh/) (CLI `vercel-labs/skills`), che richiede le skill dentro una cartella `skills/` (flat o a catalogo) e non direttamente nella root del repo.
+Ogni `SKILL.md` include header YAML compatibile con Amp (`.agents/skills`, `~/.config/agents/skills`) e Claude Code (`~/.claude/skills`, o come plugin via `.claude-plugin/plugin.json`). Il layout `skills/<nome>/SKILL.md` segue lo standard di discovery di [skills.sh](https://www.skills.sh/) (CLI `vercel-labs/skills`), che richiede le skill dentro una cartella `skills/` (flat o a catalogo) e non direttamente nella root del repo.
