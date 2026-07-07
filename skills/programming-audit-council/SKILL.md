@@ -16,13 +16,21 @@ No training week is issued without an audit. The mandatory process is: generate 
 
 ## Output format
 
-Each week must be produced in CSV format with this column template:
+### Canonical structure
+The CSV column template is the canonical internal structure for all programs:
 
 `EXE | EXERCISE | VIDEO_LINK | SETS | REPS | INTENSITY (%/RPE) | VELOCITY (m/s) | TEMPO | REST | NOTES/ACTUALS`
 
 Populate `EXERCISE` and `VIDEO_LINK` using `exercise-library-video` — canonical name required, link only when it verifiably shows that exact movement, otherwise leave `VIDEO_LINK` blank.
 
-File naming with explicit focus, example: `W1_D3_LowerPower_Posterior.csv`.
+### Output format options
+Emit in the user's chosen format (recorded in `coach-builder-router`):
+- **CSV** — native, the template as-is. File naming with explicit focus, example: `W1_D3_LowerPower_Posterior.csv`.
+- **Markdown** — the same columns as a Markdown table, wrapped in code blocks if needed for readability.
+- **Excel (.xlsx)** — same columns as a spreadsheet; if a spreadsheet-writing tool/skill is available, use it; otherwise emit CSV and note it can be opened directly in Excel.
+- **PDF** — a formatted, printable version of the table with day headers and session notes; if a PDF-writing skill/tool is available, use it; otherwise deliver Markdown or CSV and state that PDF requires such a tool.
+
+Default fallback: CSV if the user doesn't specify a format.
 
 ## TEMPO rules (frequent source of errors)
 
@@ -88,6 +96,19 @@ If even one criterion is missing: maintain or scale back, never advance on a cal
 - Sprint RPE >target+1 for ≥2 sessions → reduce target RPE by 0.5.
 - Unstable landing on jumps → do not increase volume.
 - Groin pain after Copenhagen → mandatory 48h gap before the next adductor stimulus.
+
+## Progressive generation (2+2 rule)
+
+For a new athlete or a new block, do NOT hard-commit 4 weeks up front. Define the macro-structure of weeks 1–4, but only emit detailed programs for weeks 1–2; emit weeks 3–4 after real feedback from block 1. Blindly pre-writing 4 identical-logic weeks is administration, not coaching.
+
+Rationale: the athlete's actual adaptation (fatigue trajectory, pain flags, transfer response) is unknown. Week 3 and 4 loads and structures should be contingent on real week 1–2 data.
+
+## Intensity prescription: RPE vs %1RM
+
+- **Default: RPE/RIR.** Use RPE (Rate of Perceived Exertion) and RIR (Reps in Reserve) by default, and whenever a reliable max does not exist.
+- **Switch to %1RM only when:** a trustworthy 1RM (or a solid submaximal estimate) exists for a main lift AND the athlete has stable technique AND the lift has been tested within the last 4 weeks.
+- **Keep RPE for:** accessories and for movements where a max is not meaningful (carries, rows, isolation lifts).
+- **Never use %1RM as false precision** on an athlete without stable technique and reliable test data. A 1RM on an athlete with inconsistent squat depth or shoulder instability is a false baseline.
 
 ## Scope
 

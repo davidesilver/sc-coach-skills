@@ -42,11 +42,12 @@ No fixed stack: use `coach-builder-router` for each individual athlete managed, 
 
 ## Standard operating sequence (any profile)
 
-1. **Intake**: run `athlete-profiling-benchmarking` (or the reduced version for profile 5) to collect history, goals, performance data, clinical limitations.
+1. **Intake**: run `athlete-profiling-benchmarking` (or the reduced version for profile 5) to collect history, goals, performance data, clinical limitations. For female athletes, also consult `female-athlete-programming` and capture cycle regularity and cycle-related response.
 2. **Preliminary clinical assessment**: if pain flags, recent injuries, or relevant history emerge, activate `clinical-prehab-system` before any load prescription.
-3. **Building week 1**: use `programming-audit-council` to generate v1, run the 3-judge audit, and issue v2 with the Sanford gate.
-4. **Applying the domain skill**: integrate the profile's specialist skill (powerlifting, weightlifting, football, HYROX, general population) into the v2 logic.
-5. **Continuous weekly cycle**: every following week requires the weekly continuity check described in `programming-audit-council`, never a reset from scratch.
+3. **Output format choice**: before generating the first program, ask the user once: "In which format do you want your plans delivered? (1) CSV (default), (2) Excel .xlsx, (3) Markdown, (4) PDF." Record the choice and pass it to `programming-audit-council` for all subsequent programs.
+4. **Building week 1**: use `programming-audit-council` to generate v1 in the chosen format, run the 3-judge audit, and issue v2 with the Sanford gate.
+5. **Applying the domain skill**: integrate the profile's specialist skill (powerlifting, weightlifting, football, HYROX, general population) into the v2 logic.
+6. **Continuous weekly cycle**: every following week requires the weekly continuity check described in `programming-audit-council`, never a reset from scratch.
 
 ## Skill combination rule
 

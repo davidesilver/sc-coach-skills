@@ -25,6 +25,7 @@ The interview always precedes programming. It must collect data in blocks:
 8. **Conditional capacities**: perceived strength in acceleration/mid-speed/top speed, confidence in changes of direction, prior work on running mechanics, available video data.
 9. **Metabolic capacity**: response to repeated loads in game situations, preference between specific vs generic conditioning, heart rate data, tolerance to gasser/shuttle-type protocols.
 10. **Lifestyle and recovery**: actual hours of sleep, non-physical stress, nutrition (meals, protein, tracking), alcohol/substances, supplementation already in use, access to recovery tools.
+10.5. **Menstrual cycle and energy availability (female athletes only)**: cycle regularity (regular/irregular/absent), cycle-related changes in energy, strength, or fatigue, history of amenorrhea or missed cycles, perceived underfueling or rapid weight changes — feed into `female-athlete-programming` for cycle-modulation and RED-S screening.
 11. **Environment, equipment, and logistics**: gym access and equipment type, field/track access, available monitoring tools, willingness to track data.
 12. **Communication preferences**: desired level of detail in programming, tendency to give feedback (proactive vs "grit your teeth"), non-negotiable time/mindset constraints.
 

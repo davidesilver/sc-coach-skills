@@ -56,6 +56,14 @@ Activation order to generate total tension and transfer force efficiently: Grip 
 | Tendon isometrics | 60-90s |
 | Prehab/core | 30-60s |
 
+### Superset logic
+
+Pair supersets by relationship and session type:
+- **Antagonist pairs** (push/pull, quad/hamstring): useful for saving time without degrading the priority lift.
+- **Non-competing patterns** (e.g., main lower lift + upper accessory): allows efficient workload without interference.
+- **Never pair two heavy competing patterns** that share the same recovery demand (e.g., heavy squat + heavy deadlift). This silently cuts recovery on the main lift.
+- **Rest applies AFTER the pair**, and the priority/CNS lift keeps its full prescribed rest. Supersets must not reduce the recovery time on the main lift.
+
 ## Load management
 
 ### RPE/RIR

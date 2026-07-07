@@ -1,6 +1,6 @@
 # sc-coach-skills — Strength & Conditioning AI coach skill pack for Claude
 
-sc-coach-skills is an open-source pack of 16 Claude Agent Skills that turns Claude into a Strength & Conditioning (S&C) coach. It covers the full coaching cycle — intake, clinical screening, periodization, weekly programming governance, and sport-specific programming — for powerlifting, Olympic weightlifting, American football (running back), hybrid/HYROX athletes, and general population fitness.
+sc-coach-skills is an open-source pack of 18 Claude Agent Skills that turns Claude into a Strength & Conditioning (S&C) coach. It covers the full coaching cycle — intake, clinical screening, periodization, weekly programming governance, and sport-specific programming — for powerlifting, Olympic weightlifting, American football (running back), hybrid/HYROX athletes, and general population fitness.
 
 No real athlete data lives in this repository. Every skill is a verified, generic, reusable methodology, not anyone's personal training log.
 
@@ -37,6 +37,8 @@ energy-systems-recovery + clinical-prehab-system + vbt-rfd-open-sets   (cross-cu
 ```
 
 Each skill's `SKILL.md` states on its own when it should activate and which other skills it works alongside, so there's nothing to wire up manually.
+
+**Program delivery:** Plans can be generated in CSV (default), Excel, Markdown, or PDF format — your choice, set once at the start. **Female athletes:** the stack includes `female-athlete-programming` for menstrual-cycle-aware load modulation and RED-S screening.
 
 ## What makes this different from a generic AI coaching prompt?
 
@@ -78,6 +80,8 @@ Skills live in `skills/<name>/SKILL.md` (flat layout, compatible with [skills.sh
 | 13 | `general-population-fitness` | General population domain | Non-athletes / fitness clients |
 | 14 | `periodization-block-planner` | Macrocycle governance | Everyone (Block/Linear/DUP/Conjugate model choice) |
 | 15 | `biomechanics-movement-screen` | Clinical/assessment domain | Everyone (6-pattern FMS screening) |
+| 16 | `exercise-library-video` | Output domain | Everyone (exercise naming, video-link standards for program export) |
+| 17 | `female-athlete-programming` | Physiological domain | Female athletes (menstrual-cycle modulation, RED-S screening) |
 
 ## Recommended stacks by profile
 
