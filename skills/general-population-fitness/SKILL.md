@@ -13,9 +13,9 @@ A non-athlete client does not need to be treated as a miniature elite athlete. T
 
 ## The 10 fundamental movement patterns (NSCA)
 
-According to NSCA guidelines for general population programming, a complete program must cover a set of fundamental movement patterns that reflect the motor demands of daily life, not just weight-room patterns [web:56]. This approach ensures the client develops transferable functional capacity, not just numbers on isolated single exercises.
+According to NSCA guidelines for general population programming, a complete program must cover a set of fundamental movement patterns that reflect the motor demands of daily life, not just weight-room patterns. This approach ensures the client develops transferable functional capacity, not just numbers on isolated single exercises.
 
-When building a program for the general population, always verify coverage of: horizontal and vertical push patterns, horizontal and vertical pull patterns, squat patterns, hinge patterns (hip hinge), locomotion patterns, core rotation/anti-rotation patterns, carry/load-transport patterns [web:56].
+When building a program for the general population, always verify coverage of: horizontal and vertical push patterns, horizontal and vertical pull patterns, squat patterns, hinge patterns (hip hinge), locomotion patterns, core rotation/anti-rotation patterns, carry/load-transport patterns.
 
 ## Differences from athlete programming
 
@@ -33,7 +33,7 @@ For general clients, the principle of progressive overload must be applied with 
 
 ## Gym safety considerations (NSCA facility guidelines)
 
-For those programming or managing the training environment, some NSCA guidelines on space and safety are also relevant to individual coaching [web:53]:
+For those programming or managing the training environment, some NSCA guidelines on space and safety are also relevant to individual coaching:
 - Exercises requiring a spotter should be placed away from windows, mirrors, and doors to avoid distractions.
 - In the free-weight lifting area, maintain sufficient space between equipment (2-3 feet) for safe movement.
 - The stretching area requires 40-60 square feet per user.
@@ -57,6 +57,10 @@ For the general population, the strongest predictor of long-term success is not 
 ## When the general population converges toward athlete methodologies
 
 Some general clients with specific goals (aggressive fat loss, advanced body recomposition, preparation for events such as amateur races) can benefit from elements drawn from more specialized skills: structured RPE/RIR and basic VBT (`vbt-rfd-open-sets`), a simplified block periodization logic (`programming-audit-council`), or hybrid training principles if the goal is an amateur HYROX-style race (`hyrox-hybrid-system`).
+
+## References
+
+General population fitness framework grounded in: NSCA guidelines and ten fundamental movement patterns (push, pull, squat, hinge, rotation, locomotion, carry); safe progressive overload principles; facility safety and environmental design per NSCA standards; adherence-focused coaching and behavior change science; and adapted intake/assessment protocols for non-competitive populations. Core frameworks: NSCA general-population training standards, fitness industry best practices, and health-focused program design.
 
 ## Scope
 

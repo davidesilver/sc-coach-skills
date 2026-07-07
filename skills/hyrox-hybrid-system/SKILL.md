@@ -125,4 +125,4 @@ Skill dedicated to hybrid athletes and HYROX. For basic biomechanical logic use 
 
 ## References
 
-Conceptual framework (thresholds, strength reserve, fatigue management) and tactical data/protocols (HR zones, Brick protocol, technique cues for the 8 stations, Open/Pro benchmarks, 12-week periodization) integrated from internal Space reports on HYROX/hybrid training.
+Hybrid athlete and HYROX training framework grounded in: aerobic-threshold physiology (VO2max, LT1/LT2, lactate dynamics); concurrent strength-endurance training and interference management (Sports Medicine); compromised-running and brick-session protocols from elite HYROX coaching; station-specific technique and strength-reserve concepts; heart-rate zone operational guidelines; and menstrual-cycle phase modulation for female athletes (see `female-athlete-programming`). Core frameworks: NSCA concurrent training, APTA zone-based training, and elite-hybrid athletic programming consensus.

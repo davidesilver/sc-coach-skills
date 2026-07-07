@@ -99,4 +99,6 @@ Skill dedicated to advanced bioenergetics and recovery. For general basic bioene
 
 ## References
 
-Elite recovery protocols (bio-maintenance, downregulation, CARs) from internal reports on the Space; data on ATP-PCr, RSA, phosphocreatine recovery, and creatine verified from external sources (PMC, 8weeksout, sci-bot.ru). No data was invented.
+Energy systems and recovery framework grounded in: ATP-phosphocreatine (ATP-PCr) system physiology; repeated sprint ability (RSA) and phosphocreatine resynthesis kinetics (Sports Medicine and Applied Physiology); lactate buffering and glycolytic-capacity adaptation; creatine supplementation evidence (International Society of Sports Nutrition); parasympathetic regulation and recovery protocols (Autonomic Physiology, Sleep Science); and anti-inflammatory nutrition (clinical nutrition literature). Controlled Articular Rotations (CARs) per mobility literature. Core frameworks: NSCA bioenergetics, elite-sport recovery science, and applied sports medicine.
+
+## Scope

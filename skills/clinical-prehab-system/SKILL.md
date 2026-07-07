@@ -64,6 +64,10 @@ For contact sports: cervical reinforcement (chin tucks, multiplanar isometrics) 
 
 The return is never time-based, it is always criterion-based. Mandatory checks: pain under control per Sanford, local benchmarks passed, acceptable running pattern, tolerance to progressions without flare-up. Gait modifiers to consider during the return phase: cadence management, surface choice (low-impact grass before turf), trunk control, reducing overly early chaotic exposures.
 
+## References
+
+Clinical prehab framework grounded in: Sanford pain-response classification for load management; Copenhagen adduction protocol (Sørensen et al., 2008, clinical evidence for groin-injury prevention); medial tibial stress syndrome (MTSS) soleus-centric management per biomechanics literature; criterion-based return-to-sport frameworks (e.g., ACL-return protocols from APTA/NATA standards); and contact-sport cervical/thoracic stabilization per sports medicine consensus.
+
 ## Scope
 
 Skill dedicated to the clinical/prehab side. For weekly programming use `programming-audit-council`. For football/RB transfer use `football-rb-system`. For open sets and velocity use `vbt-rfd-open-sets`. For in-depth tendon architecture use `tendon-power-architecture`.

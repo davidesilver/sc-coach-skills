@@ -95,6 +95,10 @@ Pure power athletes: priority on ATP-CP, sprints, accelerations, short HIIT, exp
 
 **Off-season**: 10-20 sets/week, block periodization, capacity building (hypertrophy, CSA, strength base) to later convert into speed and specific power.
 
+## References
+
+Elite S&C operating framework grounded in: movement-pattern taxonomy (press, pull, squat, hinge, rotation, locomotion) from kinesiological analysis; neural irradiation and total-body tension (G.A.G.S.) from strength neurophysiology; RPE/RIR autoregulation and daily load management from sports physiology; velocity-based training (VBT) and velocity-loss zones per power physiology; tendon stiffness and maximal isometrics (10-12 week adaptation); Sanford soreness rules and clinical pain-response classification; in-season vs off-season volume ratios from periodization science; and bioenergetic specificity (ATP-CP, aerobic thresholds). Core frameworks: NSCA strength and conditioning standards, APTA exercise physiology, and elite-sport coaching consensus.
+
 ## Scope
 
 This is the foundational skill. For weekly programming and governance use `programming-audit-council`. For football/RB use `football-rb-system`. For advanced VBT use `vbt-rfd-open-sets`. For clinical/prehab use `clinical-prehab-system`. For HYROX/hybrid use `hyrox-hybrid-system`. For COD/footwork use `football-cod-footwork`. For tendon/power use `tendon-power-architecture`. For advanced recovery/bioenergetics use `energy-systems-recovery`. For initial assessment use `athlete-profiling-benchmarking`.

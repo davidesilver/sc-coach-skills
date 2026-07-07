@@ -52,6 +52,10 @@ Activation sequence to create a solid platform: Grip (squeezing the bar activate
 ### Foot mechanics
 The foot is the only point of contact with the ground. The "short foot" technique (arch activation, big toe extension) influences the entire kinetic chain and prevents internal tibial rotation, a critical factor in ACL prevention during high-torque lateral cuts. Barefoot or minimal footwear work is useful for restoring the foot's proprioceptive map, often atrophied by constant use of shoes that act as a "cast."
 
+## References
+
+Tendon biomechanics and power architecture grounded in: tendon physiology and collagen turnover (Journal of Applied Physiology); maximal isometrics protocol for stiffness adaptation (10-12 week stimulus); eccentric overload and force absorption (Sports Medicine); the stretch-shortening cycle and elastic energy return (Biomechanics and Sports Physiology); total-body tension (G.L.A.G.S.) and neurological irradiation; foot mechanics and proprioception (short-foot activation). Core frameworks: NSCA strength training principles, sports-science consensus on tendon adaptation, and RFD prioritization for power-speed athletes.
+
 ## Scope
 
 Skill dedicated to tendon stiffness and power architecture. For the full football/RB framework use `football-rb-system`. For VBT parameters use `vbt-rfd-open-sets`. For clinical care and prevention use `clinical-prehab-system`.

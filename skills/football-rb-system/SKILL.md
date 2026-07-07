@@ -77,6 +77,10 @@ Every productive week for an RB must include: a power day, field speed/accelerat
 
 **In-season**: MED, heavy exposure not eliminated, explosive intent maintained, volume kept under control. **Off-season**: capacity accumulation (stiffness, strength, CSA), progression toward high-velocity transfer.
 
+## References
+
+Running back performance framework grounded in: the 200ms window concept and RFD priorities from elite-sport physiology; tendon stiffness as a driver of explosive performance (Sports Medicine and Applied Physiology); penultimate-step load management from biomechanics; contact-balance and hand-down stabilization from elite RB coaching technique; and collision-sport structural resilience (cervical/thoracic stabilization, groin injury prevention). Core frameworks: NSCA training principles, APTA return-to-play standards, and operational elite-RB coaching consensus.
+
 ## Scope
 
 Skill dedicated to football players and RBs. For weekly governance use `programming-audit-council`. For specific VBT parameters use `vbt-rfd-open-sets`. For detailed COD/footwork use `football-cod-footwork`. For pain, return-to-run, and MTSS use `clinical-prehab-system`. For in-depth tendon architecture use `tendon-power-architecture`.

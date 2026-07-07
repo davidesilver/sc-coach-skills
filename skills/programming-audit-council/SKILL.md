@@ -18,7 +18,9 @@ No training week is issued without an audit. The mandatory process is: generate 
 
 Each week must be produced in CSV format with this column template:
 
-`EXE | EXERCISE | SETS | REPS | INTENSITY (%/RPE) | VELOCITY (m/s) | TEMPO | REST | NOTES/ACTUALS`
+`EXE | EXERCISE | VIDEO_LINK | SETS | REPS | INTENSITY (%/RPE) | VELOCITY (m/s) | TEMPO | REST | NOTES/ACTUALS`
+
+Populate `EXERCISE` and `VIDEO_LINK` using `exercise-library-video` — canonical name required, link only when it verifiably shows that exact movement, otherwise leave `VIDEO_LINK` blank.
 
 File naming with explicit focus, example: `W1_D3_LowerPower_Posterior.csv`.
 

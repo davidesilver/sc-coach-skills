@@ -87,6 +87,10 @@ Always link this skill's output to `programming-audit-council` for generating th
 
 Never generate a microcycle v1 without the 4 outputs above. If the user directly asks for a program without having provided this data, the correct response is to collect the intake first, not to assume default values.
 
+## References
+
+Athlete assessment and profiling framework grounded in: NFL Combine testing protocols and running back position-specific benchmarks; intake interview structure and health-history screening per sports medicine standards; neuromuscular classification (energy dominance, tendon status, readiness levels); criterion-based testing batteries (FMS, functional movement patterns, sprint/jump testing); and deconditioned-athlete loading rules (RPE management, phased reactivation). Core frameworks: APTA return-to-sport standards, NSCA assessment guidelines, and clinical sports medicine intake protocols.
+
 ## Scope
 
 Skill dedicated to initial assessment. For general programming logic use `elite-sc-system`. For weekly audit and governance use `programming-audit-council`. For football/RB specifics use `football-rb-system`. For detailed biomechanical screening use `biomechanics-movement-screen`.

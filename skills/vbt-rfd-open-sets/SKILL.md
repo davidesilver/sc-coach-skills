@@ -51,6 +51,10 @@ If the session's baseline velocity is clearly below the athlete's norm, reduce l
 
 **Football/RB**: VBT protects the 200ms window, improves first-step power, avoids volume that slows transfer, monitors neural state without relying on subjective perceptions. **Hybrid/HYROX**: VBT avoids wasting the neural budget within a concurrent strength-endurance program, maintains the strength reserve needed for stations, and controls the neurological cost of strength relative to the aerobic engine.
 
+## References
+
+Velocity-based training framework grounded in: average vs. peak velocity distinction in biomechanics and power physiology; velocity-loss zones and neuromuscular fatigue management (Sports Physiology); open-sets methodology (Bosco, Squillante protocols); Rate of Force Development (RFD) as a power-speed metric; and readiness monitoring via velocity trends and countermovement jump (CMJ). Core frameworks: NSCA velocity-based training principles, elite-sport power monitoring, and neural-fatigue assessment.
+
 ## Scope
 
 Skill dedicated to VBT logic. For periodization and weekly audit use `programming-audit-council`. For specific football transfer use `football-rb-system`. For clinical care and return from pain use `clinical-prehab-system`. For tendon architecture use `tendon-power-architecture`.

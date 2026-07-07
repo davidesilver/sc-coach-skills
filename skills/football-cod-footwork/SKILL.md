@@ -57,6 +57,10 @@ Keeping the hips squared to the line of scrimmage for as long as possible makes 
 - **Sweep Drill**: weaving between cones while receiving the ball, always transferring it to the side opposite the simulated defender — automates ball security during lateral movement.
 - **Cone Hops**: single-leg lateral hops over two cones followed by a 5-yard burst, for the explosive transition from lateral power to linear acceleration.
 
+## References
+
+Change-of-direction biomechanics grounded in: penultimate-step load-management principles from athletic development literature; tibia angle and GRF management (force-dissipation framework); the Big Three cuts taxonomy (Speed Cut, Jump Cut, Pressure Step) as operationalized in elite RB coaching; and sports-vision decision-making frameworks (e.g., anticipation training and defensive prediction models). Core sources: athletic biomechanics consensus (ACSM, NSCA), football coaching kinetics, and elite-sport vision research.
+
 ## Scope
 
 Skill dedicated to COD and footwork for football/RB. For the general overview of the role use `football-rb-system`. For programming governance use `programming-audit-council`. For tendon architecture (stiffness, RFD) use `tendon-power-architecture`.
