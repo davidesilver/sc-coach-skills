@@ -45,7 +45,7 @@ Carica sempre per prima la skill `coach-builder-router`: pone una domanda di pro
 
 ## Coverage e limiti dichiarati
 
-Coperti con fonti verificate: football/RB, COD/footwork, tendine/RFD, VBT/open sets, clinica/prehab (Sanford, Copenhagen), HYROX/ibridi, bioenergetica/recupero, profiling/assessment, movement screening (FMS 6-pattern), periodizzazione macrociclo (Block/Lineare/DUP/Coniugato), powerlifting (RTS block model, peaking, tapering), weightlifting olimpico (fasi tecniche, correzione early arm bend), popolazione generale (NSCA movement patterns).
+Coperti con fonti verificate: football/RB, COD/footwork, tendine/RFD, VBT/open sets, clinica/prehab (Sanford, Copenhagen), HYROX/ibridi (soglie fisiologiche, zone HR, protocollo Brick, cue tecnici delle 8 stazioni, benchmark Open/Pro), bioenergetica/recupero (sistemi energetici, protocolli RSA, creatina, recovery elite stack), profiling/assessment (intervista NFL-style, batteria test ordinata, profiling neuromuscolare, regola atleta decondizionato), movement screening (FMS 6-pattern), periodizzazione macrociclo (Block/Lineare/DUP/Coniugato), powerlifting (RTS block model, peaking, tapering), weightlifting olimpico (fasi tecniche, correzione early arm bend), popolazione generale (NSCA movement patterns).
 
 Non coperti in questa versione, perché mancano fonti verificate sufficienti nello Space o online al momento della ricerca: throwing sports specifici (lancio del peso, giavellotto), youth/adolescent athletic development, endurance puro (maratona/triathlon non ibrido), sport di combattimento.
 
