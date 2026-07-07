@@ -50,11 +50,11 @@ Block periodization divides the macrocycle into three sequential phases with dis
 
 ## Off-Season → In-Season Transition
 - **Off-season**: 10-20 sets/muscle group, full block periodization (accumulation→intensification→realization).
-- **In-season**: MED (minimum effective dose) 4-8 sets/muscle group, ≥80% 1RM, priority on maintenance rather than aggressive progression — consistent with the Space's load rules.
+- **In-season**: MED (minimum effective dose) 4-8 sets/muscle group, ≥80% 1RM, priority on maintenance rather than aggressive progression — consistent with `elite-sc-system`'s load rules.
 - **Transition rule**: never enter the season during an accumulation phase; the last phase before the season starts must be realization/peaking, otherwise the athlete arrives at week 1 of the season carrying residual fatigue.
 
 ## Progression rule (never by calendar)
-Do not advance phase unless all 3 conditions are met: actual RPE ≤ target+0.5 on at least 3 main sets, no pain check ≥3/10, average sleep ≥7h. This rule is binding and consistent with the Space's Weekly Continuity Check.
+Do not advance phase unless all 3 conditions are met: actual RPE ≤ target+0.5 on at least 3 main sets, no pain check ≥3/10, average sleep ≥7h. This rule is binding and consistent with the Weekly Continuity Check in `programming-audit-council`.
 
 ## References
 Block periodization framework grounded in: phase-specific training parameters (accumulation, intensification, realization) per sports-science consensus; load-rep-rest prescription from NSCA and International Weightlifting Federation standards; periodization models (block, linear, DUP, conjugate) from strength and conditioning literature; and off-season to in-season transition frameworks. Core sources: TrainingPeaks methodology, elite coaching consensus, and sports science periodization literature.

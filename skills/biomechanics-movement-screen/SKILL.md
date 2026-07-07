@@ -13,7 +13,7 @@ The Functional Movement Screen is reliable and clinically useful, but it is NOT 
 
 The value of the FMS increases when combined with the Y-Balance test, history of prior injuries, current pain, and lifestyle factors. Pain during movement and major limitations (a score of 1 or asymmetries) are consistently linked to higher risk, with some studies reporting up to a 2.7-fold greater likelihood of injury in certain groups.
 
-In the team-sport context, the FMS composite score and asymmetries have proven particularly useful for estimating injury risk in rugby, American football, and ice hockey — directly relevant to this Space's RB/football population.
+In the team-sport context, the FMS composite score and asymmetries have proven particularly useful for estimating injury risk in rugby, American football, and ice hockey — directly relevant to the RB/football population `football-rb-system` targets.
 
 ## Operational protocol (not just pure FMS)
 1. **Movement quality first** — screening the 6 fundamental patterns (Press, Pull, Squat, Hinge, Rotation, Locomotion) with bodyweight or minimal load.
