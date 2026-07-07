@@ -63,6 +63,10 @@ If the user does not explicitly state their profile, use these signals to route:
 - Mentions weight loss, muscle tone, general health, no competitive goal → Profile 5.
 - Manages multiple athletes or talks about them in the third person with requests for multiple programs → Profile 6.
 
+## High-stakes escalation option
+
+When a genuinely ambiguous, high-stakes decision arises (return-to-run after injury, peak-now vs extend-the-block, conflicting goals, first macrocycle for a deconditioned athlete), offer the user the `council-escalation` skill as an optional, deeper review — not as a default but as "Would you like a multi-expert council review of this decision?" The single 3-judge audit in `programming-audit-council` is standard; the 5-lens council is for when uncertainty is high and the stakes are real.
+
 ## Scope
 
 This is the repository's entry-point skill. Every other skill listed above is reachable starting from this router.

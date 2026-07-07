@@ -110,6 +110,10 @@ Rationale: the athlete's actual adaptation (fatigue trajectory, pain flags, tran
 - **Keep RPE for:** accessories and for movements where a max is not meaningful (carries, rows, isolation lifts).
 - **Never use %1RM as false precision** on an athlete without stable technique and reliable test data. A 1RM on an athlete with inconsistent squat depth or shoulder instability is a false baseline.
 
+## High-stakes decision escalation (optional)
+
+When a decision matches a `council-escalation` gate (return-to-run after injury, peak-now vs extend-the-block, conflicting goals, first macrocycle for a deconditioned athlete), OFFER the user the option to escalate — do not run it automatically. The multi-expert council is heavier than the standard 3-judge audit, so it is used deliberately on genuinely ambiguous, high-stakes decisions.
+
 ## Scope
 
 This skill governs programming. For the underlying biomechanical logic use `elite-sc-system`. For football/RB specifics use `football-rb-system`. For advanced VBT use `vbt-rfd-open-sets`. For clinical/return-to-run use `clinical-prehab-system`. For HYROX/hybrid use `hyrox-hybrid-system`.

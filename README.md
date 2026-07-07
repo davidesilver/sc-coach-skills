@@ -1,6 +1,6 @@
 # sc-coach-skills — Strength & Conditioning AI coach skill pack for Claude
 
-sc-coach-skills is an open-source pack of 18 Claude Agent Skills that turns Claude into a Strength & Conditioning (S&C) coach. It covers the full coaching cycle — intake, clinical screening, periodization, weekly programming governance, and sport-specific programming — for powerlifting, Olympic weightlifting, American football (running back), hybrid/HYROX athletes, and general population fitness.
+sc-coach-skills is an open-source pack of 20 Claude Agent Skills that turns Claude into a Strength & Conditioning (S&C) coach. It covers the full coaching cycle — intake, clinical screening, periodization, weekly programming governance, and sport-specific programming — for powerlifting, Olympic weightlifting, American football (running back), hybrid/HYROX athletes, and general population fitness.
 
 No real athlete data lives in this repository. Every skill is a verified, generic, reusable methodology, not anyone's personal training log.
 
@@ -82,6 +82,8 @@ Skills live in `skills/<name>/SKILL.md` (flat layout, compatible with [skills.sh
 | 15 | `biomechanics-movement-screen` | Clinical/assessment domain | Everyone (6-pattern FMS screening) |
 | 16 | `exercise-library-video` | Output domain | Everyone (exercise naming, video-link standards for program export) |
 | 17 | `female-athlete-programming` | Physiological domain | Female athletes (menstrual-cycle modulation, RED-S screening) |
+| 18 | `council-escalation` | Decision escalation | High-stakes decisions (return-to-run, peak-vs-extend, goal conflicts, first macrocycle) |
+| 19 | `literature-lookup` | Evidence retrieval | Everyone (on-demand literature for claims verification) |
 
 ## Recommended stacks by profile
 
