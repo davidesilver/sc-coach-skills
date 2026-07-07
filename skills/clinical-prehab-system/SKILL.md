@@ -7,63 +7,63 @@ argument-hint: [pain area, MTSS, adductors, tendon, return-to-run]
 
 # Clinical Prehab System
 
-## Missione
+## Mission
 
-Ridurre il rischio infortuni e gestire il ritorno al carico con criteri oggettivi, non con ottimismo. Il tessuto non negozia con la narrativa del coach o dell'atleta.
+Reduce injury risk and manage the return to load with objective criteria, not optimism. Tissue does not negotiate with the coach's or athlete's narrative.
 
 ## Sanford Soreness Rules
 
-1. Dolore al warm-up che persiste → stop, 2 giorni off, torna allo step precedente.
-2. Dolore al warm-up che scompare → resta allo step attuale, non avanzare finché non è senza dolore.
-3. Dolore che scompare ma ritorna in sessione → stop, 2 giorni off, torna allo step precedente.
-4. Dolore il giorno dopo → 1 giorno off, non avanzare il programma.
+1. Pain at warm-up that persists → stop, 2 days off, return to the previous step.
+2. Pain at warm-up that disappears → stay at the current step, do not advance until pain-free.
+3. Pain that disappears but returns during the session → stop, 2 days off, return to the previous step.
+4. Pain the day after → 1 day off, do not advance the program.
 
-Queste regole governano il carico in modo oggettivo, indipendentemente dall'umore o dalla motivazione dell'atleta.
+These rules govern load objectively, regardless of the athlete's mood or motivation.
 
-## MTSS e il fattore soleo
+## MTSS and the soleus factor
 
-### Reframe clinico
-La Medial Tibial Stress Syndrome (MTSS) va trattata come stress osseo a basso rischio (bone stress injury), non come banale "shin splints". Diagnosi clinica: tenderness lungo il bordo posteromediale della tibia per più di 5cm, fulcrum test positivo, dolore durante hop test. Tenderness focale sotto i 5cm suggerisce invece una frattura da stress tibiale, che richiede un profilo di carico completamente diverso.
+### Clinical reframe
+Medial Tibial Stress Syndrome (MTSS) should be treated as a low-risk bone stress injury, not as trivial "shin splints." Clinical diagnosis: tenderness along the posteromedial border of the tibia for more than 5cm, positive fulcrum test, pain during hop test. Focal tenderness under 5cm instead suggests a tibial stress fracture, which requires a completely different loading profile.
 
-### Il ruolo del soleo
-Il soleo assorbe un carico tibiale significativamente maggiore del gastrocnemio durante la corsa ed è il principale scudo meccanico contro lo stress tibiale ripetuto. Un soleo debole o affaticato lascia che le forze di taglio raggiungano il periostio.
+### The role of the soleus
+The soleus absorbs significantly more tibial load than the gastrocnemius during running and is the main mechanical shield against repeated tibial stress. A weak or fatigued soleus lets shear forces reach the periosteum.
 
-### Progressione criterion-based (fasi)
-- **Fase I (acuta, 7-14gg)**: se dolore in ADL, boot/splint 2-4 settimane. NWB strengthening (quadricipiti/glutei), lavoro intrinseco del piede, conditioning aerobico low-impact.
-- **Fase II (subacuta, sett. 2-6)**: carico progressivo dal 50%, heel raise progression (bilaterale → eccentrico → monopodalico).
-- **Fase III (sett. 2-8)**: return-to-run organizzato, pliometria monopodalica.
-- **Fase IV**: Heavy Resisted Sprint Training (sled 60-80% BW) per ottimizzare produzione di forza orizzontale e accelerazione 0-10m.
+### Criterion-based progression (phases)
+- **Phase I (acute, 7-14 days)**: if pain during ADL, boot/splint for 2-4 weeks. NWB strengthening (quads/glutes), foot intrinsic work, low-impact aerobic conditioning.
+- **Phase II (subacute, weeks 2-6)**: progressive loading from 50%, heel raise progression (bilateral → eccentric → single-leg).
+- **Phase III (weeks 2-8)**: organized return-to-run, single-leg plyometrics.
+- **Phase IV**: Heavy Resisted Sprint Training (sled 60-80% BW) to optimize horizontal force production and 0-10m acceleration.
 
-### Benchmark obbligatori pre-avanzamento
-- 25 single-leg heel raises bilaterali senza dolore.
-- 15 single-leg hops senza dolore.
-- 30 minuti di cammino continuo senza riacutizzazione.
-- Squat 60% BW, 6 ripetizioni con hold di 6 secondi ciascuna.
+### Mandatory benchmarks before advancement
+- 25 bilateral single-leg heel raises without pain.
+- 15 single-leg hops without pain.
+- 30 minutes of continuous walking without flare-up.
+- Squat 60% BW, 6 reps with a 6-second hold each.
 
 ## Copenhagen Adduction Protocol
 
-Protocollo non negoziabile per sport con tagli laterali, jump cut, frenate e torsioni. Dati di riferimento nelle fonti: +35.7% di forza eccentrica dell'adduttore, -41% di rischio infortunio all'inguine.
+Non-negotiable protocol for sports with lateral cuts, jump cuts, braking, and twisting. Reference data in the sources: +35.7% eccentric adductor strength, -41% groin injury risk.
 
-### Volume progressivo (8 settimane)
-1. Settimane 1-2: 2x6 rip/lato, 2-3x/settimana — focus tecnico.
-2. Settimane 3-5: 3x10 rip/lato — focus tolleranza al carico.
-3. Settimane 6-8: 3x15 rip/lato — accumulo di volume.
-4. Mantenimento: 250 ripetizioni/gamba totali per preservare l'adattamento.
+### Progressive volume (8 weeks)
+1. Weeks 1-2: 2x6 reps/side, 2-3x/week — technical focus.
+2. Weeks 3-5: 3x10 reps/side — load tolerance focus.
+3. Weeks 6-8: 3x15 reps/side — volume accumulation.
+4. Maintenance: 250 total reps/leg to preserve the adaptation.
 
-Regola di programmazione: integrare il Copenhagen senza duplicare lavoro aduttorio ridondante nello stesso microciclo. Se compare dolore inguinale, obbligatorio gap di 48h prima del prossimo stimolo aduttorio.
+Programming rule: integrate Copenhagen without duplicating redundant adductor work in the same microcycle. If groin pain appears, a mandatory 48h gap is required before the next adductor stimulus.
 
-## Tibialis, piede e controllo distale
+## Tibialis, foot, and distal control
 
-Il lavoro sul tibiale anteriore è necessario per il controllo decelerativo, la salute della caviglia e la tolleranza nelle frenate. Il piede è il primo anello di contatto: senza attivazione del piede (short foot / foot intrinsics), peggiora la gestione del centro di massa e aumenta la torsione tibiale indesiderata, con effetti negativi sulla qualità del taglio.
+Anterior tibialis work is necessary for decelerative control, ankle health, and braking tolerance. The foot is the first contact link: without foot activation (short foot / foot intrinsics), center-of-mass management worsens and unwanted tibial torsion increases, with negative effects on cutting quality.
 
-## Collision shielding (protezione della colonna)
+## Collision shielding (spine protection)
 
-Per sport di contatto: rinforzo cervicale (chin tucks, isometrici multiplanari) per ridurre l'accelerazione tipo whiplash della testa durante impatti; mobilizzazione toracica per ripristinare estensione e rotazione, evitando che la colonna lombare compensi durante rotazioni e stiff-arm.
+For contact sports: cervical reinforcement (chin tucks, multiplanar isometrics) to reduce whiplash-type head acceleration during impacts; thoracic mobilization to restore extension and rotation, preventing the lumbar spine from compensating during rotations and stiff-arms.
 
 ## Return-to-run / return-to-field
 
-Il ritorno non è mai time-based, è sempre criterion-based. Check obbligatori: dolore sotto controllo secondo Sanford, benchmark locali superati, pattern di corsa accettabile, tolleranza alle progressioni senza flare-up. Modificatori di gait da considerare in fase di ripresa: gestione della cadenza, scelta della superficie (erba a basso impatto prima del sintetico), controllo del tronco, riduzione delle esposizioni caotiche troppo precoci.
+The return is never time-based, it is always criterion-based. Mandatory checks: pain under control per Sanford, local benchmarks passed, acceptable running pattern, tolerance to progressions without flare-up. Gait modifiers to consider during the return phase: cadence management, surface choice (low-impact grass before turf), trunk control, reducing overly early chaotic exposures.
 
 ## Scope
 
-Skill dedicata al lato clinico/prehab. Per programmazione settimanale usa `programming-audit-council`. Per football/RB transfer usa `football-rb-system`. Per open sets e velocità usa `vbt-rfd-open-sets`. Per architettura tendinea approfondita usa `tendon-power-architecture`.
+Skill dedicated to the clinical/prehab side. For weekly programming use `programming-audit-council`. For football/RB transfer use `football-rb-system`. For open sets and velocity use `vbt-rfd-open-sets`. For in-depth tendon architecture use `tendon-power-architecture`.

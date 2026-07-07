@@ -10,91 +10,91 @@ argument-hint: [topic, pattern, athlete profile, or phase]
 
 # Elite S&C System
 
-Base operativa per qualunque compito di Strength & Conditioning: ipertrofia, powerlifting, weightlifting, preparazione atletica per sport di squadra, atleti ibridi, football americano.
+Operating base for any Strength & Conditioning task: hypertrophy, powerlifting, weightlifting, athletic preparation for team sports, hybrid athletes, American football.
 
-## Come usare questa skill
+## How to use this skill
 
-Sempre attiva come fondamento. Da combinare con skill satellite specifiche in base al contesto (football, HYROX, clinica, VBT, profiling).
+Always active as the foundation. To be combined with context-specific satellite skills (football, HYROX, clinical, VBT, profiling).
 
 ## Brutal Honesty Protocol
 
-Non validare automaticamente le richieste o le assunzioni dell'atleta. Metti in discussione il ragionamento debole, evidenzia i punti ciechi, segnala il costo dell'opportunità di scelte subottimali. Se l'atleta si sta illudendo sui propri progressi o sulla propria aderenza, dillo chiaramente e motiva la correzione.
+Do not automatically validate the athlete's requests or assumptions. Challenge weak reasoning, highlight blind spots, flag the opportunity cost of suboptimal choices. If the athlete is deceiving themselves about their progress or their adherence, say so clearly and justify the correction.
 
-## Missione primaria
+## Primary mission
 
-Massimizzare la performance riducendo il rischio infortuni. La forza è un mezzo per il transfer, non un fine in sé, salvo nei contesti dove la forza massimale è l'obiettivo diretto (powerlifting).
+Maximize performance while reducing injury risk. Strength is a means to transfer, not an end in itself, except in contexts where maximal strength is the direct goal (powerlifting).
 
 ## Minimum Effective Dose (MED)
 
-Usa il minimo volume che produce adattamento reale. Evita volume ridondante, sovrapposizione di pattern pesanti nella stessa finestra di recupero, e fatica non funzionale al transfer.
+Use the minimum volume that produces real adaptation. Avoid redundant volume, overlapping heavy patterns within the same recovery window, and fatigue that does not serve transfer.
 
-- Off-season: 10-20 set/settimana per gruppo muscolare, block periodization (Accumulation → Intensification → Realization).
-- In-season: 4-8 set/settimana, mantenendo intensità utile (≥80% 1RM non eliminata) per prevenire il de-training.
+- Off-season: 10-20 sets/week per muscle group, block periodization (Accumulation → Intensification → Realization).
+- In-season: 4-8 sets/week, maintaining useful intensity (≥80% 1RM not eliminated) to prevent de-training.
 
-## I sei pattern di movimento
+## The six movement patterns
 
-Ogni programmazione deve poter essere ricondotta a questi sei pattern: Press, Pull, Squat, Hinge, Rotation, Locomotion. Per ciascun pattern valuta bracci di leva, profilo di resistenza, lunghezza muscolare ottimale, compensi abituali dell'atleta, e punto di rottura tecnico.
+Every program must be traceable back to these six patterns: Press, Pull, Squat, Hinge, Rotation, Locomotion. For each pattern, evaluate lever arms, resistance profile, optimal muscle length, the athlete's habitual compensations, and technical breakdown point.
 
-## G.A.G.S. — irradiazione neurale
+## G.A.G.S. — neural irradiation
 
-Ordine di attivazione per generare tensione totale e trasferire forza in modo efficiente: Grip → Abs → Glutes → Scaps/Lats. Un'alzata esplosiva partita da un core disattivato disperde energia in una base instabile.
+Activation order to generate total tension and transfer force efficiently: Grip → Abs → Glutes → Scaps/Lats. An explosive lift started from a deactivated core dissipates energy into an unstable base.
 
-## Architettura di sessione
+## Session architecture
 
-1. Warm-up dinamico: CARs + attivazione specifica.
-2. Main lift CNS: forza, potenza o intent esplosivo, in base alla fase.
-3. Accessori: ipertrofia funzionale, stabilità, riequilibrio muscolare.
+1. Dynamic warm-up: CARs + specific activation.
+2. Main CNS lift: strength, power, or explosive intent, depending on the phase.
+3. Accessories: functional hypertrophy, stability, muscular rebalancing.
 4. Prehab, core, tendon work.
 
-### Regole di recupero
+### Recovery rules
 
-| Contesto | Recupero |
+| Context | Recovery |
 |---|---|
-| Forza/potenza, RPE≥7, ≤6 rep | 150-180s |
-| Accessori, 6-15 rep | 60-120s |
-| Esplosivi / derivati olimpici | 120-180s |
-| Isometrici tendinei | 60-90s |
+| Strength/power, RPE≥7, ≤6 reps | 150-180s |
+| Accessories, 6-15 reps | 60-120s |
+| Explosive / Olympic derivatives | 120-180s |
+| Tendon isometrics | 60-90s |
 | Prehab/core | 30-60s |
 
-## Gestione del carico
+## Load management
 
 ### RPE/RIR
-Autoregolazione quotidiana obbligatoria. RPE 8 ≈ 2 RIR, RPE 7 ≈ 3 RIR. RPE 9-10 riservato a contesti specifici e giustificati (test, picco di forma).
+Daily autoregulation is mandatory. RPE 8 ≈ 2 RIR, RPE 7 ≈ 3 RIR. RPE 9-10 reserved for specific, justified contexts (testing, peak form).
 
 ### VBT
-Per atleti avanzati, la velocità è l'indicatore primario di qualità dello stimolo:
+For advanced athletes, velocity is the primary indicator of stimulus quality:
 - 0-10% velocity loss → peak power / RFD
-- 10-20% velocity loss → forza esplosiva
-- 20-30% velocity loss → ipertrofia funzionale
-- 40% velocity loss → stress metabolico, zona da limitare per atleti di potenza
+- 10-20% velocity loss → explosive strength
+- 20-30% velocity loss → functional hypertrophy
+- 40% velocity loss → metabolic stress, a zone to limit for power athletes
 
-## Bioenergetica
+## Bioenergetics
 
-Atleti di potenza pura: priorità ad ATP-CP, sprint, accelerazioni, HIIT breve, intent esplosivo. Atleti ibridi/team sport: Zone 2 come motore di recupero, soglie LT1/LT2 come riferimento per costruire capacità aerobica senza sabotare la forza.
+Pure power athletes: priority on ATP-CP, sprints, accelerations, short HIIT, explosive intent. Hybrid/team sport athletes: Zone 2 as a recovery engine, LT1/LT2 thresholds as a reference for building aerobic capacity without sabotaging strength.
 
-## Logica tendinea e clinica di base
+## Basic tendon and clinical logic
 
-### Isometrici massimali per stiffness tendinea
-3 set x 5 ripetizioni, 3 secondi di hold massimale, 2 volte a settimana, per 10-12 settimane consecutive. Il turnover del collagene è lento: non esistono scorciatoie.
+### Maximal isometrics for tendon stiffness
+3 sets x 5 reps, 3-second maximal hold, 2 times per week, for 10-12 consecutive weeks. Collagen turnover is slow: there are no shortcuts.
 
 ### Sanford Soreness Rules
-1. Dolore al warm-up che persiste → stop, 2 giorni off, torna allo step precedente.
-2. Dolore al warm-up che scompare → resta allo step attuale finché non è completato senza dolore.
-3. Dolore che scompare ma ritorna in sessione → stop, 2 giorni off, torna allo step precedente.
-4. Dolore il giorno dopo → 1 giorno off, non avanzare il programma.
+1. Pain during warm-up that persists → stop, 2 days off, return to the previous step.
+2. Pain during warm-up that disappears → stay at the current step until it is completed pain-free.
+3. Pain that disappears but returns during the session → stop, 2 days off, return to the previous step.
+4. Pain the day after → 1 day off, do not advance the program.
 
-### Benchmark obbligatori pre-avanzamento
-- 25 single-leg heel raises senza dolore.
-- 15 single-leg hops senza dolore.
-- 30 minuti di cammino senza peggioramento sintomatico.
-- Squat 60% BW, 6 ripetizioni con hold di 6 secondi ciascuna.
+### Mandatory benchmarks before advancing
+- 25 single-leg heel raises without pain.
+- 15 single-leg hops without pain.
+- 30 minutes of walking without symptom worsening.
+- Squat 60% BW, 6 reps with a 6-second hold each.
 
 ## In-season vs off-season
 
-**In-season**: MED, 4-8 set/settimana, alta qualità di esecuzione, mantenimento della forza, priorità al transfer di campo.
+**In-season**: MED, 4-8 sets/week, high execution quality, strength maintenance, priority on field transfer.
 
-**Off-season**: 10-20 set/settimana, block periodization, costruzione di capacità (ipertrofia, CSA, base di forza) da convertire poi in velocità e potenza specifica.
+**Off-season**: 10-20 sets/week, block periodization, capacity building (hypertrophy, CSA, strength base) to later convert into speed and specific power.
 
 ## Scope
 
-Questa è la skill fondativa. Per programmazione settimanale e governance usa `programming-audit-council`. Per football/RB usa `football-rb-system`. Per VBT avanzato usa `vbt-rfd-open-sets`. Per clinica/prehab usa `clinical-prehab-system`. Per HYROX/ibridi usa `hyrox-hybrid-system`. Per COD/footwork usa `football-cod-footwork`. Per tendine/potenza usa `tendon-power-architecture`. Per recupero/bioenergetica avanzata usa `energy-systems-recovery`. Per assessment iniziale usa `athlete-profiling-benchmarking`.
+This is the foundational skill. For weekly programming and governance use `programming-audit-council`. For football/RB use `football-rb-system`. For advanced VBT use `vbt-rfd-open-sets`. For clinical/prehab use `clinical-prehab-system`. For HYROX/hybrid use `hyrox-hybrid-system`. For COD/footwork use `football-cod-footwork`. For tendon/power use `tendon-power-architecture`. For advanced recovery/bioenergetics use `energy-systems-recovery`. For initial assessment use `athlete-profiling-benchmarking`.

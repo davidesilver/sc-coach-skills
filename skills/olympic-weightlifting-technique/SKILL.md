@@ -7,57 +7,57 @@ argument-hint: [snatch technique, clean and jerk, early arm bend, jerk footwork]
 
 # Olympic Weightlifting Technique
 
-## Missione
+## Mission
 
-La tecnica nel weightlifting olimpico non è un dettaglio estetico: determina se la forza prodotta dalle gambe e dai fianchi arriva effettivamente a spostare il bilanciere in modo efficiente, o si disperde in un percorso di barra scorretto.
+Technique in Olympic weightlifting is not a cosmetic detail: it determines whether the force produced by the legs and hips actually moves the barbell efficiently, or is dissipated through an incorrect bar path.
 
-## Fasi del clean (transferibili concettualmente allo snatch)
+## Phases of the Clean (conceptually transferable to the snatch)
 
-1. **Setup**: bilanciere a terra o a metà stinco, piedi larghezza anca, mani appena fuori dalle gambe con hook grip, spalle leggermente avanti alla barra [web:68].
-2. **Prima trazione**: dal pavimento fino a poco oltre il ginocchio, anche e spalle si alzano simultaneamente. Cue: "rompere la barra" per attivare i lats e mantenere il midline compatto [web:68].
-3. **Seconda trazione**: dal ginocchio all'anca, accelerazione verticale tramite estensione aggressiva dell'anca fino alla tripla estensione (anche, ginocchia, caviglie estese simultaneamente) [web:68].
-4. **Terza trazione / catch**: l'atleta si tira sotto la barra atterrando in front squat (clean) o power clean parziale, con la barra in front rack e i gomiti alti [web:68].
-5. **Reset e preparazione al jerk**: aggiustamento della presa, respiro e ribracciamento del core prima del jerk [web:68].
-6. **Dip**: discesa controllata in mini-squat, torso verticale, ginocchia spinte verso l'esterno, per caricare potenza dalle gambe [web:68][web:71].
-7. **Drive**: estensione aggressiva dell'anca, spingendo attraverso i talloni per evitare inclinazione in avanti; le braccia restano relativamente rilassate finché la barra non raggiunge l'altezza massima [web:68][web:71].
-8. **Jerk (split o push)**: l'atleta si spinge sotto la barra fino al lockout completo dei gomiti, sincronizzando l'atterraggio dei piedi con il lockout [web:68].
-9. **Catch e recovery**: nel push jerk la ricezione è in mezzo squat parziale, nello split jerk in posizione divaricata [web:68]. Nel recovery, evitare che la barra si sposti avanti/indietro; utile un piccolo passo di shuffle con il piede anteriore seguito da un passo del piede posteriore [web:71].
+1. **Setup**: barbell on the floor or at mid-shin, feet hip-width apart, hands just outside the legs with a hook grip, shoulders slightly ahead of the bar [web:68].
+2. **First pull**: from the floor to just past the knee, hips and shoulders rise simultaneously. Cue: "break the bar" to engage the lats and keep the midline tight [web:68].
+3. **Second pull**: from the knee to the hip, vertical acceleration through aggressive hip extension up to triple extension (hips, knees, and ankles extended simultaneously) [web:68].
+4. **Third pull / catch**: the athlete pulls themselves under the bar, landing in a front squat (clean) or partial power clean, with the bar in the front rack and elbows high [web:68].
+5. **Reset and jerk preparation**: adjusting the grip, breathing, and re-bracing the core before the jerk [web:68].
+6. **Dip**: controlled descent into a mini-squat, vertical torso, knees pushed outward, to load power from the legs [web:68][web:71].
+7. **Drive**: aggressive hip extension, driving through the heels to avoid leaning forward; the arms stay relatively relaxed until the bar reaches maximum height [web:68][web:71].
+8. **Jerk (split or push)**: the athlete drives themselves under the bar to a full elbow lockout, synchronizing the foot landing with the lockout [web:68].
+9. **Catch and recovery**: in the push jerk the reception is in a partial squat, in the split jerk it's in a split stance [web:68]. During recovery, avoid letting the bar drift forward or backward; a small shuffle step with the front foot followed by a step of the back foot is useful [web:71].
 
-## Meccanica dello snatch
+## Snatch Mechanics
 
-Nello snatch, la spinta delle gambe replica un movimento simile allo squat, mantenendo lo stesso angolo di schiena finché la barra non supera il ginocchio [web:63]. Il principio guida della prima parte del sollevamento è il bilanciamento uniforme su tutto il piede.
+In the snatch, the leg drive replicates a movement similar to the squat, keeping the same back angle until the bar passes the knee [web:63]. The guiding principle for the first part of the lift is even balance across the whole foot.
 
-## Punti chiave dello split jerk (footwork)
+## Key Points of the Split Jerk (Footwork)
 
-- Shin anteriore verticale.
-- Ginocchio posteriore piegato.
-- Tallone posteriore sollevato da terra.
-- Bilanciamento 50/50 tra le due gambe.
-- Torso verticale, core bracciato [web:71].
+- Vertical front shin.
+- Bent back knee.
+- Back heel lifted off the floor.
+- 50/50 weight balance between the two legs.
+- Vertical torso, braced core [web:71].
 
-## Errore tecnico critico: Early Arm Bend
+## Critical Technical Fault: Early Arm Bend
 
-Piegare le braccia prima che la barra abbia raggiunto la velocità massima rallenta la barra e altera il suo percorso [web:75]. Cause tipiche: setup con braccia già piegate attorno alle ginocchia invece che distese [web:69]; percorso della barra che si allontana dal centro di gravità, costringendo le braccia a compensare [web:69]; punto di contatto scorretto nel clean (anca invece di metà coscia) [web:69].
+Bending the arms before the bar has reached maximum velocity slows the bar down and alters its path [web:75]. Typical causes: a setup with the arms already bent around the knees instead of extended [web:69]; a bar path that drifts away from the center of gravity, forcing the arms to compensate [web:69]; an incorrect contact point in the clean (hip instead of mid-thigh) [web:69].
 
-### Correzioni pratiche
-- Massimizzare la distanza tra testa e barra nel setup, per "allungare" le braccia come corde [web:69].
-- Uso costante dell'hook grip, per permettere alle braccia di restare passive mentre la barra supera il ginocchio [web:69].
-- Rallentare la fase iniziale per mantenere la barra sopra il mesopiede [web:69].
-- Drill Tall Snatch/Tall Clean: nessun tempo per piegare le braccia, forzano una spinta decisa di spalle e anche nella seconda trazione [web:75].
-- Combo pull + lift: 1-2 ripetizioni di pull con braccia perfettamente dritte seguite dal movimento completo, per imprimere il pattern motorio corretto [web:75].
+### Practical Corrections
+- Maximize the distance between the head and the bar in the setup, to "lengthen" the arms like ropes [web:69].
+- Consistent use of the hook grip, to allow the arms to stay passive while the bar passes the knee [web:69].
+- Slow down the initial phase to keep the bar over the midfoot [web:69].
+- Tall Snatch/Tall Clean drill: no time to bend the arms, forcing a decisive push of the shoulders and hips in the second pull [web:75].
+- Combo pull + lift: 1-2 pull reps with perfectly straight arms followed by the full movement, to imprint the correct motor pattern [web:75].
 
-## Metodologia di apprendimento (gerarchia)
+## Learning Methodology (Hierarchy)
 
-Nell'apprendimento e nel perfezionamento tecnico, seguire questi principi generali [web:57]:
-- Mantenere ogni posizione chiave (setup, catch) per qualche secondo prima di muoversi, per permettere aggiustamenti consapevoli.
-- Eseguire il movimento lentamente nelle fasi iniziali di apprendimento: la velocità maschera errori tecnici finché il carico non diventa troppo pesante per "passarla liscia".
-- Introdurre la velocità solo dopo un livello decente di competenza, anche all'interno della stessa sessione (es. drill lenti in warm-up, poi lift veloci).
-- Mantenere il processo il più semplice possibile: costruire una base solida prima di aggiungere dettagli, senza timore di tornare indietro nella progressione se necessario.
+When learning and refining technique, follow these general principles [web:57]:
+- Hold each key position (setup, catch) for a few seconds before moving, to allow conscious adjustments.
+- Perform the movement slowly in the early stages of learning: speed masks technical errors until the load becomes too heavy to "get away with it."
+- Introduce speed only after a decent level of competence, even within the same session (e.g., slow drills in warm-up, then fast lifts).
+- Keep the process as simple as possible: build a solid foundation before adding detail, without hesitating to step back in the progression if necessary.
 
-## Drill di posizione (segment/pause work)
+## Position Drills (Segment/Pause Work)
 
-Il Segment Power Snatch isola le fasi del sollevamento con pause di 1-3 secondi in posizioni chiave, per rinforzare postura e bilanciamento sul piede prima di completare il movimento [web:67]. Utile per atleti che perdono posizione durante la trazione a piena velocità.
+The Segment Power Snatch isolates the phases of the lift with 1-3 second pauses at key positions, to reinforce posture and foot balance before completing the movement [web:67]. Useful for athletes who lose position during the pull at full speed.
 
 ## Scope
 
-Skill dedicata alla tecnica del weightlifting olimpico. Per periodizzazione e governance settimanale usa `programming-audit-council`. Per gestione RPE/velocità integrata usa `vbt-rfd-open-sets`. Per architettura tendinea e RFD usa `tendon-power-architecture`.
+Skill dedicated to Olympic weightlifting technique. For periodization and weekly governance use `programming-audit-council`. For integrated RPE/velocity management use `vbt-rfd-open-sets`. For tendon architecture and RFD use `tendon-power-architecture`.

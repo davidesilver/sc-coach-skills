@@ -1,14 +1,14 @@
 ---
 name: New skill request
-about: Proponi una nuova skill sport-specifica o di dominio per il pacchetto
+about: Propose a new sport-specific or domain skill for the pack
 title: "[new skill] "
 labels: new-skill
 ---
 
-**Sport / dominio da coprire**
+**Sport / domain to cover**
 
-**Perché manca oggi** (es. non coperto dai 16 skill esistenti, gap specifico)
+**Why it's missing today** (e.g. not covered by the 16 existing skills, specific gap)
 
-**Fonti che useresti** (linkare studi, protocolli, framework verificati — niente dati inventati)
+**Sources you would use** (link studies, protocols, verified frameworks — no invented data)
 
-**Skill esistenti con cui dovrebbe integrarsi** (es. `elite-sc-system`, `programming-audit-council`, ecc.)
+**Existing skills it should integrate with** (e.g. `elite-sc-system`, `programming-audit-council`, etc.)

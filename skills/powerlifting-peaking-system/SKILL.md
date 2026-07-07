@@ -7,67 +7,67 @@ argument-hint: [meet prep, peaking block, tapering, RPE autoregulation, attempt 
 
 # Powerlifting Peaking System
 
-## Missione
+## Mission
 
-Un powerlifter non si allena per "sentirsi forte", si allena per esprimere il massimo su tre alzate in un giorno preciso. Ogni blocco deve essere funzionale a quella data, non a un ideale astratto di forza generica.
+A powerlifter doesn't train to "feel strong" — they train to express maximum strength on three lifts on one specific day. Every block must serve that date, not some abstract ideal of general strength.
 
-## Modello Development Block / Pivot Block (RTS)
+## Development Block / Pivot Block Model (RTS)
 
-Approccio bottom-up alla periodizzazione, alternativo alla periodizzazione lineare classica [web:49].
+A bottom-up approach to periodization, an alternative to classic linear periodization [web:49].
 
 ### Development Block
-Un microciclo (1 settimana) viene ripetuto finché la performance non cala su un'alzata di riferimento (es. singola a RPE8 + back-off 4x4). Il numero di ripetizioni del microciclo prima del calo di performance definisce il "time to peak" (TTP) individuale dell'atleta [web:49].
+A microcycle (1 week) is repeated until performance drops on a reference lift (e.g., a single at RPE8 + 4x4 back-off). The number of times the microcycle is repeated before performance drops defines the athlete's individual "time to peak" (TTP) [web:49].
 
-- Se il TTP è lungo (es. 11 settimane), è difficile reagire ai cambiamenti in tempo utile.
-- Per accorciare il TTP e renderlo più gestibile, aumenta la frequenza settimanale dell'alzata target (es. schema A+B nello stesso microciclo) [web:49].
-- Il primo Development Block deve essere portato oltre il picco: si riconosce il superamento del picco quando la performance cala per due o più settimane consecutive [web:49].
+- If the TTP is long (e.g., 11 weeks), it becomes difficult to react to changes in a timely manner.
+- To shorten the TTP and make it more manageable, increase the weekly frequency of the target lift (e.g., an A+B scheme within the same microcycle) [web:49].
+- The first Development Block should be carried past the peak: exceeding the peak is recognized when performance drops for two or more consecutive weeks [web:49].
 
 ### Pivot Block
-Non è un deload — è un cambio di stimolo che riduce fatica, abbassa intensità, varia la struttura dell'allenamento, e prepara l'atleta al prossimo Development Block [web:49]. Durata indicativa: circa un terzo della lunghezza del Development Block precedente. Esempio di distribuzione RPE in un Pivot Block: 10 rip @RPE6, 10 rip @RPE7, 10 rip @RPE8, più un set di scarico [web:49].
+Not a deload — it's a change of stimulus that reduces fatigue, lowers intensity, varies the training structure, and prepares the athlete for the next Development Block [web:49]. Typical duration: roughly one-third the length of the preceding Development Block. Example RPE distribution in a Pivot Block: 10 reps @RPE6, 10 reps @RPE7, 10 reps @RPE8, plus an unload set [web:49].
 
-## Periodizzazione lineare classica (alternativa)
+## Classic Linear Periodization (alternative)
 
-Modello a fasi su 12-16 settimane, con intensità crescente e volume calante [web:52]:
+A phased model spanning 12-16 weeks, with rising intensity and declining volume [web:52]:
 
-| Fase | Durata indicativa | Rep range | Intensità |
+| Phase | Typical duration | Rep range | Intensity |
 |---|---|---|---|
-| Ipertrofia/volume | Prime settimane | 8-12 rip | Moderata |
-| Forza | Fase centrale | 3-6 rip | Alta |
-| Potenza/peaking | Ultime settimane pre-meet | 1-3 rip | ≥90% 1RM |
+| Hypertrophy/volume | Early weeks | 8-12 reps | Moderate |
+| Strength | Middle phase | 3-6 reps | High |
+| Power/peaking | Final weeks pre-meet | 1-3 reps | ≥90% 1RM |
 
-Movimenti più semplici e ad alto volume vanno collocati nelle fasi iniziali, quando è più facile accumulare lavoro senza rischio tecnico eccessivo [web:52].
+Simpler, higher-volume movements should be placed in the early phases, when it's easier to accumulate work without excessive technical risk [web:52].
 
-## Principio chiave del peaking (JTS)
+## Key Peaking Principle (JTS)
 
-L'intensità conserva la forma fisica meglio del volume. Per raggiungere la forza massima servono sia volume alto che intensità alta nelle fasi corrette, ma nella fase finale di peaking il volume va tagliato mantenendo intensità elevata, per dissipare la fatica senza perdere gli adattamenti neurali acquisiti [web:50].
+Intensity preserves fitness better than volume. Reaching maximal strength requires both high volume and high intensity in the correct phases, but in the final peaking phase volume must be cut while maintaining high intensity, to dissipate fatigue without losing the neural adaptations already acquired [web:50].
 
-## Tapering pre-competizione
+## Pre-Competition Tapering
 
-Il tapering (o in alcuni casi la cessazione temporanea dell'allenamento) prima di una gara maggiore serve a migliorare la performance dissipando la fatica accumulata mantenendo gli adattamenti di forza [web:55]. Regole pratiche:
-- Riduci il volume progressivamente nelle ultime 1-3 settimane pre-meet, mantenendo picchi di intensità bassi in frequenza ma presenti (aperture a peso di gara).
-- Non introdurre mai nuovi esercizi o pattern tecnici nella fase di taper.
-- L'obiettivo del taper è arrivare al giorno di gara "freschi ma non stantii": un taper troppo lungo o troppo aggressivo può causare perdita di specificità neurale.
+Tapering (or in some cases a temporary cessation of training) before a major competition serves to improve performance by dissipating accumulated fatigue while retaining strength adaptations [web:55]. Practical rules:
+- Progressively reduce volume in the final 1-3 weeks pre-meet, keeping intensity peaks low in frequency but still present (openers at meet weight).
+- Never introduce new exercises or technical patterns during the taper phase.
+- The goal of the taper is to arrive on meet day "fresh but not stale": a taper that's too long or too aggressive can cause a loss of neural specificity.
 
-## Autoregolazione RPE
+## RPE Autoregulation
 
-Ogni sessione principale va gestita con RPE/RIR quotidiano (vedi anche `elite-sc-system` e `vbt-rfd-open-sets` per l'integrazione con la velocità). Se l'RPE reale supera sistematicamente il target di oltre 0.5-1 punto su più sessioni, il blocco va rivalutato: o il carico prescritto era mal calibrato, o la fatica accumulata richiede un Pivot Block anticipato [web:49].
+Every main session should be managed with daily RPE/RIR (see also `elite-sc-system` and `vbt-rfd-open-sets` for integration with velocity). If actual RPE systematically exceeds the target by more than 0.5-1 point across multiple sessions, the block needs to be reassessed: either the prescribed load was poorly calibrated, or accumulated fatigue calls for an early Pivot Block [web:49].
 
-## Attempt selection il giorno di gara
+## Attempt Selection on Meet Day
 
-Principi generali derivati dalla pratica competitiva:
-- Prima alzata: 90-93% del massimale stimato, un'alzata quasi certa, per costruire fiducia e "aprire" il sistema nervoso.
-- Seconda alzata: verso il record personale o poco sopra, in base a come si è sentita la prima.
-- Terza alzata: tentativo massimale, deciso solo dopo aver visto la qualità tecnica della seconda.
-- Non cambiare mai la strategia di attempt selection sotto pressione emotiva del meet day: la decisione va presa a mente lucida, idealmente pre-pianificata con il coach.
+General principles derived from competitive practice:
+- First attempt: 90-93% of estimated max, a near-certain lift, to build confidence and "open up" the nervous system.
+- Second attempt: toward the personal record or slightly above, based on how the first attempt felt.
+- Third attempt: a maximal attempt, decided only after seeing the technical quality of the second.
+- Never change attempt selection strategy under the emotional pressure of meet day: the decision should be made with a clear head, ideally pre-planned with the coach.
 
-## Split di allenamento
+## Training Splits
 
-Per principianti: split a 3 giorni, un'alzata principale per sessione [web:52]. Per intermedi/avanzati: split a 4 giorni o Push-Pull-Squat, con maggiore varietà di esercizi e frequenza per pattern [web:52]. Regola di recupero: 2-3 giorni tra sessioni che sollecitano lo stesso gruppo muscolare pesante [web:52].
+For beginners: a 3-day split, one main lift per session [web:52]. For intermediate/advanced lifters: a 4-day split or Push-Pull-Squat, with greater exercise variety and frequency per pattern [web:52]. Recovery rule: 2-3 days between sessions that heavily stress the same muscle group [web:52].
 
-## Valutazione periodica
+## Periodic Assessment
 
-Ogni 12-16 settimane, valuta oggettivamente: progressi di forza assoluta, qualità tecnica, plateau, ed eventuale necessità di modificare selezione esercizi, split o strategia di periodizzazione [web:52].
+Every 12-16 weeks, objectively assess: absolute strength progress, technical quality, plateaus, and any need to modify exercise selection, split, or periodization strategy [web:52].
 
 ## Scope
 
-Skill dedicata al powerlifting competitivo. Per la logica biomeccanica di base usa `elite-sc-system`. Per governance settimanale e audit usa `programming-audit-council`. Per gestione RPE/velocità integrata usa `vbt-rfd-open-sets`. Per architettura tendinea e RFD usa `tendon-power-architecture`.
+Skill dedicated to competitive powerlifting. For core biomechanical logic use `elite-sc-system`. For weekly governance and auditing use `programming-audit-council`. For integrated RPE/velocity management use `vbt-rfd-open-sets`. For tendon architecture and RFD use `tendon-power-architecture`.

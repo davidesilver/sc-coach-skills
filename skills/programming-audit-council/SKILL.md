@@ -10,83 +10,83 @@ argument-hint: [week, athlete profile, sport, phase, previous week feedback]
 
 # Programming Audit Council
 
-## Missione
+## Mission
 
-Nessuna settimana di allenamento viene emessa senza audit. Il processo obbligatorio è: genera v1 → audit del Council → emetti v2 → allega feedback sheet.
+No training week is issued without an audit. The mandatory process is: generate v1 → Council audit → issue v2 → attach feedback sheet.
 
-## Formato output
+## Output format
 
-Ogni settimana va prodotta in formato CSV con questo template di colonne:
+Each week must be produced in CSV format with this column template:
 
 `EXE | EXERCISE | SETS | REPS | INTENSITY (%/RPE) | VELOCITY (m/s) | TEMPO | REST | NOTES/ACTUALS`
 
-Naming file con focus esplicito, esempio: `W1_D3_LowerPower_Posterior.csv`.
+File naming with explicit focus, example: `W1_D3_LowerPower_Posterior.csv`.
 
-## Regole TEMPO (fonte di errori frequenti)
+## TEMPO rules (frequent source of errors)
 
-| Tipo esercizio | Formato TEMPO | Esempio |
+| Exercise type | TEMPO format | Example |
 |---|---|---|
-| Bilaterale pesante (squat, panca, stacco, row) | E-PB-C-PA (secondi) | 3-1-X-0 |
-| Tirata/pull (row, curl, trazioni) | Eccentrica lenta 2-3s, concentrica sempre X | 3-0-X-1 |
-| Isometrico | Nessun TEMPO — durata solo nel campo REPS | REPS: 20s |
-| Esplosivo/balistico (jump, sprint, clean) | Nessun TEMPO codificabile | "—" o BALIST |
-| Locomotore (farmer walk, skip, sled) | Nessun TEMPO | WALK |
+| Heavy bilateral (squat, bench, deadlift, row) | E-PB-C-PA (seconds) | 3-1-X-0 |
+| Pull (row, curl, pull-ups) | Slow eccentric 2-3s, concentric always X | 3-0-X-1 |
+| Isometric | No TEMPO — duration only in the REPS field | REPS: 20s |
+| Explosive/ballistic (jump, sprint, clean) | No codifiable TEMPO | "—" or BALIST |
+| Locomotor (farmer walk, skip, sled) | No TEMPO | WALK |
 
-Errori tipici da evitare: pausa eccentrica su lift concentrici veloci (RDL, trap bar), tempo fisso su isometrici che hanno già durata in REPS, TEMPO identico su esercizi biomeccanicamente diversi (es. hip thrust vs squat).
+Typical errors to avoid: eccentric pause on fast concentric lifts (RDL, trap bar), fixed tempo on isometrics that already have duration in REPS, identical TEMPO on biomechanically different exercises (e.g. hip thrust vs squat).
 
-## Struttura del Council
+## Council structure
 
 ### JUDGE_1 — Strength Science
-Verifica: ridondanze di pattern pesante nella stessa finestra di 48h, rapporto anterior/posterior, coerenza dei recuperi, focus chiaro per giornata, progressione intra-mesociclo logica.
+Checks: heavy pattern redundancies within the same 48h window, anterior/posterior ratio, recovery consistency, clear daily focus, logical intra-mesocycle progression.
 
 ### JUDGE_2 — Sport-Specific
-Verifica: almeno un giorno power/intent esplosivo, presenza di un field day specifico (meccanica, accelerazione, COD, decelerazione), upper body con elemento di transfer, assenza di settimane "da palestra" senza transfer di campo.
+Checks: at least one power/explosive intent day, presence of a specific field day (mechanics, acceleration, COD, deceleration), upper body with a transfer element, absence of "gym-only" weeks with no field transfer.
 
 ### JUDGE_3 — Clinical/Prehab
-Verifica: Sanford gate esplicito prima dei main lift e del field day, prehab presente ma non ridondante, presenza di una vera giornata di recupero (CARs, respirazione, mobilità, downregulation), assenza di doppioni Copenhagen/tibialis/soleo nello stesso microciclo.
+Checks: explicit Sanford gate before main lifts and field day, prehab present but not redundant, presence of a genuine recovery day (CARs, breathing, mobility, downregulation), absence of duplicate Copenhagen/tibialis/soleus work in the same microcycle.
 
-## Workflow obbligatorio
+## Mandatory workflow
 
-1. **Genera v1** — completa ma non ancora perfetta, deve essere auditabile.
-2. **Council audit** — ogni giudice produce 3-5 errori principali, correzione proposta, struttura target.
-3. **Emetti v2** — con correzioni applicate, focus esplicito nel nome file, Sanford gate (⚑) in testa ai giorni rilevanti.
+1. **Generate v1** — complete but not yet perfect, must be auditable.
+2. **Council audit** — each judge produces 3-5 main errors, proposed correction, target structure.
+3. **Issue v2** — with corrections applied, explicit focus in the file name, Sanford gate (⚑) at the top of relevant days.
 
 ## Sanford Gate
 
-Ogni giorno rilevante deve aprirsi con `⚑ SANFORD CHECK` prima di: field day, sprint day, lower heavy, return-to-run progressions, atleti con dolore o storico recente.
+Every relevant day must open with `⚑ SANFORD CHECK` before: field day, sprint day, lower heavy, return-to-run progressions, athletes with pain or recent history.
 
 ## Feedback sheet
 
-Ogni settimana produce `W*_FEEDBACK_SHEET.csv` con campi minimi: bodyweight AM, sonno, fatigue pre, soreness, pain check, field readiness, carichi principali sui main lift, note coach.
+Each week produces a `W*_FEEDBACK_SHEET.csv` with minimum fields: AM bodyweight, sleep, pre-session fatigue, soreness, pain check, field readiness, main lift loads, coach notes.
 
-## Continuità tra settimane
+## Continuity between weeks
 
-La settimana successiva è sempre funzione di: settimana precedente (v2) + feedback reale. Non si riparte mai da zero. Prima di generare la settimana N+1:
-1. Leggi v2 della settimana N.
-2. Leggi il feedback sheet della settimana N.
-3. Identifica adattamento, fatica residua, gap di transfer.
-4. Modifica una sola variabile chiave per volta quando possibile (o poche, se i dati lo giustificano chiaramente).
+The following week is always a function of: previous week (v2) + real feedback. Never start from scratch. Before generating week N+1:
+1. Read week N's v2.
+2. Read week N's feedback sheet.
+3. Identify adaptation, residual fatigue, transfer gaps.
+4. Change only one key variable at a time when possible (or a few, if the data clearly justifies it).
 
-## Regola di progressione
+## Progression rule
 
-Progressione aggressiva solo se tutti questi criteri sono soddisfatti:
-1. RPE reale ≤ RPE target +0.5 su almeno 3 set principali.
-2. Nessun pain check ≥3/10.
-3. Sonno medio ≥7h.
+Aggressive progression only if all of these criteria are met:
+1. Actual RPE ≤ target RPE +0.5 on at least 3 main sets.
+2. No pain check ≥3/10.
+3. Average sleep ≥7h.
 
-Se anche un solo criterio manca: mantieni o scala, mai avanzare per calendario.
+If even one criterion is missing: maintain or scale back, never advance on a calendar basis.
 
-## Aggiustamenti guidati dai dati (weekly continuity check)
+## Data-driven adjustments (weekly continuity check)
 
-- Sonno <7h per ≥3 giorni → -10/15% volume.
-- Fatigue ≥7/10 per ≥2 giorni → elimina il giorno opzionale.
-- Pain ≥3/10 → attiva Sanford Gate.
-- Dolore stinco dopo tibialis → mantieni volume, non progredire.
-- DOMS >48h dopo Nordic → stesso volume, non progredire.
-- RPE sprint >target+1 per ≥2 sessioni → riduci target RPE di 0.5.
-- Atterraggio instabile su jump → non aumentare volume.
-- Dolore inguinale dopo Copenhagen → 48h di gap obbligatorio prima del prossimo stimolo aduttorio.
+- Sleep <7h for ≥3 days → -10/15% volume.
+- Fatigue ≥7/10 for ≥2 days → eliminate the optional day.
+- Pain ≥3/10 → activate the Sanford Gate.
+- Shin pain after tibialis → maintain volume, do not progress.
+- DOMS >48h after Nordic → same volume, do not progress.
+- Sprint RPE >target+1 for ≥2 sessions → reduce target RPE by 0.5.
+- Unstable landing on jumps → do not increase volume.
+- Groin pain after Copenhagen → mandatory 48h gap before the next adductor stimulus.
 
 ## Scope
 
-Questa skill governa la programmazione. Per la logica biomeccanica di base usa `elite-sc-system`. Per specificità football/RB usa `football-rb-system`. Per VBT avanzato usa `vbt-rfd-open-sets`. Per clinica/return-to-run usa `clinical-prehab-system`. Per HYROX/ibridi usa `hyrox-hybrid-system`.
+This skill governs programming. For the underlying biomechanical logic use `elite-sc-system`. For football/RB specifics use `football-rb-system`. For advanced VBT use `vbt-rfd-open-sets`. For clinical/return-to-run use `clinical-prehab-system`. For HYROX/hybrid use `hyrox-hybrid-system`.

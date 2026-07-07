@@ -10,73 +10,73 @@ argument-hint: [RB task, field transfer, acceleration, contact balance, ball sec
 
 # Football RB System
 
-## Missione
+## Mission
 
-Costruire un atleta da football che trasferisca la forza al campo entro la finestra utile del gesto, non un fenomeno da weight room che arriva tardi sul movimento reale.
+Build a football athlete who transfers strength to the field within the usable window of the movement — not a weight-room phenomenon who arrives late to the real action.
 
-## La finestra dei 200ms
+## The 200ms Window
 
-Nel football d'élite la maggior parte delle azioni decisive (sprint, contatti, cambi di direzione) avviene sotto i 200 millisecondi. Il training deve dare priorità al Rate of Force Development (RFD) rispetto alla forza massimale lenta: una forza che richiede 600ms per esprimersi è meno utile di una forza inferiore ma disponibile nella finestra reale del gioco.
+In elite football, most decisive actions (sprints, contacts, changes of direction) happen in under 200 milliseconds. Training must prioritize Rate of Force Development (RFD) over slow maximal strength: strength that takes 600ms to express is less useful than a lower level of strength that is available within the real window of play.
 
-## Stiffness tendinea come priorità
+## Tendon Stiffness as a Priority
 
-Per RB e power athlete la stiffness tendinea determina l'RFD: alta rigidità significa che la forza muscolare viene trasmessa immediatamente al terreno invece di essere assorbita da un tendine elastico. Questo si traduce in accelerazione esplosiva, minor costo metabolico dello sprint, e cambi di direzione più violenti.
+For RBs and power athletes, tendon stiffness determines RFD: high stiffness means muscular force is transmitted immediately to the ground instead of being absorbed by an elastic tendon. This translates into explosive acceleration, lower metabolic cost of sprinting, and more violent changes of direction.
 
-### Trade-off potenza vs endurance
-Stiffness alta = miglior RFD e minor costo metabolico dello sprint. Compliance alta = miglior storage/return di energia, preferita dagli endurance athlete ma controproducente per le esigenze esplosive di un RB. Un RB non va programmato come un endurance athlete: eccesso di compliance e conditioning generico degradano stiffness e first-step dominance.
+### Power vs. Endurance Trade-off
+High stiffness = better RFD and lower metabolic cost of sprinting. High compliance = better energy storage/return, preferred by endurance athletes but counterproductive for an RB's explosive demands. An RB should not be programmed like an endurance athlete: excess compliance and generic conditioning degrade stiffness and first-step dominance.
 
-## Priorità del running back
+## Running Back Priorities
 
 1. First-step dominance (0-10m).
-2. Produzione di forza orizzontale.
-3. Competenza nella decelerazione.
-4. Meccanica del penultimate step.
+2. Horizontal force production.
+3. Deceleration competency.
+4. Penultimate step mechanics.
 5. Contact balance.
-6. Ball security sotto redirection e contatto.
-7. Resilienza strutturale a collisioni ripetute.
+6. Ball security under redirection and contact.
+7. Structural resilience to repeated collisions.
 
-## Il penultimate step
+## The Penultimate Step
 
-Il penultimate step (il penultimo appoggio prima del plant) è il vero motore della decelerazione: gestisce Ground Reaction Force fino a 2.7x il peso corporeo. Se l'atleta non assorbe in questo appoggio, il plant diventa un gesto di sopravvivenza invece che un vero strumento di redirection. Markers tecnici: abbassamento controllato del centro di massa nei passi precedenti al plant, trunk lean coerente con il vettore di uscita, positive tibia angle (inclinazione dello stinco verso la direzione di uscita), nessun collasso in valgismo del ginocchio.
+The penultimate step (the second-to-last foot contact before the plant) is the true engine of deceleration: it manages Ground Reaction Force up to 2.7x body weight. If the athlete fails to absorb force on this step, the plant becomes a survival action rather than a genuine redirection tool. Technical markers: controlled lowering of the center of mass in the steps leading into the plant, trunk lean consistent with the exit vector, positive tibia angle (shin inclined toward the exit direction), no knee valgus collapse.
 
-## Contact balance
+## Contact Balance
 
-Capacità di assorbire il contatto senza perdere allineamento, velocità utile o controllo del centro di massa. Il modello di riferimento nelle fonti utilizza una tecnica hand-down: la mano libera funge da pivot di stabilizzazione a terra, creando un terzo punto di appoggio che ridistribuisce la forza di reazione al suolo e protegge le articolazioni durante il contatto. Prerequisiti: bassa altezza del COM, rigidità attiva, piedi vivi durante l'impatto (active feet), forza eccentrica e isometrica del treno inferiore.
+The ability to absorb contact without losing alignment, usable speed, or control of the center of mass. The reference model in the sources uses a hand-down technique: the free hand acts as a stabilizing pivot on the ground, creating a third point of contact that redistributes ground reaction force and protects the joints during contact. Prerequisites: low COM height, active stiffness, active feet on impact, and eccentric/isometric strength of the lower body.
 
-## Ball security — protocollo dei 4 punti
+## Ball Security — The 4-Point Protocol
 
-Posizione "High and Tight" con quattro punti di contatto simultanei:
+"High and Tight" position with four simultaneous points of contact:
 
-| Punto | Ruolo |
+| Point | Role |
 |---|---|
-| Mano | Copre la punta del pallone, previene strappi frontali |
-| Avambraccio | Brace laterale rigido contro le costole |
-| Bicipite | Blocca la parte alta del pallone, previene estrazione verticale |
-| Petto | Ancoraggio finale, usa la massa corporea per stabilizzare |
+| Hand | Covers the tip of the ball, prevents frontal strips |
+| Forearm | Rigid lateral brace against the ribs |
+| Bicep | Locks the top of the ball, prevents vertical extraction |
+| Chest | Final anchor, uses body mass to stabilize |
 
-Ogni drill di agility e footwork va eseguito mantenendo questa posizione: una presa lasca sposta il centro di massa fuori dalla midline e peggiora la qualità dei cambi di direzione.
+Every agility and footwork drill must be performed while maintaining this position: a loose grip shifts the center of mass off the midline and degrades the quality of changes of direction.
 
-## Meccanica push-pull e Dynamic Trunk Control (DTC)
+## Push-Pull Mechanics and Dynamic Trunk Control (DTC)
 
-Nel contatto, un braccio funge da lock (High and Tight) mentre l'altro agisce da arma (stiff-arm), creando una force-couple. Il DTC è ciò che impedisce che la forza generata dallo stiff-arm faccia collassare il centro di massa dell'atleta stesso: alto DTC significa che la forza si distribuisce sulla catena cinetica inferiore invece di piegare il busto.
+In contact, one arm acts as a lock (High and Tight) while the other acts as a weapon (stiff-arm), creating a force couple. DTC is what prevents the force generated by the stiff-arm from collapsing the athlete's own center of mass: high DTC means the force is distributed through the lower kinetic chain instead of folding the torso.
 
-## Field transfer — nessuna settimana solo palestra
+## Field Transfer — No Weight-Room-Only Weeks
 
-Ogni settimana utile per un RB deve includere: power day, field speed/acceleration, esposizione a drill di COD o decelerazione, upper body con transfer, lavoro di resilienza tissutale. Gerarchia di transfer: tecnica di campo → espressione esplosiva → forza transferabile → prehab strutturale.
+Every productive week for an RB must include: a power day, field speed/acceleration, exposure to COD or deceleration drills, upper body work with transfer, and tissue resilience work. Transfer hierarchy: field technique → explosive expression → transferable strength → structural prehab.
 
-## Lavoro strutturale mandatorio
+## Mandatory Structural Work
 
-- Isometrici massimali per stiffness tendinea (vedi `elite-sc-system`).
-- Lavoro sul soleo (vedi `clinical-prehab-system`).
+- Maximal isometrics for tendon stiffness (see `elite-sc-system`).
+- Soleus work (see `clinical-prehab-system`).
 - Copenhagen adduction protocol.
 - Foot intrinsics / short foot activation.
-- Collision shielding: rinforzo cervicale (chin tucks, isometrici multiplanari) e mobilizzazione T-spine per proteggere la colonna lombare durante stiff-arm e collisioni.
-- Sprint e resisted sprint training integrati nel ciclo.
+- Collision shielding: cervical strengthening (chin tucks, multiplanar isometrics) and T-spine mobilization to protect the lumbar spine during stiff-arms and collisions.
+- Sprint and resisted sprint training integrated into the cycle.
 
-## Programmazione
+## Programming
 
-**In-season**: MED, esposizione heavy non eliminata, intent esplosivo mantenuto, volume sotto controllo. **Off-season**: accumulation di capacità (stiffness, forza, CSA), progressione verso high-velocity transfer.
+**In-season**: MED, heavy exposure not eliminated, explosive intent maintained, volume kept under control. **Off-season**: capacity accumulation (stiffness, strength, CSA), progression toward high-velocity transfer.
 
 ## Scope
 
-Skill dedicata a football players e RB. Per la governance settimanale usa `programming-audit-council`. Per i parametri VBT specifici usa `vbt-rfd-open-sets`. Per COD/footwork dettagliato usa `football-cod-footwork`. Per dolore, return-to-run e MTSS usa `clinical-prehab-system`. Per architettura tendinea approfondita usa `tendon-power-architecture`.
+Skill dedicated to football players and RBs. For weekly governance use `programming-audit-council`. For specific VBT parameters use `vbt-rfd-open-sets`. For detailed COD/footwork use `football-cod-footwork`. For pain, return-to-run, and MTSS use `clinical-prehab-system`. For in-depth tendon architecture use `tendon-power-architecture`.

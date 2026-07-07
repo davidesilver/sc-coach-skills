@@ -7,50 +7,50 @@ argument-hint: [exercise, target velocity, velocity loss, power focus, readiness
 
 # VBT RFD Open Sets
 
-## Missione
+## Mission
 
-Usare la velocità come linguaggio della qualità neurale. Allenare la potenza senza almeno ragionare in termini di velocità significa procedere a sensazione, senza feedback oggettivo.
+Use velocity as the language of neural quality. Training power without at least reasoning in terms of velocity means proceeding by feel, without objective feedback.
 
-## VBT come biofeedback
+## VBT as biofeedback
 
-La velocity-based training non è un lusso tecnologico: è il monitor più affidabile per capire readiness giornaliera, qualità dello stimolo, accumulo di fatica, e differenza tra lavoro utile e reps di scarto (junk reps).
+Velocity-based training is not a technological luxury: it is the most reliable monitor for understanding daily readiness, stimulus quality, fatigue accumulation, and the difference between useful work and junk reps.
 
 ### Intent to move
-L'intento esplosivo è non negoziabile. Anche con carichi alti (tipici del powerlifting), l'intenzione neurale deve restare quella di muovere il carico il più velocemente possibile.
+Explosive intent is non-negotiable. Even with heavy loads (typical of powerlifting), the neural intention must remain to move the load as fast as possible.
 
 ### Average velocity vs peak velocity
-- Average velocity: lift "grinding", non balistici (squat, panca, stacco).
-- Peak velocity: lift balistici (clean, snatch, jump, throw).
+- Average velocity: "grinding" lifts, non-ballistic (squat, bench, deadlift).
+- Peak velocity: ballistic lifts (clean, snatch, jump, throw).
 
-## Zone di velocity loss
+## Velocity loss zones
 
-| Velocity loss | Stato neuromuscolare | Obiettivo | Velocità target indicativa |
+| Velocity loss | Neuromuscular state | Goal | Indicative target velocity |
 |---|---|---|---|
-| 0-10% | Massima readiness | Peak power / RFD | ~1.3 m/s |
-| 10-20% | Fatica minima | Forza esplosiva | ~1.0-1.2 m/s |
-| 20-30% | Fatica moderata | Ipertrofia funzionale | ~1.0 m/s |
-| 40%+ | Fatica estrema | Terminare la serie — alto rischio metabolico | N/A |
+| 0-10% | Maximum readiness | Peak power / RFD | ~1.3 m/s |
+| 10-20% | Minimal fatigue | Explosive strength | ~1.0-1.2 m/s |
+| 20-30% | Moderate fatigue | Functional hypertrophy | ~1.0 m/s |
+| 40%+ | Extreme fatigue | End the set — high metabolic risk | N/A |
 
-Per movimenti di potenza primaria (squat/clean variants) il target di peak power velocity di riferimento nelle fonti è 1.0-1.3 m/s.
+For primary power movements (squat/clean variants), the reference peak power velocity target in the sources is 1.0-1.3 m/s.
 
-## Open Sets (metodologia Bosco/Squillante)
+## Open Sets (Bosco/Squillante methodology)
 
-Le ripetizioni non sono fisse per convenzione del coach: la serie continua finché la velocità dell'atleta resta nel range di qualità prestabilito. Nel momento in cui la velocità scende sotto la soglia target (es. -20%), la serie termina immediatamente.
+Reps are not fixed by coach convention: the set continues as long as the athlete's velocity stays within the preset quality range. The moment velocity drops below the target threshold (e.g., -20%), the set ends immediately.
 
-Perché funziona: rispetta la readiness reale del giorno, elimina le junk reps, preserva il sistema nervoso centrale, mantiene pulito l'obiettivo adattativo della sessione.
+Why it works: it respects the day's real readiness, eliminates junk reps, preserves the central nervous system, and keeps the session's adaptive goal clean.
 
-## Logica di prescrizione
+## Prescription logic
 
-**Focus power/RFD**: bassa velocity loss (0-10%), volumi contenuti, intent massimo, recuperi pieni (120-180s). **Focus ipertrofia funzionale**: 20-30% velocity loss, più volume ma sempre con soglia di qualità. Da evitare: usare velocity loss alta quando l'obiettivo dichiarato è speed-power; fare reps fisse ignorando il decadimento di velocità reale; confondere fatica accumulata con qualità dello stimolo.
+**Power/RFD focus**: low velocity loss (0-10%), contained volumes, maximum intent, full recovery (120-180s). **Functional hypertrophy focus**: 20-30% velocity loss, more volume but always with a quality threshold. To be avoided: using high velocity loss when the stated goal is speed-power; doing fixed reps while ignoring actual velocity decay; confusing accumulated fatigue with stimulus quality.
 
 ## Readiness management
 
-Se la velocità baseline della sessione è chiaramente sotto la norma dell'atleta, riduci carico o volume, oppure cambia l'obiettivo della seduta. Un proxy utile complementare è il rolling average dei Countermovement Jump (CMJ): se l'altezza di salto è significativamente sotto la media dell'atleta, il carico va aggiustato per prevenire overtraining. Regola dura: non inseguire il numero sul bilanciere se la velocità o il CMJ segnalano che il sistema non è pronto.
+If the session's baseline velocity is clearly below the athlete's norm, reduce load or volume, or change the session's goal. A useful complementary proxy is the rolling average of Countermovement Jump (CMJ): if jump height is significantly below the athlete's average, load must be adjusted to prevent overtraining. Hard rule: don't chase the number on the bar if velocity or CMJ signal that the system isn't ready.
 
-## Transfer per contesto
+## Transfer by context
 
-**Football/RB**: la VBT protegge la finestra dei 200ms, migliora il first-step power, evita volume che rallenta il transfer, monitora lo stato neurale senza affidarsi a percezioni soggettive. **Hybrid/HYROX**: la VBT evita di sprecare il budget neurale dentro un programma concorrente forza-endurance, mantiene la strength reserve necessaria per le stazioni, controlla il costo neurologico della forza rispetto all'engine aerobico.
+**Football/RB**: VBT protects the 200ms window, improves first-step power, avoids volume that slows transfer, monitors neural state without relying on subjective perceptions. **Hybrid/HYROX**: VBT avoids wasting the neural budget within a concurrent strength-endurance program, maintains the strength reserve needed for stations, and controls the neurological cost of strength relative to the aerobic engine.
 
 ## Scope
 
-Skill dedicata alla logica VBT. Per periodizzazione e audit settimanale usa `programming-audit-council`. Per football transfer specifico usa `football-rb-system`. Per clinica e ritorni da dolore usa `clinical-prehab-system`. Per architettura tendinea usa `tendon-power-architecture`.
+Skill dedicated to VBT logic. For periodization and weekly audit use `programming-audit-council`. For specific football transfer use `football-rb-system`. For clinical care and return from pain use `clinical-prehab-system`. For tendon architecture use `tendon-power-architecture`.

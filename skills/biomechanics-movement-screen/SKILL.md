@@ -5,42 +5,42 @@ description: Use when assessing an athlete's movement quality, screening for asy
 
 # Biomechanics & Movement Screen
 
-## Quando attivare questa skill
-Insieme a `elite-sc-system`, all'intake di un nuovo atleta, dopo un infortunio, o prima di aumentare aggressivamente il carico su un pattern specifico.
+## When to activate this skill
+Together with `elite-sc-system`, at the intake of a new athlete, after an injury, or before aggressively increasing load on a specific pattern.
 
-## Cosa dice davvero l'evidenza sul FMS
-Il Functional Movement Screen è affidabile e clinicamente utile, ma NON è uno strumento standalone di previsione infortuni [web:34]. Questo è un punto critico: il FMS da solo non basta a prevedere chi si infortunerà.
+## What the evidence really says about the FMS
+The Functional Movement Screen is reliable and clinically useful, but it is NOT a standalone injury-prediction tool [web:34]. This is a critical point: the FMS alone is not enough to predict who will get injured.
 
-Il valore del FMS aumenta quando combinato con Y-Balance test, storia di infortuni pregressi, dolore attuale e fattori di stile di vita [web:34]. Il dolore durante il movimento e le limitazioni maggiori (punteggio 1 o asimmetrie) sono costantemente collegati a rischio più alto, con alcuni studi che riportano fino a 2.7 volte maggiore probabilità di infortunio in certi gruppi [web:34].
+The value of the FMS increases when combined with the Y-Balance test, history of prior injuries, current pain, and lifestyle factors [web:34]. Pain during movement and major limitations (a score of 1 or asymmetries) are consistently linked to higher risk, with some studies reporting up to a 2.7-fold greater likelihood of injury in certain groups [web:34].
 
-Nel contesto sport di squadra, il punteggio composito FMS e le asimmetrie sono risultati particolarmente utili per stimare il rischio infortunio in rugby, football americano e hockey su ghiaccio [web:37] — rilevante direttamente per la popolazione RB/football di questo Space.
+In the team-sport context, the FMS composite score and asymmetries have proven particularly useful for estimating injury risk in rugby, American football, and ice hockey [web:37] — directly relevant to this Space's RB/football population.
 
-## Protocollo operativo (non solo FMS puro)
-1. **Movement quality prima** — screening dei 6 pattern fondamentali (Press, Pull, Squat, Hinge, Rotation, Locomotion) con carico corporeo o carico minimo.
-2. **Aggiungere contesto** — storia infortuni, dolore corrente, qualità del sonno, carico di vita esterno all'allenamento [web:34].
-3. **Decisione informata** — non usare mai un singolo punteggio come veto assoluto; usarlo come uno dei segnali insieme ad asimmetria e dolore.
+## Operational protocol (not just pure FMS)
+1. **Movement quality first** — screening the 6 fundamental patterns (Press, Pull, Squat, Hinge, Rotation, Locomotion) with bodyweight or minimal load.
+2. **Add context** — injury history, current pain, sleep quality, life load outside of training [web:34].
+3. **Informed decision** — never use a single score as an absolute veto; use it as one signal alongside asymmetry and pain.
 
-## I 6 pattern: cosa cercare in ciascuno
+## The 6 patterns: what to look for in each
 
-| Pattern | Cosa valutare | Red flag |
+| Pattern | What to assess | Red flag |
 |---|---|---|
-| Squat | Profondità, controllo ginocchio-anca, mobilità caviglia | Ginocchia valghe, perdita di lordosi lombare |
-| Hinge | Dissociazione anca-colonna, hamstring loading | Flessione lombare precoce, "buttress" |
-| Press | Stabilità scapolare, ROM spalla | Compenso lombare, scapola alata |
-| Pull | Retrazione scapolare, controllo eccentrico | Shrug compensatorio, ROM incompleto |
-| Rotation | Dissociazione toraco-pelvica | Rotazione globale rigida, dolore lombare |
-| Locomotion | Simmetria del passo, cadenza, ammortizzazione | Asimmetria evidente, atterraggio rumoroso |
+| Squat | Depth, knee-hip control, ankle mobility | Knee valgus, loss of lumbar lordosis |
+| Hinge | Hip-spine dissociation, hamstring loading | Early lumbar flexion, "buttressing" |
+| Press | Scapular stability, shoulder ROM | Lumbar compensation, winged scapula |
+| Pull | Scapular retraction, eccentric control | Compensatory shrug, incomplete ROM |
+| Rotation | Thoraco-pelvic dissociation | Rigid global rotation, lower back pain |
+| Locomotion | Stride symmetry, cadence, shock absorption | Visible asymmetry, noisy landing |
 
-## Asimmetria come segnale prioritario
-Un'asimmetria significativa tra lato dominante e non dominante in qualsiasi pattern è un predittore di rischio più affidabile del punteggio assoluto — questo vale soprattutto per atleti di sport con dominanza laterale marcata (RB, cambi di direzione) [web:34][web:37].
+## Asymmetry as a priority signal
+A significant asymmetry between the dominant and non-dominant side in any pattern is a more reliable risk predictor than the absolute score — this is especially true for athletes in sports with pronounced lateral dominance (RB, direction changes) [web:34][web:37].
 
-## Fattori aggiuntivi da incrociare (oltre il movimento puro)
-Il BMI in fascia sovrappeso/obesità è risultato collegato a maggiore suscettibilità a infortuni di categoria alta, plausibilmente per il range di movimento limitato; la forma del piede (piede piatto) invece non ha mostrato un legame diretto con il rischio infortunio alto in uno studio su studenti sportivi [web:40] — utile per contestualizzare, non per creare automatismi diagnostici eccessivi.
+## Additional factors to cross-reference (beyond pure movement)
+BMI in the overweight/obese range has been linked to greater susceptibility to high-category injuries, plausibly due to limited range of motion; foot shape (flat feet), on the other hand, showed no direct link to high injury risk in a study of student athletes [web:40] — useful for context, not for creating excessive diagnostic automatisms.
 
-## Come integrare con il resto del sistema
-- Se lo screening rivela dolore riproducibile → applica subito il Sanford Filter di `clinical-prehab-system`, stop 2 giorni prima di procedere.
-- Se rivela asimmetria senza dolore → non è un veto, ma un flag da monitorare nel Weekly Continuity Check e da bilanciare nella scelta degli accessori (unilaterali prioritari sul lato debole).
-- Lo screening iniziale alimenta direttamente `athlete-profiling-benchmarking` come primo dato oggettivo del profilo atleta.
+## How to integrate with the rest of the system
+- If the screening reveals reproducible pain → immediately apply the Sanford Filter from `clinical-prehab-system`, stop for 2 days before proceeding.
+- If it reveals asymmetry without pain → this is not a veto, but a flag to monitor in the Weekly Continuity Check and to balance in accessory selection (unilateral work prioritized on the weak side).
+- The initial screening feeds directly into `athlete-profiling-benchmarking` as the first objective data point in the athlete profile.
 
-## Riferimenti
-Evidenza sul valore predittivo del FMS verificata su fonti esterne allo Space (functionalmovement.com, Indiana State University Scholars, sportpedagogy.org.ua) [web:34][web:37][web:40].
+## References
+Evidence on the predictive value of the FMS verified against sources external to the Space (functionalmovement.com, Indiana State University Scholars, sportpedagogy.org.ua) [web:34][web:37][web:40].

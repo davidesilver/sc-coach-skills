@@ -7,96 +7,96 @@ argument-hint: [conditioning, RSA, recovery protocol, sleep, inflammation, creat
 
 # Energy Systems & Recovery
 
-## Missione
+## Mission
 
-Il recupero non è passivo: è una regolazione programmata del sistema nervoso. L'allenamento ad alta intensità pone l'atleta in uno stato cronico di attivazione simpatica; senza un deliberato shift parassimpatico, l'adattamento reale non avviene.
+Recovery is not passive: it is a programmed regulation of the nervous system. High-intensity training places the athlete in a chronic state of sympathetic activation; without a deliberate parasympathetic shift, real adaptation does not occur.
 
-## I tre sistemi energetici (richiamo operativo)
+## The three energy systems (operational recap)
 
-- **ATP-CP (fosfageno)**: domina i primi 6-10 secondi di sforzo massimale. Uno sprint all-out di 6 secondi riduce le riserve muscolari di fosfocreatina fino al 55%.
-- **Glicolitico anaerobico**: subentra da 10s a ~2min, produttore principale di lattato/idrogenioni.
-- **Aerobico**: dominante oltre i 2 minuti, il vero motore per HYROX e lavoro capacità (vedi `hyrox-hybrid-system`).
+- **ATP-CP (phosphagen)**: dominates the first 6-10 seconds of maximal effort. An all-out 6-second sprint reduces muscle phosphocreatine stores by up to 55%.
+- **Anaerobic glycolytic**: takes over from 10s to ~2min, the main producer of lactate/hydrogen ions.
+- **Aerobic**: dominant beyond 2 minutes, the true engine for HYROX and capacity work (see `hyrox-hybrid-system`).
 
-## Specificità metabolica per il football/power athlete
+## Metabolic specificity for the football/power athlete
 
-Gli atleti di potenza rispondono male al conditioning generico (HIIT non specifico, corsa continua a fondo). Il sistema energetico dominante nel football è ATP-CP con contributo glicolitico, non ossidativo puro.
+Power athletes respond poorly to generic conditioning (non-specific HIIT, continuous long-distance running). The dominant energy system in football is ATP-CP with glycolytic contribution, not pure oxidative.
 
 ### Repeated Sprint Ability (RSA)
 
-Il conditioning va costruito attorno a rapporti lavoro-recupero che rispecchiano la struttura reale del gioco: burst di 5-10 secondi seguiti da 25-35 secondi di recupero, in linea con il play clock di 30 secondi tipico del football. Questo è metabolicamente e neurologicamente diverso da un protocollo HIIT generico, ed è il motivo per cui atleti di potenza spesso "rispondono male" a HIIT non specifico: non è il sistema energetico giusto per il loro sport.
+Conditioning should be built around work-to-recovery ratios that mirror the real structure of the game: 5-10 second bursts followed by 25-35 seconds of recovery, in line with the 30-second play clock typical of football. This is metabolically and neurologically different from a generic HIIT protocol, and is why power athletes often "respond poorly" to non-specific HIIT: it isn't the right energy system for their sport.
 
-Con recuperi brevi tra sprint ripetuti, il contributo energetico del sistema ATP-CP diminuisce progressivamente e il fabbisogno energetico per mantenere la prestazione si sposta sul sistema glicolitico/aerobico: la qualità del 5°-6° sprint di una serie dipende dalla capacità di risintesi della fosfocreatina, non dalla potenza alattacida pura. Gli atleti con alta RSA mostrano una capacità superiore di tamponare l'accumulo di ioni idrogeno prodotti dalla via glicolitica, non solo una fosfocreatina più abbondante — questo è l'adattamento chiave da allenare con lavoro ripetuto submassimale.
+With short recoveries between repeated sprints, the energy contribution of the ATP-CP system progressively decreases and the energy demand to maintain performance shifts to the glycolytic/aerobic system: the quality of the 5th-6th sprint in a series depends on phosphocreatine resynthesis capacity, not pure alactic power. Athletes with high RSA show a superior capacity to buffer the accumulation of hydrogen ions produced by the glycolytic pathway, not just more abundant phosphocreatine — this is the key adaptation to train with repeated submaximal work.
 
-**Regola aurea di recupero sprint**: 1-2 minuti di recupero per ogni 10 metri sprintati. Per un 40m sprint, questo significa 4-8 minuti di recupero completo tra ripetute se l'obiettivo è potenza pura (non RSA-specifico). Il recupero della fosfocreatina segue una curva esponenziale: circa il 50% è ripristinato a 30 secondi, il recupero funzionale quasi completo richiede fino a 2 minuti.
+**Golden rule of sprint recovery**: 1-2 minutes of recovery for every 10 meters sprinted. For a 40m sprint, this means 4-8 minutes of full recovery between reps if the goal is pure power (not RSA-specific). Phosphocreatine recovery follows an exponential curve: about 50% is restored at 30 seconds, near-complete functional recovery takes up to 2 minutes.
 
-### Protocolli RSA per contesto
+### RSA protocols by context
 
-| Obiettivo | Distanza/durata | Recupero | Serie x Rip |
+| Goal | Distance/duration | Recovery | Sets x Reps |
 |---|---|---|---|
-| Potenza pura (ATP-CP) | 10-20m sprint | 1-2min/10m (recupero completo) | 4-6x |
-| RSA sport-specifica (RB/football) | 20-40m sprint | 15-30s (recupero incompleto) | 6-10x, 2-3 blocchi |
-| Capacità glicolitica | 200-400m | 2-4min | 4-6x |
-| Motore aerobico (HYROX) | Zona 2 continuo | — | 30-90min |
+| Pure power (ATP-CP) | 10-20m sprint | 1-2min/10m (full recovery) | 4-6x |
+| Sport-specific RSA (RB/football) | 20-40m sprint | 15-30s (incomplete recovery) | 6-10x, 2-3 blocks |
+| Glycolytic capacity | 200-400m | 2-4min | 4-6x |
+| Aerobic engine (HYROX) | Continuous Zone 2 | — | 30-90min |
 
-## Creatina: unico integratore con evidenza solida per potenza
+## Creatine: the only supplement with solid evidence for power
 
-Un protocollo di carico tipico è 20 g/die (4 x 5g) per 4-6 giorni, seguito da mantenimento; utile anche per atleti endurance/ibridi, non solo per potenza pura.
+A typical loading protocol is 20 g/day (4 x 5g) for 4-6 days, followed by maintenance; also useful for endurance/hybrid athletes, not just pure power athletes.
 
-## Regolazione neurologica e recupero
+## Neurological regulation and recovery
 
 ### CARs (Controlled Articular Rotations)
 
-Mobilizzazione articolare che ripristina i limiti naturali di movimento e "pulisce" il debris articolare, mantenendo accesso al range di movimento richiesto per l'elusività.
+Joint mobilization that restores natural movement limits and "cleans" joint debris, maintaining access to the range of motion required for elusiveness.
 
-### Downregulation respiratoria
+### Respiratory downregulation
 
-Protocolli di respirazione focalizzata per abbassare l'attivazione simpatica, ridurre la frequenza cardiaca e segnalare al corpo l'ingresso nel ciclo "rest and digest" di riparazione tissutale. Questi protocolli impattano direttamente la readiness dell'atleta per la sessione successiva e sono tra i principali driver della longevità di carriera.
+Focused breathing protocols to lower sympathetic activation, reduce heart rate, and signal to the body entry into the "rest and digest" tissue-repair cycle. These protocols directly impact the athlete's readiness for the next session and are among the main drivers of career longevity.
 
-## Recupero: gerarchia di priorità
+## Recovery: priority hierarchy
 
-1. **Sonno** — leva più potente e meno negoziabile; sotto le 7h per 3+ notti consecutive impone taglio del 10-15% del volume settimanale (vedi Weekly Continuity Check in `programming-audit-council`).
-2. **Nutrizione post-sforzo** — carboidrati per risintesi glicogeno + proteine per sintesi proteica muscolare, entro la finestra metabolica post-sessione.
-3. **Recupero attivo Zona 1-2** — smaltimento metabolico, non stimolo aggiuntivo.
-4. **Gestione carico settimanale** — mai progredire per calendario se i marker di recupero non sono verdi (regola già codificata nel Council).
+1. **Sleep** — the most powerful and least negotiable lever; under 7h for 3+ consecutive nights requires a 10-15% cut in weekly volume (see Weekly Continuity Check in `programming-audit-council`).
+2. **Post-exertion nutrition** — carbohydrates for glycogen resynthesis + protein for muscle protein synthesis, within the post-session metabolic window.
+3. **Zone 1-2 active recovery** — metabolic clearance, not additional stimulus.
+4. **Weekly load management** — never progress by calendar if recovery markers aren't green (rule already codified in the Council).
 
-## Il protocollo di recupero elite (bio-maintenance)
+## The elite recovery protocol (bio-maintenance)
 
-| Frequenza | Intervento |
+| Frequency | Intervention |
 |---|---|
-| Giornaliero | 1.5 galloni di acqua con protocollo di idratazione specifico |
-| Giornaliero | 9-10 ore di sonno ("Bear Rule") — non negoziabile, reset primario del sistema nervoso |
-| Giornaliero | Esposizione al freddo (crio/ice bath) seguita da sauna a infrarossi |
-| Settimanale | Lavoro sui tessuti molli e massoterapia |
-| Trimestrale | Blood mapping completo per monitorare infiammazione sistemica e micronutrienti |
+| Daily | 1.5 gallons of water with a specific hydration protocol |
+| Daily | 9-10 hours of sleep ("Bear Rule") — non-negotiable, primary nervous system reset |
+| Daily | Cold exposure (cryo/ice bath) followed by infrared sauna |
+| Weekly | Soft tissue work and massage therapy |
+| Quarterly | Full blood mapping to monitor systemic inflammation and micronutrients |
 
-### Nutrizione anti-infiammatoria
+### Anti-inflammatory nutrition
 
-Approccio mandatorio nelle fonti: eliminazione di glutine, soia, latticini, con controlli ematici periodici per adattare le scelte nutrizionali a sensibilità e stato di salute intestinale in evoluzione.
+Mandatory approach in the sources: elimination of gluten, soy, and dairy, with periodic blood work to adapt nutritional choices to evolving sensitivities and gut health status.
 
-### Strumenti di restauro cellulare
+### Cellular restoration tools
 
-Camera iperbarica (HBOT) e crioterapia utilizzati per accelerare la guarigione di micro-lesioni a livello cellulare, riducendo il tempo di recupero tra sessioni ad alta intensità.
+Hyperbaric chamber (HBOT) and cryotherapy used to accelerate healing of micro-injuries at the cellular level, reducing recovery time between high-intensity sessions.
 
-## Bioenergetica per profilo atleta
+## Bioenergetics by athlete profile
 
-| Profilo | Sistema dominante | Priorità training |
+| Profile | Dominant system | Training priority |
 |---|---|---|
-| Potenza pura (sprint, salti, OL) | ATP-CP | Recuperi lunghi, qualità massima, no accumulo fatica |
-| RB/football (RSA) | ATP-CP + glicolitico | Recuperi incompleti mirati, buffering lattato |
-| Ibrido/HYROX | Aerobico + glicolitico | Zona 2 volume + soglie LT1/LT2 (vedi `hyrox-hybrid-system`) |
+| Pure power (sprint, jumps, OL) | ATP-CP | Long recoveries, maximum quality, no fatigue accumulation |
+| RB/football (RSA) | ATP-CP + glycolytic | Targeted incomplete recoveries, lactate buffering |
+| Hybrid/HYROX | Aerobic + glycolytic | Zone 2 volume + LT1/LT2 thresholds (see `hyrox-hybrid-system`) |
 
-## Perché la gestione dell'infiammazione è strategica
+## Why inflammation management is strategic
 
-L'infiammazione sistemica cronica è il principale nemico della longevità professionale: un atleta che non gestisce il proprio ambiente interno rischia il collasso della capacità prestativa nella parte finale della stagione, indipendentemente dalla qualità della programmazione in palestra.
+Chronic systemic inflammation is the main enemy of professional longevity: an athlete who does not manage their internal environment risks a collapse in performance capacity in the final part of the season, regardless of the quality of programming in the gym.
 
-## Integrazione con la programmazione
+## Integration with programming
 
-Il recupero non è un'aggiunta opzionale al piano settimanale: va programmato come una vera giornata di recovery con CARs, respirazione, mobilità e downregulation (vedi `programming-audit-council`), non semplicemente come "giorno senza allenamento".
+Recovery is not an optional add-on to the weekly plan: it must be programmed as an actual recovery day with CARs, breathing, mobility, and downregulation (see `programming-audit-council`), not simply as a "day without training."
 
 ## Scope
 
-Skill dedicata a bioenergetica e recupero avanzato. Per la logica generale di bioenergetica di base usa `elite-sc-system`. Per governance della programmazione settimanale usa `programming-audit-council`. Per HYROX/ibridi, dove la gestione della fatica concorrente è centrale, usa `hyrox-hybrid-system`.
+Skill dedicated to advanced bioenergetics and recovery. For general basic bioenergetics logic use `elite-sc-system`. For weekly programming governance use `programming-audit-council`. For HYROX/hybrids, where managing concurrent fatigue is central, use `hyrox-hybrid-system`.
 
-## Riferimenti
+## References
 
-Protocolli di recupero elite (bio-maintenance, downregulation, CARs) da report interni sullo Space; dati su ATP-PCr, RSA, recupero fosfocreatina e creatina verificati da fonti esterne (PMC, 8weeksout, sci-bot.ru). Nessun dato è stato inventato.
+Elite recovery protocols (bio-maintenance, downregulation, CARs) from internal reports on the Space; data on ATP-PCr, RSA, phosphocreatine recovery, and creatine verified from external sources (PMC, 8weeksout, sci-bot.ru). No data was invented.

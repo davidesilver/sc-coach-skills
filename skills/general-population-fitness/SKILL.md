@@ -7,57 +7,57 @@ argument-hint: [general population, beginner client, fitness goal, movement patt
 
 # General Population Fitness
 
-## Missione
+## Mission
 
-Un cliente non-atleta non ha bisogno di essere trattato come un atleta d'élite in miniatura. L'obiettivo primario è aderenza sostenibile, sicurezza, e progresso verso obiettivi di salute/composizione corporea, non massimizzazione della performance competitiva.
+A non-athlete client does not need to be treated as a miniature elite athlete. The primary goal is sustainable adherence, safety, and progress toward health/body-composition goals, not maximization of competitive performance.
 
-## I 10 pattern di movimento fondamentali (NSCA)
+## The 10 fundamental movement patterns (NSCA)
 
-Secondo le linee guida NSCA per la programmazione della popolazione generale, un programma completo deve coprire un set di pattern di movimento fondamentali che rispecchiano le esigenze motorie della vita quotidiana, non solo dei pattern da sala pesi [web:56]. Questo approccio garantisce che il cliente sviluppi capacità funzionale trasferibile, non solo numeri su singoli esercizi isolati.
+According to NSCA guidelines for general population programming, a complete program must cover a set of fundamental movement patterns that reflect the motor demands of daily life, not just weight-room patterns [web:56]. This approach ensures the client develops transferable functional capacity, not just numbers on isolated single exercises.
 
-Nel costruire un programma per popolazione generale, verifica sempre la copertura di: pattern di spinta orizzontale e verticale, pattern di trazione orizzontale e verticale, pattern di squat, pattern di hinge (cerniera d'anca), pattern di locomozione, pattern di rotazione/anti-rotazione core, pattern di carry/trasporto carico [web:56].
+When building a program for the general population, always verify coverage of: horizontal and vertical push patterns, horizontal and vertical pull patterns, squat patterns, hinge patterns (hip hinge), locomotion patterns, core rotation/anti-rotation patterns, carry/load-transport patterns [web:56].
 
-## Differenze rispetto alla programmazione per atleti
+## Differences from athlete programming
 
-| Dimensione | Atleta competitivo | Popolazione generale |
+| Dimension | Competitive athlete | General population |
 |---|---|---|
-| Obiettivo primario | Performance/transfer sport-specifico | Salute, aderenza, composizione corporea |
-| Tolleranza al rischio | Più alta, giustificata da performance | Bassa, priorità a sicurezza |
-| Intensità (RPE/RIR) | Spinta fino a RPE 8-10 in fasi mirate | Generalmente RPE 6-8, raramente al limite |
-| Complessità tecnica | Alta (Olympic lifts, sprint, COD) | Progressiva, semplificata dove serve |
-| Monitoraggio | VBT, RPE, benchmark di campo | Aderenza, feedback soggettivo, progressione lineare semplice |
+| Primary goal | Sport-specific performance/transfer | Health, adherence, body composition |
+| Risk tolerance | Higher, justified by performance | Low, safety is the priority |
+| Intensity (RPE/RIR) | Pushed up to RPE 8-10 in targeted phases | Generally RPE 6-8, rarely to the limit |
+| Technical complexity | High (Olympic lifts, sprinting, COD) | Progressive, simplified where needed |
+| Monitoring | VBT, RPE, field benchmarks | Adherence, subjective feedback, simple linear progression |
 
-## Progressive overload sicuro
+## Safe progressive overload
 
-Per clienti generici il principio di sovraccarico progressivo va applicato con margini di sicurezza più ampi rispetto a un atleta competitivo: incrementi di carico piccoli e frequenti, priorità alla qualità tecnica prima dell'incremento di carico, e attenzione a segnali di affaticamento non giustificati dal volume prescritto.
+For general clients, the principle of progressive overload must be applied with wider safety margins than for a competitive athlete: small and frequent load increases, priority on technical quality before increasing load, and attention to fatigue signals not justified by the prescribed volume.
 
-## Considerazioni di sicurezza in palestra (NSCA facility guidelines)
+## Gym safety considerations (NSCA facility guidelines)
 
-Per chi programma o gestisce l'ambiente di allenamento, alcune linee guida NSCA su spazio e sicurezza sono rilevanti anche per il coaching individuale [web:53]:
-- Esercizi che richiedono spotter vanno collocati lontano da finestre, specchi e porte per evitare distrazioni.
-- Nell'area di sollevamento pesi liberi, mantenere spazio sufficiente tra le attrezzature (2-3 piedi) per movimenti sicuri.
-- L'area di stretching richiede 40-60 piedi quadrati per utente.
-- Considerare sempre l'accessibilità e la sicurezza dell'ambiente, specialmente per clienti meno esperti che potrebbero non avere familiarità con la disposizione della sala pesi.
+For those programming or managing the training environment, some NSCA guidelines on space and safety are also relevant to individual coaching [web:53]:
+- Exercises requiring a spotter should be placed away from windows, mirrors, and doors to avoid distractions.
+- In the free-weight lifting area, maintain sufficient space between equipment (2-3 feet) for safe movement.
+- The stretching area requires 40-60 square feet per user.
+- Always consider the accessibility and safety of the environment, especially for less experienced clients who may not be familiar with the layout of the weight room.
 
-## Struttura di sessione per cliente generico
+## Session structure for a general client
 
-1. Riscaldamento generale e attivazione (più breve e meno specifico rispetto a un atleta).
-2. Pattern fondamentali principali (2-4 esercizi multiarticolari coprendo push/pull/squat/hinge).
-3. Lavoro accessorio mirato all'obiettivo specifico (ipertrofia, dimagrimento, capacità funzionale).
-4. Componente cardiovascolare se richiesta dall'obiettivo.
-5. Mobilità/defaticamento.
+1. General warm-up and activation (shorter and less specific than for an athlete).
+2. Main fundamental patterns (2-4 multi-joint exercises covering push/pull/squat/hinge).
+3. Accessory work targeted at the specific goal (hypertrophy, fat loss, functional capacity).
+4. Cardiovascular component if required by the goal.
+5. Mobility/cool-down.
 
-## Adesione come priorità strategica
+## Adherence as a strategic priority
 
-Per la popolazione generale, il fattore predittivo più forte di successo a lungo termine non è la sofisticazione del programma ma la sostenibilità dell'aderenza. Regole pratiche:
-- Preferire una programmazione semplice ma costante rispetto a una complessa ma difficile da seguire.
-- Adattare frequenza e volume al tempo realmente disponibile del cliente, verificato tramite intake (vedi `athlete-profiling-benchmarking` per la struttura dell'intervista, adattata a contesto non agonistico).
-- Costruire piccole vittorie iniziali per rinforzare la motivazione, prima di aumentare complessità o intensità.
+For the general population, the strongest predictor of long-term success is not program sophistication but the sustainability of adherence. Practical rules:
+- Prefer a simple but consistent program over a complex one that is difficult to follow.
+- Adapt frequency and volume to the client's actually available time, verified through intake (see `athlete-profiling-benchmarking` for the interview structure, adapted to a non-competitive context).
+- Build small early wins to reinforce motivation, before increasing complexity or intensity.
 
-## Quando la popolazione generale converge verso metodologie da atleta
+## When the general population converges toward athlete methodologies
 
-Alcuni clienti generici con obiettivi specifici (dimagrimento aggressivo, ricomposizione corporea avanzata, preparazione a eventi come gare amatoriali) possono beneficiare di elementi presi da skill più specialistiche: RPE/RIR strutturato e VBT base (`vbt-rfd-open-sets`), logica di periodizzazione a blocchi semplificata (`programming-audit-council`), o principi di allenamento ibrido se l'obiettivo è una gara tipo HYROX amatoriale (`hyrox-hybrid-system`).
+Some general clients with specific goals (aggressive fat loss, advanced body recomposition, preparation for events such as amateur races) can benefit from elements drawn from more specialized skills: structured RPE/RIR and basic VBT (`vbt-rfd-open-sets`), a simplified block periodization logic (`programming-audit-council`), or hybrid training principles if the goal is an amateur HYROX-style race (`hyrox-hybrid-system`).
 
 ## Scope
 
-Skill dedicata a clienti non-atleti e popolazione generale. Per fondamenti biomeccanici trasversali usa `elite-sc-system`. Per clienti che si avvicinano a obiettivi competitivi usa le skill specialistiche corrispondenti.
+Skill dedicated to non-athlete clients and the general population. For cross-cutting biomechanical fundamentals use `elite-sc-system`. For clients approaching competitive goals, use the corresponding specialized skills.

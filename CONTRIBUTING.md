@@ -1,22 +1,22 @@
-# Contribuire a sc-coach-skills
+# Contributing to sc-coach-skills
 
-## Proporre una nuova skill sport-specifica
+## Proposing a new sport-specific skill
 
-Il pacchetto copre oggi powerlifting, weightlifting olimpico, football/RB, HYROX/ibridi e popolazione generale. Mancano volutamente: throwing sports (lancio del peso, giavellotto), youth/adolescent athletic development, endurance puro (maratona/triathlon non ibrido), sport di combattimento — per mancanza di fonti verificate al momento della stesura, non per scelta editoriale.
+Right now the pack covers powerlifting, Olympic weightlifting, football/RB, HYROX/hybrid, and general population. Missing on purpose: throwing events (shot put, javelin), youth/adolescent athletic development, pure endurance (non-hybrid marathon/triathlon), combat sports. Not an editorial choice — I just didn't have verified sources for them when I wrote this.
 
-Per proporne una:
-1. Apri una issue con il template "New skill request", indicando lo sport/dominio e le fonti che useresti.
-2. Segui la struttura delle skill esistenti (`skills/<nome>/SKILL.md`): frontmatter con `name` uguale al nome cartella e `description` che dichiara quando attivarsi; corpo con missione, protocolli/tabelle concrete, e sezione "Scope" che rimanda alle altre skill del pacchetto con cui collabora.
-3. Nessun dato reale di atleti — solo framework generici.
+To propose one:
+1. Open an issue with the "New skill request" template: sport/domain, and the sources you'd actually use.
+2. Match the structure of the existing skills (`skills/<name>/SKILL.md`) — frontmatter with `name` matching the folder and a `description` that states when it should activate, then a body with a mission, concrete protocols/tables, and a "Scope" section pointing at whatever other skills it works with.
+3. No real athlete data, ever. Generic frameworks only.
 
-## Correggere una skill esistente
+## Correcting an existing skill
 
-Apri una issue con il template "Correction" o direttamente una PR. Se la correzione tocca un riferimento incrociato ad altre skill (es. `` `nome-skill` `` nel testo), assicurati che il nome esista ancora in `skills/`.
+Open an issue with the "Correction" template, or just send a PR. If your fix touches a cross-reference to another skill (something like `` `skill-name` `` in the text), double-check that name still exists under `skills/`.
 
-## Prima di aprire una PR
+## Before opening a PR
 
 ```bash
 bash scripts/validate-skills.sh
 ```
 
-Deve passare senza errori: controlla che il frontmatter di ogni `SKILL.md` sia coerente (nome cartella = `name`, `description` presente) e segnala riferimenti a skill che non esistono più (utile dopo un rename o una fusione di skill). Lo stesso controllo gira in CI su ogni push/PR.
+It needs to pass clean: it checks that every `SKILL.md`'s frontmatter is consistent (folder name matches `name`, `description` isn't empty) and flags any reference to a skill that no longer exists — which tends to happen after a rename or a merge. The same check runs in CI on every push and PR.

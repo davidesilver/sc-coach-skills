@@ -5,56 +5,56 @@ description: Use when planning a macrocycle, transitioning off-season to in-seas
 
 # Periodization Block Planner
 
-## Quando attivare questa skill
-Insieme a `elite-sc-system` e prima di generare qualsiasi microciclo con `programming-audit-council`, quando serve decidere la struttura macro (settimane/mesi) prima di scendere al dettaglio della singola settimana.
+## When to activate this skill
+Together with `elite-sc-system` and before generating any microcycle with `programming-audit-council`, when you need to decide the macro structure (weeks/months) before drilling down into the detail of a single week.
 
-## Il modello Block: tre fasi, non tre opinioni
-Il block periodization divide il macrociclo in tre fasi sequenziali con obiettivi fisiologici distinti e non sovrapponibili [web:33][web:39].
+## The Block model: three phases, not three opinions
+Block periodization divides the macrocycle into three sequential phases with distinct, non-overlapping physiological goals [web:33][web:39].
 
-### Fase 1 — Accumulation (Accumulo)
-- **Obiettivo**: costruire volume di lavoro e capacità di base, non testare la forza.
-- **Intensità**: 60-75% del 1RM stimato/reale [web:42].
-- **Reps**: 6-12 per set (alcuni protocolli arrivano a 20 per ipertrofia specifica) [web:42].
-- **Rest**: 30-90 secondi — l'obiettivo è tempo sotto tensione, non recupero neurale completo [web:42].
-- **Durata tipica**: 2-6 settimane [web:39].
-- Si lavora prevalentemente su movimenti accessori/bodybuilding-style ad alto volume, non sui big 3 come priorità assoluta [web:36].
+### Phase 1 — Accumulation
+- **Goal**: build work volume and base capacity, not test strength.
+- **Intensity**: 60-75% of estimated/actual 1RM [web:42].
+- **Reps**: 6-12 per set (some protocols go up to 20 for specific hypertrophy work) [web:42].
+- **Rest**: 30-90 seconds — the goal is time under tension, not complete neural recovery [web:42].
+- **Typical duration**: 2-6 weeks [web:39].
+- Work is mostly on accessory/bodybuilding-style movements at high volume, not on the big 3 as the absolute priority [web:36].
 
-### Fase 2 — Intensification / Transmutation (Intensificazione)
-- **Obiettivo**: convertire il volume accumulato in forza reale, aumentando il carico sul bilanciere.
-- **Intensità**: 75-90% del 1RM [web:42].
-- **Reps**: 3-6 per set, 3-4 set [web:42].
-- **Rest**: più lungo, per permettere il recupero neurale e la risintesi ATP tra i set pesanti [web:42].
-- **Durata tipica**: 2-4 settimane, fase mentalmente e fisicamente più tassante del blocco [web:39].
-- Qui si costruisce la forza — non si testa ancora il massimale [web:36].
+### Phase 2 — Intensification / Transmutation
+- **Goal**: convert accumulated volume into real strength, increasing the load on the bar.
+- **Intensity**: 75-90% of 1RM [web:42].
+- **Reps**: 3-6 per set, 3-4 sets [web:42].
+- **Rest**: longer, to allow neural recovery and ATP resynthesis between heavy sets [web:42].
+- **Typical duration**: 2-4 weeks, the most mentally and physically demanding phase of the block [web:39].
+- This is where strength is built — the max is not yet tested here [web:36].
 
-### Fase 3 — Realization / Peaking (Realizzazione)
-- **Obiettivo**: esprimere la forza/potenza accumulata in gara o test, minimizzando la fatica residua.
-- **Intensità**: 85-95%+ del 1RM [web:42].
-- **Reps**: 1-3 per set, recuperi lunghi (2-5 minuti) [web:42].
-- **Durata tipica**: 8-14 giorni, focus quasi esclusivo su recupero e supercompensazione [web:39][web:36].
-- Volume ridotto drasticamente (-40/50%), intensità mantenuta alta ma con durate brevi.
+### Phase 3 — Realization / Peaking
+- **Goal**: express the accumulated strength/power in competition or testing, minimizing residual fatigue.
+- **Intensity**: 85-95%+ of 1RM [web:42].
+- **Reps**: 1-3 per set, long rest periods (2-5 minutes) [web:42].
+- **Typical duration**: 8-14 days, almost exclusive focus on recovery and supercompensation [web:39][web:36].
+- Volume drastically reduced (-40/50%), intensity kept high but with short durations.
 
-## Tabella riassuntiva parametri per fase
+## Summary table of parameters by phase
 
-| Fase | %1RM | Reps | Set | Rest | Durata |
+| Phase | %1RM | Reps | Sets | Rest | Duration |
 |---|---|---|---|---|---|
-| Accumulation | 60-75% | 6-12(-20) | 3-5 | 30-90s | 2-6 sett |
-| Intensification | 75-90% | 3-6 | 3-4 | 90-180s | 2-4 sett |
-| Realization | 85-95%+ | 1-3 | 2-3 | 2-5min | 8-14 gg |
+| Accumulation | 60-75% | 6-12(-20) | 3-5 | 30-90s | 2-6 wks |
+| Intensification | 75-90% | 3-6 | 3-4 | 90-180s | 2-4 wks |
+| Realization | 85-95%+ | 1-3 | 2-3 | 2-5min | 8-14 days |
 
-## Quando scegliere Block vs Lineare vs DUP vs Coniugato
-- **Block**: atleti intermedi/avanzati con un singolo picco chiaro (gara, test, stagione); massima specificità di fase.
-- **Lineare**: principianti, dove ogni variabile può progredire in modo prevedibile senza bisogno di ondulazione.
-- **DUP (Daily Undulating)**: atleti con esigenza di mantenere più qualità (forza+ipertrofia+potenza) in parallelo tutto l'anno — tipico di sport di squadra in-season.
-- **Coniugato**: atleti avanzati/powerlifter con necessità di stimolare max effort, dynamic effort e repetition method nella stessa settimana senza mai stallare.
+## When to choose Block vs. Linear vs. DUP vs. Conjugate
+- **Block**: intermediate/advanced athletes with a single clear peak (competition, test, season); maximum phase specificity.
+- **Linear**: beginners, where every variable can progress predictably without needing undulation.
+- **DUP (Daily Undulating)**: athletes who need to maintain multiple qualities (strength+hypertrophy+power) in parallel year-round — typical of team sports in-season.
+- **Conjugate**: advanced athletes/powerlifters who need to stimulate max effort, dynamic effort, and the repetition method in the same week without ever stalling.
 
-## Transizione Off-Season → In-Season
-- **Off-season**: 10-20 set/gruppo muscolare, block periodization completo (accumulo→intensificazione→realizzazione).
-- **In-season**: MED (minimum effective dose) 4-8 set/gruppo, ≥80% 1RM, priorità mantenimento non progressione aggressiva — coerente con le regole di carico dello Space.
-- **Regola di transizione**: non entrare in stagione durante una fase di accumulo; l'ultima fase prima dell'inizio stagione deve essere realization/peaking, altrimenti l'atleta arriva alla settimana 1 di campionato in stato di fatica residua.
+## Off-Season → In-Season Transition
+- **Off-season**: 10-20 sets/muscle group, full block periodization (accumulation→intensification→realization).
+- **In-season**: MED (minimum effective dose) 4-8 sets/muscle group, ≥80% 1RM, priority on maintenance rather than aggressive progression — consistent with the Space's load rules.
+- **Transition rule**: never enter the season during an accumulation phase; the last phase before the season starts must be realization/peaking, otherwise the athlete arrives at week 1 of the season carrying residual fatigue.
 
-## Regola di progressione (mai per calendario)
-Non avanzare fase se non sono soddisfatte tutte e 3 le condizioni: RPE reale ≤ target+0.5 su almeno 3 set principali, nessun pain check ≥3/10, sonno medio ≥7h. Questa regola è vincolante e coerente con il Weekly Continuity Check dello Space.
+## Progression rule (never by calendar)
+Do not advance phase unless all 3 conditions are met: actual RPE ≤ target+0.5 on at least 3 main sets, no pain check ≥3/10, average sleep ≥7h. This rule is binding and consistent with the Space's Weekly Continuity Check.
 
-## Riferimenti
-Struttura e parametri del block periodization verificati su fonti esterne (TrainingPeaks, Thibarmy, phase.fitness, contenuto video coaching) [web:33][web:36][web:39][web:42].
+## References
+Structure and parameters of block periodization verified against external sources (TrainingPeaks, Thibarmy, phase.fitness, coaching video content) [web:33][web:36][web:39][web:42].

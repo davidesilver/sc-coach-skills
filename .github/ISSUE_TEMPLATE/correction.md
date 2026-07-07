@@ -1,12 +1,12 @@
 ---
 name: Correction
-about: Segnala un errore, un dato non verificato, o un riferimento incrociato rotto in una skill esistente
+about: Report an error, an unverified data point, or a broken cross-reference in an existing skill
 title: "[correction] "
 labels: correction
 ---
 
-**Skill interessata** (`skills/<nome>/SKILL.md`)
+**Affected skill** (`skills/<name>/SKILL.md`)
 
-**Cosa è sbagliato o non aggiornato**
+**What's wrong or outdated**
 
-**Fonte corretta / correzione proposta**
+**Correct source / proposed fix**

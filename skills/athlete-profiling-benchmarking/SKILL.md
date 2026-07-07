@@ -7,86 +7,86 @@ argument-hint: [intake interview, assessment, combine testing, benchmarking, dec
 
 # Athlete Profiling & Benchmarking
 
-## Missione
+## Mission
 
-Non si scrive una programmazione prima di avere dati. Un preparatore che prende in carico un atleta reduce da stop o mai valutato deve condurre un'intervista strutturata e una batteria di test minima prima di qualunque prescrizione di carico. Nessuna delle skill di programmazione (`programming-audit-council`, `periodization-block-planner`, `hyrox-hybrid-system`) può funzionare senza dati di baseline reali: prescrivere carichi senza intake è la causa più comune di programmazione "a scatola chiusa".
+No program is written before there is data. A coach taking on an athlete returning from a layoff or never previously assessed must conduct a structured interview and a minimum test battery before any load prescription. None of the programming skills (`programming-audit-council`, `periodization-block-planner`, `hyrox-hybrid-system`) can function without real baseline data: prescribing loads without an intake is the most common cause of "black box" programming.
 
-## Struttura dell'intervista di intake
+## Intake interview structure
 
-L'intervista precede sempre la programmazione. Deve raccogliere dati per blocchi:
+The interview always precedes programming. It must collect data in blocks:
 
-1. **Profilo attuale e obiettivo specifico**: ruolo primario/secondario, obiettivo competitivo con orizzonte temporale, percezione soggettiva dei 3 limiti fisici principali, priorità fisica singola su cui investire, tempo settimanale reale disponibile.
-2. **Storia di infortuni e salute**: chirurgie pregresse, distorsioni ricorrenti, infortuni a ginocchio/anca/bacino/lombari/spalle/polsi, concussioni, condizioni mediche croniche, allergie/intolleranze, scala soggettiva di integrità articolare/tendinea.
-3. **Decondizionamento attuale**: tempo reale di inattività, causa dello stop (infortunio, off-season, personale), test qualitativi immediati (camminata, push-up, scale), dolori/rigidità al risveglio, variazione di peso e composizione corporea, qualità del sonno e stress.
-4. **Dati di performance passata**: 1RM o stime su squat/hinge/press/pull, test di salto (CMJ, squat jump, broad jump) con data, tempi di sprint (10m/20m/40yd) e agility (3-cone, shuttle) con metodo di cronometraggio, ruolo nella rotazione e utilizzo tattico.
-5. **Profilo tecnico di gioco**: tipo di atleta (power/COD/elusive/all-round), pattern preferiti, feedback ricevuti da coach precedenti su limiti fisici.
-6. **Forza, potenza e storico sala pesi**: RPE medi tenuti sulle alzate principali, pattern di forza più lavorati, familiarità con alzate olimpiche, esercizi problematici, forza relativa (kg/kg BW), familiarità con RPE/RIR e autoregolazione.
-7. **Mobilità, postura e asimmetrie**: screening funzionale pregresso, limitazioni in squat profondo, half-kneeling, mobilità toracica, asimmetrie destra/sinistra, note posturali.
-8. **Capacità condizionali**: percezione di forza in accelerazione/velocità media/top speed, fiducia nei cambi di direzione, lavoro pregresso su meccanica di corsa, dati video disponibili.
-9. **Capacità metabolica**: risposta a carichi ripetuti in game situation, preferenza tra conditioning specifico vs generico, dati di frequenza cardiaca, tolleranza a protocolli tipo gasser/shuttle.
-10. **Lifestyle e recupero**: ore di sonno reali, stress non fisico, alimentazione (pasti, proteine, tracking), alcol/sostanze, integrazione già in uso, accesso a strumenti di recupero.
-11. **Ambiente, attrezzatura e logistica**: accesso palestra e tipo di attrezzatura, accesso campo/pista, strumenti di monitoraggio disponibili, disponibilità a tracciare dati.
-12. **Preferenze di comunicazione**: livello di dettaglio desiderato nella programmazione, propensione a dare feedback (proattivo vs "stringere i denti"), vincoli non negoziabili di tempo/mindset.
+1. **Current profile and specific goal**: primary/secondary role, competitive goal with a time horizon, subjective perception of the 3 main physical limitations, single physical priority to invest in, real weekly time available.
+2. **Injury and health history**: prior surgeries, recurring sprains, knee/hip/pelvis/lower back/shoulder/wrist injuries, concussions, chronic medical conditions, allergies/intolerances, subjective scale of joint/tendon integrity.
+3. **Current deconditioning**: actual time of inactivity, cause of the layoff (injury, off-season, personal), immediate qualitative tests (walking, push-ups, stairs), pain/stiffness on waking, weight and body composition changes, sleep quality and stress.
+4. **Past performance data**: 1RM or estimates on squat/hinge/press/pull, jump tests (CMJ, squat jump, broad jump) with date, sprint times (10m/20m/40yd) and agility (3-cone, shuttle) with timing method, role in the rotation and tactical usage.
+5. **Technical game profile**: type of athlete (power/COD/elusive/all-round), preferred patterns, feedback received from previous coaches on physical limitations.
+6. **Strength, power, and weight-room history**: average RPE held on main lifts, most-trained strength patterns, familiarity with Olympic lifts, problematic exercises, relative strength (kg/kg BW), familiarity with RPE/RIR and autoregulation.
+7. **Mobility, posture, and asymmetries**: prior functional screening, limitations in deep squat, half-kneeling, thoracic mobility, left/right asymmetries, postural notes.
+8. **Conditional capacities**: perceived strength in acceleration/mid-speed/top speed, confidence in changes of direction, prior work on running mechanics, available video data.
+9. **Metabolic capacity**: response to repeated loads in game situations, preference between specific vs generic conditioning, heart rate data, tolerance to gasser/shuttle-type protocols.
+10. **Lifestyle and recovery**: actual hours of sleep, non-physical stress, nutrition (meals, protein, tracking), alcohol/substances, supplementation already in use, access to recovery tools.
+11. **Environment, equipment, and logistics**: gym access and equipment type, field/track access, available monitoring tools, willingness to track data.
+12. **Communication preferences**: desired level of detail in programming, tendency to give feedback (proactive vs "grit your teeth"), non-negotiable time/mindset constraints.
 
-## Batteria di test: ordine di esecuzione consigliato
+## Test battery: recommended execution order
 
-| Ordine | Test | Cosa misura | Collegamento |
+| Order | Test | What it measures | Link |
 |---|---|---|---|
-| 1 | Screening 6 pattern | Qualità di movimento, asimmetrie, dolore | `biomechanics-movement-screen` |
-| 2 | Test isometrici tendinei | SL heel raises, SL hops, Squat 60%BW 6sx6 | `clinical-prehab-system` |
-| 3 | 1RM o stima RPE-based | Squat, Hinge, Press, Pull principali | `periodization-block-planner` |
-| 4 | Test di velocità/potenza | Sprint 10-20m, salto verticale/orizzontale | `vbt-rfd-open-sets` (se disponibile encoder) |
-| 5 | Test energetico specifico | RSA se sport di squadra, LT1/LT2 stimato se ibrido | `energy-systems-recovery` / `hyrox-hybrid-system` |
+| 1 | 6-pattern screening | Movement quality, asymmetries, pain | `biomechanics-movement-screen` |
+| 2 | Tendon isometric tests | SL heel raises, SL hops, Squat 60%BW 6x6 | `clinical-prehab-system` |
+| 3 | 1RM or RPE-based estimate | Main squat, hinge, press, pull | `periodization-block-planner` |
+| 4 | Speed/power tests | 10-20m sprint, vertical/horizontal jump | `vbt-rfd-open-sets` (if an encoder is available) |
+| 5 | Specific energy-system test | RSA if team sport, estimated LT1/LT2 if hybrid | `energy-systems-recovery` / `hyrox-hybrid-system` |
 
-### Batteria minima anche da decondizionato
+### Minimum battery even for a deconditioned athlete
 
-Test eseguibili senza rischio anche in stato di decondizionamento, per stabilire una baseline minima prima della Fase 1:
+Tests that can be performed with no risk even in a deconditioned state, to establish a minimum baseline before Phase 1:
 
-- **Generali**: peso corporeo mattutino su 3 giorni, push-up massimali tecnici, plank isometrico a tecnica pulita, squat a corpo libero fino a RPE 8.
-- **Forza (RPE 7-8, non 1RM)**: squat o variante sicura per 5 reps comode, hinge (trap bar/RDL) 5 reps, panca piana 5 reps, trazioni massime (con eventuale assistenza quantificata).
-- **Campo**: 3 sprint da 10m cronometrati (miglior tempo), 3 sprint da 20m, opzionale 300yd shuttle o 6x40yd se l'atleta si sente pronto (altrimenti differire 2-3 settimane).
+- **General**: morning bodyweight over 3 days, maximal technical push-ups, isometric plank with clean technique, bodyweight squat up to RPE 8.
+- **Strength (RPE 7-8, not 1RM)**: squat or safe variant for 5 comfortable reps, hinge (trap bar/RDL) 5 reps, flat bench press 5 reps, maximal pull-ups (with any assistance quantified).
+- **Field**: 3 timed 10m sprints (best time), 3 x 20m sprints, optional 300yd shuttle or 6x40yd if the athlete feels ready (otherwise defer 2-3 weeks).
 
-Prima di somministrare la batteria completa, verificare sempre: disponibilità dell'atleta a testarsi subito vs necessità di riattivazione soft preliminare, e presenza di limitazioni attuali che sconsigliano sprint/eccentrici immediati.
+Before administering the full battery, always verify: the athlete's readiness to test immediately vs the need for preliminary soft reactivation, and the presence of current limitations that advise against immediate sprints/eccentrics.
 
-## Profiling neuromuscolare: cosa classificare
+## Neuromuscular profiling: what to classify
 
-- **Dominanza energetica**: potenza pura (ATP-CP) vs RSA vs aerobico-dominante — determina il bias iniziale di programmazione (vedi `energy-systems-recovery`).
-- **Stato tendineo**: verde (nessun dolore, benchmark raggiunti) / giallo (dolore lieve intermittente) / rosso (dolore riproducibile, richiede il filtro clinico di `clinical-prehab-system` attivo da subito).
-- **Livello di readiness generale**: decondizionato (>4 settimane stop) vs mantenuto vs in pieno carico.
+- **Energy dominance**: pure power (ATP-CP) vs RSA vs aerobic-dominant — determines the initial programming bias (see `energy-systems-recovery`).
+- **Tendon status**: green (no pain, benchmarks reached) / yellow (mild intermittent pain) / red (reproducible pain, requires the clinical filter of `clinical-prehab-system` active from the start).
+- **General readiness level**: deconditioned (>4 weeks off) vs maintained vs at full load.
 
-### Regola operativa per atleta decondizionato
+### Operating rule for a deconditioned athlete
 
-Se l'intake rivela >4 settimane di stop: RPE main lift ≤6.5 per le prime 2 settimane, nessuna eccezione — questa regola sovrascrive qualsiasi entusiasmo dell'atleta di "recuperare il tempo perso".
+If the intake reveals >4 weeks off: main lift RPE ≤6.5 for the first 2 weeks, no exceptions — this rule overrides any of the athlete's enthusiasm to "make up for lost time."
 
-## Benchmark di riferimento per posizione (Running Back)
+## Positional reference benchmarks (Running Back)
 
-Valori di riferimento storici/da combine utili per contestualizzare i test dell'atleta (fonte: dati combine e report di profiling posizionale):
+Historical/combine reference values useful for contextualizing the athlete's tests (source: combine data and positional profiling reports):
 
-| Test | Riferimento indicativo |
+| Test | Indicative reference |
 |---|---|
-| 40-yard dash | Variabile per ruolo, il valore isolato è meno informativo del 10-yard split |
-| Vertical Jump | Riferimento di esplosività verticale |
-| Broad Jump | Riferimento di potenza orizzontale |
-| L-Cone Drill | Riferimento di COD/agility |
-| Pro Shuttle (5-10-5) | Riferimento di cambio di direzione a corto raggio |
+| 40-yard dash | Variable by role, the isolated value is less informative than the 10-yard split |
+| Vertical Jump | Reference for vertical explosiveness |
+| Broad Jump | Reference for horizontal power |
+| L-Cone Drill | Reference for COD/agility |
+| Pro Shuttle (5-10-5) | Reference for short-range change of direction |
 
-Il valore diagnostico più utile per un RB non è il 40-yard dash assoluto, ma lo split sui 10 yard, che riflette meglio il first-step dominance realmente utile in game.
+The most useful diagnostic value for an RB is not the absolute 40-yard dash, but the 10-yard split, which better reflects the first-step dominance that is actually useful in-game.
 
-## Output dell'intake: cosa deve produrre
+## Intake output: what it must produce
 
-Un intake completo deve produrre 4 output scritti prima di procedere a qualsiasi v1 di programmazione:
+A complete intake must produce 4 written outputs before proceeding to any programming v1:
 
-1. Profilo di readiness (verde/giallo/rosso per tendini, decondizionato sì/no)
-2. Massimali/stime di riferimento per i pattern principali
-3. Flag clinici attivi (dolore, asimmetrie, aree da monitorare)
-4. Obiettivo primario dichiarato (ipertrofia, forza, HYROX, football, ibrido)
+1. Readiness profile (green/yellow/red for tendons, deconditioned yes/no)
+2. Maxes/reference estimates for the main patterns
+3. Active clinical flags (pain, asymmetries, areas to monitor)
+4. Stated primary goal (hypertrophy, strength, HYROX, football, hybrid)
 
-Collegare sempre l'output di questa skill a `programming-audit-council` per la generazione della prima settimana, e a `clinical-prehab-system` se emergono flag di dolore o storico infortuni rilevanti.
+Always link this skill's output to `programming-audit-council` for generating the first week, and to `clinical-prehab-system` if pain flags or relevant injury history emerge.
 
-## Errore da evitare
+## Error to avoid
 
-Non generare mai una v1 di microciclo senza i 4 output sopra. Se l'utente chiede direttamente un programma senza aver fornito questi dati, la risposta corretta è raccogliere prima l'intake, non presumere valori di default.
+Never generate a microcycle v1 without the 4 outputs above. If the user directly asks for a program without having provided this data, the correct response is to collect the intake first, not to assume default values.
 
 ## Scope
 
-Skill dedicata all'assessment iniziale. Per la logica di programmazione generale usa `elite-sc-system`. Per l'audit e la governance settimanale usa `programming-audit-council`. Per football/RB specifico usa `football-rb-system`. Per lo screening biomeccanico dettagliato usa `biomechanics-movement-screen`.
+Skill dedicated to initial assessment. For general programming logic use `elite-sc-system`. For weekly audit and governance use `programming-audit-council`. For football/RB specifics use `football-rb-system`. For detailed biomechanical screening use `biomechanics-movement-screen`.
