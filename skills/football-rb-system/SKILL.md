@@ -1,6 +1,6 @@
 ---
 name: football-rb-system
-description: "Football and running back specific performance system. Covers first-step dominance, the 200ms window, tendon stiffness, deceleration/COD mechanics, contact balance, ball security, field transfer priorities, and structural resilience for collision-sport athletes."
+description: "Football and running back specific performance system. Covers first-step dominance, the early-force (0-200 ms) window, tendon stiffness, deceleration/COD mechanics, contact balance, ball security, field transfer priorities, and structural resilience for collision-sport athletes."
 compatibility: "Amp (.agents/skills, ~/.config/agents/skills) and Claude Code (~/.claude/skills)"
 allowed-tools:
   - Read
