@@ -55,6 +55,8 @@ Checks: at least one power/explosive intent day, presence of a specific field da
 ### JUDGE_3 — Clinical/Prehab
 Checks: explicit Sanford gate before main lifts and field day, prehab present but not redundant, presence of a genuine recovery day (CARs, breathing, mobility, downregulation), absence of duplicate Copenhagen/tibialis/soleus work in the same microcycle.
 
+**Evidence tags.** Every rule in this skill is an internal rule of this skill set [C] unless tagged otherwise. Internal rules are coaching governance, not findings from the literature. Audit: 2026-10-08.
+
 ## Mandatory workflow
 
 1. **Generate v1** — complete but not yet perfect, must be auditable.
@@ -85,6 +87,21 @@ Aggressive progression only if all of these criteria are met:
 3. Average sleep ≥7h.
 
 If even one criterion is missing: maintain or scale back, never advance on a calendar basis.
+
+## Quality gate: sets, reps and RPE caps
+
+[C, internal rules; moved from the retired elite-sc-coach skill]
+
+Sets and reps:
+- Nordic, week 1, deconditioned athlete: at most 3×5, assisted.
+- Tibialis, week 1, no running yet: at most 2×15; 3×15 from week 2 only if there is no shin pain at 48 h.
+- Jumps after a long stop: at most 3×3; check landing quality set by set.
+- Clinical prehab: no duplicates on the same day; 48 h between Copenhagen, tibialis and soleus blocks.
+
+RPE caps:
+- More than 4 weeks off: main lift ≤ RPE 6.5 for the first 2 weeks.
+- Field sprints: RPE 7 allowed from week 1 only with a full warm-up and a green Sanford check.
+- Prehab with overuse risk: always start at RPE 6.
 
 ## Data-driven adjustments (weekly continuity check)
 

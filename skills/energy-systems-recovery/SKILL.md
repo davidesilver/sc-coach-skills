@@ -1,104 +1,97 @@
 ---
 name: energy-systems-recovery
-description: "Bioenergetics and recovery skill for power and collision-sport athletes. Covers the three energy systems (ATP-CP/glycolytic/aerobic), Repeated Sprint Ability (RSA) recovery rules and protocols by context, creatine loading, parasympathetic downregulation, sleep protocols, anti-inflammatory nutrition, and systemic recovery stacking for professional longevity. Use when programming energy-system work, RSA, or recovery/nutrition protocols around training load for power athletes, RB/football, and hybrid/HYROX athletes needing RSA or engine work."
+description: "Bioenergetics and recovery skill for power and collision-sport athletes. Covers how the energy systems overlap (ATP-PCr, glycolytic, aerobic), the real work/rest structure of American football, Repeated Sprint Ability (RSA) and its recovery rules, creatine dosing, cold-water immersion timing, downregulation and sleep. Use when programming energy-system work, RSA, or recovery around training load for power athletes, RB/football, and hybrid/HYROX athletes."
 compatibility: "Amp (.agents/skills, ~/.config/agents/skills) and Claude Code (~/.claude/skills)"
-argument-hint: [conditioning, RSA, recovery protocol, sleep, inflammation, creatine, energy system]
+argument-hint: [conditioning, RSA, recovery protocol, sleep, creatine, energy system]
 ---
 
 # Energy Systems & Recovery
 
-## Mission
+**Evidence tags.** Every number carries `[Source Year, doi, grade]`. Grades: VERIFIED (verbatim in the source; "abstract" when only the abstract was read), UNVERIFIABLE, OPINION (coaching practice), C (internal rule). Audit: 2026-10-08.
 
-Recovery is not passive: it is a programmed regulation of the nervous system. High-intensity training places the athlete in a chronic state of sympathetic activation; without a deliberate parasympathetic shift, real adaptation does not occur.
+## The energy systems work together, not in sequence
 
-## The three energy systems (operational recap)
+- **Phosphocreatine (PCr) and glycolysis from the first seconds.** In a 6-s maximal sprint, energy came from "an equal contribution from phosphocreatine (PCr) degradation and anaerobic glycolysis", and "PCr concentration had fallen by 57%" [Gaitanos 1993, doi:10.1152/jappl.1993.75.2.712, abstract, VERIFIED].
+- **Aerobic share rises early.** Equal anaerobic and aerobic contributions occur "between 1 to 2 minutes and most probably around 75 seconds, a time that is considerably earlier than has traditionally been suggested" [Gastin 2001, doi:10.2165/00007256-200131100-00003, abstract, VERIFIED].
+- **In repeated sprints the aerobic share grows.** By the 10th of ten 6-s sprints, power "was supported by energy that was mainly derived from PCr degradation and an increased aerobic metabolism" [Gaitanos 1993, abstract, VERIFIED]; see also Bogdanis 1996 (doi:10.1152/jappl.1996.80.3.876).
 
-- **ATP-CP (phosphagen)**: dominates the first 6-10 seconds of maximal effort. An all-out 6-second sprint reduces muscle phosphocreatine stores by up to 55%.
-- **Anaerobic glycolytic**: takes over from 10s to ~2min, the main producer of lactate/hydrogen ions.
-- **Aerobic**: dominant beyond 2 minutes, the true engine for HYROX and capacity work (see `hyrox-hybrid-system`).
+## The work/rest structure of American football
 
-## Metabolic specificity for the football/power athlete
+- Play clock: 40 s, or 25 s after administrative stoppages (NFL Rule 4, Sec. 6; same 40/25 system in NCAA) [VERIFIED, rulebook].
+- "The average duration of a play was 5.23 ± 1.7 seconds"; rest between plays without extended rest "36.1 ± 6.7 seconds" (NCAA Division I-A) [Iosia & Bishop 2008, doi:10.1519/JSC.0b013e31816607b0, abstract, VERIFIED].
 
-Power athletes respond poorly to generic conditioning (non-specific HIIT, continuous long-distance running). The dominant energy system in football is ATP-CP with glycolytic contribution, not pure oxidative.
+Conditioning for a running back should mirror this: efforts of about 5 s with about 35–40 s between them, in series [OPINION based on the data above]. Generic long HIIT or long continuous running is the wrong specificity for this goal [OPINION].
 
-### Repeated Sprint Ability (RSA)
+## Repeated Sprint Ability (RSA)
 
-Conditioning should be built around work-to-recovery ratios that mirror the real structure of the game: 5-10 second bursts followed by 25-35 seconds of recovery, in line with the 30-second play clock typical of football. This is metabolically and neurologically different from a generic HIIT protocol, and is why power athletes often "respond poorly" to non-specific HIIT: it isn't the right energy system for their sport.
+- RSA means short sprints (<10 s) with brief recoveries (<60 s); fatigue comes from limited energy supply (PCr, glycolysis, oxidative) and the build-up of by-products such as hydrogen ions [Girard 2011, doi:10.2165/11590550-000000000-00000, abstract, VERIFIED].
+- Muscle buffer capacity correlated with the work decrement over five 6-s sprints (r = −0.72), and so did VO2peak (r = −0.62) [Bishop 2004, doi:10.1007/s00421-004-1150-1, abstract, VERIFIED; untrained women].
+- PCr resynthesis drives the recovery of sprint power: the % of PCr resynthesis correlated with the % recovery of power (r = 0.84) [Bogdanis 1996, abstract, VERIFIED].
 
-With short recoveries between repeated sprints, the energy contribution of the ATP-CP system progressively decreases and the energy demand to maintain performance shifts to the glycolytic/aerobic system: the quality of the 5th-6th sprint in a series depends on phosphocreatine resynthesis capacity, not pure alactic power. Athletes with high RSA show a superior capacity to buffer the accumulation of hydrogen ions produced by the glycolytic pathway, not just more abundant phosphocreatine — this is the key adaptation to train with repeated submaximal work.
+### PCr recovery depends on the preceding work
+After a maximal 30-s sprint, "PCr increased rapidly to 65.0 ± 2.8% of rest after 1.5 min, but reached only 85.5 ± 3.5% of rest after 6 min"; half-time 56.6 s [Bogdanis 1995, doi:10.1113/jphysiol.1995.sp020533, abstract, VERIFIED]. After short sprints (5–40 m) recovery is probably faster, but this skill has no primary source for fixed values [UNVERIFIABLE]. Do not state "50% at 30 s" or "complete at 2 min" as facts.
 
-**Golden rule of sprint recovery**: 1-2 minutes of recovery for every 10 meters sprinted. For a 40m sprint, this means 4-8 minutes of full recovery between reps if the goal is pure power (not RSA-specific). Phosphocreatine recovery follows an exponential curve: about 50% is restored at 30 seconds, near-complete functional recovery takes up to 2 minutes.
+### Rest rules
+- Pure speed/power: rest long enough that sprint quality does not drop; the "1–2 min per 10 m sprinted" rule is a coaching heuristic [OPINION].
 
 ### RSA protocols by context
+[OPINION, starting points]
 
 | Goal | Distance/duration | Recovery | Sets x Reps |
 |---|---|---|---|
-| Pure power (ATP-CP) | 10-20m sprint | 1-2min/10m (full recovery) | 4-6x |
-| Sport-specific RSA (RB/football) | 20-40m sprint | 15-30s (incomplete recovery) | 6-10x, 2-3 blocks |
-| Glycolytic capacity | 200-400m | 2-4min | 4-6x |
-| Aerobic engine (HYROX) | Continuous Zone 2 | — | 30-90min |
+| Pure speed (PCr) | 10-20 m sprint | full (quality does not drop) | 4-6 |
+| Football-specific RSA | 20-40 m, about 5 s | 25-40 s (play clock) | 6-10, 2-3 blocks |
+| Glycolytic capacity | 200-400 m | 2-4 min | 4-6 |
+| Aerobic base | continuous Zone 2 | — | 30-90 min |
 
-## Creatine: the only supplement with solid evidence for power
+## Supplements
 
-A typical loading protocol is 20 g/day (4 x 5g) for 4-6 days, followed by maintenance; also useful for endurance/hybrid athletes, not just pure power athletes.
+- **Creatine is one of a few with good evidence**, not the only one: "only a few (including caffeine, creatine, specific buffering agents and nitrate) have good evidence of benefits" [Maughan 2018, IOC consensus, doi:10.1136/bjsports-2018-099027, full text, VERIFIED].
+- **Creatine dosing:** "consume ~0.3 g/kg/day of creatine monohydrate for 5–7-days followed by 3–5 g/day thereafter" [Kreider 2017, ISSN, doi:10.1186/s12970-017-0173-z, full text, VERIFIED]. For an 80-kg athlete that is about 24 g/day split into doses. Loading is optional: "an alternative supplementation protocol is to ingest 3 g/day of creatine monohydrate for 28 days", with only "a gradual increase in muscle creatine content" [Kreider 2017, full text, VERIFIED].
 
-## Neurological regulation and recovery
+## Cold water and other recovery tools
 
-### CARs (Controlled Articular Rotations)
+- **Cold-water immersion (CWI).** Do not use it as a routine after strength or hypertrophy sessions: "Strength and muscle mass increased more in the ACT group than in the CWI group", and "the use of CWI as a regular post-exercise recovery strategy should be reconsidered" [Roberts 2015, doi:10.1113/JP270570, abstract, VERIFIED]. It can be used when quick short-term recovery matters more than adaptation (for example, between games close together) [OPINION].
+- **Hyperbaric oxygen (HBOT).** Not recommended: "insufficient evidence" for ankle sprain, knee ligament injury or DOMS, and "some evidence that HBOT may increase interim pain in DOMS" [Bennett 2005, Cochrane, doi:10.1002/14651858.CD004713.pub2, abstract, VERIFIED].
+- **Gluten-free diet.** Not a general rule: "A short-term GFD had no overall effect on performance, GI symptoms, well-being ... or inflammatory markers in nonceliac endurance athletes" [Lis 2015, doi:10.1249/MSS.0000000000000699, abstract, VERIFIED]. Dietary exclusions are an individual clinical question.
 
-Joint mobilization that restores natural movement limits and "cleans" joint debris, maintaining access to the range of motion required for elusiveness.
+## Downregulation and recovery priorities
 
-### Respiratory downregulation
+[OPINION, coaching practice]
+1. **Sleep** is the most important lever. Rule of this skill set: under 7 h for 3 or more nights in a row → cut weekly volume by 10–15% [C; see `programming-audit-council`].
+2. **Post-session nutrition:** carbohydrate and protein.
+3. **Zone 1–2 active recovery.**
+4. **Breathing drills and CARs** to downregulate and keep range of motion. The claim that CARs "clean joint debris" has no source [UNVERIFIABLE].
+5. **Weekly load management:** never progress by calendar if recovery markers are not green (rule in `programming-audit-council`).
 
-Focused breathing protocols to lower sympathetic activation, reduce heart rate, and signal to the body entry into the "rest and digest" tissue-repair cycle. These protocols directly impact the athlete's readiness for the next session and are among the main drivers of career longevity.
-
-## Recovery: priority hierarchy
-
-1. **Sleep** — the most powerful and least negotiable lever; under 7h for 3+ consecutive nights requires a 10-15% cut in weekly volume (see Weekly Continuity Check in `programming-audit-council`).
-2. **Post-exertion nutrition** — carbohydrates for glycogen resynthesis + protein for muscle protein synthesis, within the post-session metabolic window.
-3. **Zone 1-2 active recovery** — metabolic clearance, not additional stimulus.
-4. **Weekly load management** — never progress by calendar if recovery markers aren't green (rule already codified in the Council).
-
-## The elite recovery protocol (bio-maintenance)
-
-| Frequency | Intervention |
-|---|---|
-| Daily | 1.5 gallons of water with a specific hydration protocol |
-| Daily | 9-10 hours of sleep ("Bear Rule") — non-negotiable, primary nervous system reset |
-| Daily | Cold exposure (cryo/ice bath) followed by infrared sauna |
-| Weekly | Soft tissue work and massage therapy |
-| Quarterly | Full blood mapping to monitor systemic inflammation and micronutrients |
-
-### Anti-inflammatory nutrition
-
-Mandatory approach in the sources: elimination of gluten, soy, and dairy, with periodic blood work to adapt nutritional choices to evolving sensitivities and gut health status.
-
-### Cellular restoration tools
-
-Hyperbaric chamber (HBOT) and cryotherapy used to accelerate healing of micro-injuries at the cellular level, reducing recovery time between high-intensity sessions.
+Recovery days are programmed (mobility, breathing, light aerobic work), not just "no training".
 
 ## Bioenergetics by athlete profile
 
-| Profile | Dominant system | Training priority |
+[OPINION]
+
+| Profile | Main demand | Training priority |
 |---|---|---|
-| Pure power (sprint, jumps, OL) | ATP-CP | Long recoveries, maximum quality, no fatigue accumulation |
-| RB/football (RSA) | ATP-CP + glycolytic | Targeted incomplete recoveries, lactate buffering |
-| Hybrid/HYROX | Aerobic + glycolytic | Zone 2 volume + LT1/LT2 thresholds (see `hyrox-hybrid-system`) |
-
-## Why inflammation management is strategic
-
-Chronic systemic inflammation is the main enemy of professional longevity: an athlete who does not manage their internal environment risks a collapse in performance capacity in the final part of the season, regardless of the quality of programming in the gym.
-
-## Integration with programming
-
-Recovery is not an optional add-on to the weekly plan: it must be programmed as an actual recovery day with CARs, breathing, mobility, and downregulation (see `programming-audit-council`), not simply as a "day without training."
-
-## Scope
-
-Skill dedicated to advanced bioenergetics and recovery. For general basic bioenergetics logic use `elite-sc-system`. For weekly programming governance use `programming-audit-council`. For HYROX/hybrids, where managing concurrent fatigue is central, use `hyrox-hybrid-system`.
+| Pure power (sprint, jumps) | PCr + glycolysis | long rests, maximum quality |
+| RB/football | repeated ~5-s efforts | play-clock RSA, aerobic base for recovery between plays |
+| Hybrid/HYROX | aerobic + glycolytic | Zone 2 volume + thresholds (see `hyrox-hybrid-system`) |
 
 ## References
 
-Energy systems and recovery framework grounded in: ATP-phosphocreatine (ATP-PCr) system physiology; repeated sprint ability (RSA) and phosphocreatine resynthesis kinetics (Sports Medicine and Applied Physiology); lactate buffering and glycolytic-capacity adaptation; creatine supplementation evidence (International Society of Sports Nutrition); parasympathetic regulation and recovery protocols (Autonomic Physiology, Sleep Science); and anti-inflammatory nutrition (clinical nutrition literature). Controlled Articular Rotations (CARs) per mobility literature. Core frameworks: NSCA bioenergetics, elite-sport recovery science, and applied sports medicine.
+- Gaitanos GC et al. 1993. J Appl Physiol 75:712–9. doi:10.1152/jappl.1993.75.2.712
+- Bogdanis GC et al. 1995. J Physiol 482:467–80. doi:10.1113/jphysiol.1995.sp020533
+- Bogdanis GC et al. 1996. J Appl Physiol 80:876–84. doi:10.1152/jappl.1996.80.3.876
+- Gastin PB. 2001. Sports Med 31:725–41. doi:10.2165/00007256-200131100-00003
+- Bishop D, Edge J, Goodman C. 2004. Eur J Appl Physiol 92:540–7. doi:10.1007/s00421-004-1150-1
+- Iosia MF, Bishop PA. 2008. J Strength Cond Res 22:585–8. doi:10.1519/JSC.0b013e31816607b0
+- Girard O, Mendez-Villanueva A, Bishop D. 2011. Sports Med 41:673–94. doi:10.2165/11590550-000000000-00000
+- Kreider RB et al. 2017. J Int Soc Sports Nutr 14:18. doi:10.1186/s12970-017-0173-z
+- Maughan RJ et al. 2018. Br J Sports Med 52:439–55. doi:10.1136/bjsports-2018-099027
+- Roberts LA et al. 2015. J Physiol 593:4285–301. doi:10.1113/JP270570
+- Bennett M et al. 2005. Cochrane Database Syst Rev. doi:10.1002/14651858.CD004713.pub2
+- Lis D et al. 2015. Med Sci Sports Exerc 47:2563–70. doi:10.1249/MSS.0000000000000699
+- NFL Rulebook, Rule 4, Section 6 (play clock).
 
 ## Scope
+
+Skill dedicated to bioenergetics and recovery. For basic programming logic use `elite-sc-system`. For weekly governance use `programming-audit-council`. For HYROX/hybrids use `hyrox-hybrid-system`.

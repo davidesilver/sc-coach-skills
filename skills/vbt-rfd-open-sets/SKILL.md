@@ -7,6 +7,10 @@ argument-hint: [exercise, target velocity, velocity loss, power focus, readiness
 
 # VBT RFD Open Sets
 
+**Status: standby.** Use only when the athlete has a velocity device (encoder or validated app). Without one, prescribe by RPE/RIR (`elite-sc-system`).
+
+**Evidence tags.** `[Source Year, doi, grade]`; grades VERIFIED, UNVERIFIABLE, OPINION (coaching practice), C (internal rule). Audit: 2026-10-08.
+
 ## Mission
 
 Use velocity as the language of neural quality. Training power without at least reasoning in terms of velocity means proceeding by feel, without objective feedback.
@@ -24,6 +28,10 @@ Explosive intent is non-negotiable. Even with heavy loads (typical of powerlifti
 
 ## Velocity loss zones
 
+Only one comparison is tested: in the squat, 20% vs 40% velocity loss. "VL20 resulted in similar squat strength gains than VL40 and greater improvements in CMJ" (9.5% vs 3.5%); "VL40 training elicited a greater hypertrophy" and "a reduction of myosin heavy chain IIX percentage" [Pareja-Blanco 2017, doi:10.1111/sms.12678, abstract, VERIFIED].
+
+The finer zones, their labels and the target velocities in the table below have no source [UNVERIFIABLE]. Treat them as a coaching map, not as data.
+
 | Velocity loss | Neuromuscular state | Goal | Indicative target velocity |
 |---|---|---|---|
 | 0-10% | Maximum readiness | Peak power / RFD | ~1.3 m/s |
@@ -31,9 +39,11 @@ Explosive intent is non-negotiable. Even with heavy loads (typical of powerlifti
 | 20-30% | Moderate fatigue | Functional hypertrophy | ~1.0 m/s |
 | 40%+ | Extreme fatigue | End the set — high metabolic risk | N/A |
 
-For primary power movements (squat/clean variants), the reference peak power velocity target in the sources is 1.0-1.3 m/s.
+The often-quoted peak-power velocity of 1.0-1.3 m/s has no source; Cormie 2007 reports optimal loads as % of 1RM, not these velocities [UNVERIFIABLE].
 
 ## Open Sets (Bosco/Squillante methodology)
+
+[OPINION: method attributed to Bosco and Squillante, not checked against their texts.]
 
 Reps are not fixed by coach convention: the set continues as long as the athlete's velocity stays within the preset quality range. The moment velocity drops below the target threshold (e.g., -20%), the set ends immediately.
 
@@ -53,7 +63,10 @@ If the session's baseline velocity is clearly below the athlete's norm, reduce l
 
 ## References
 
-Velocity-based training framework grounded in: average vs. peak velocity distinction in biomechanics and power physiology; velocity-loss zones and neuromuscular fatigue management (Sports Physiology); open-sets methodology (Bosco, Squillante protocols); Rate of Force Development (RFD) as a power-speed metric; and readiness monitoring via velocity trends and countermovement jump (CMJ). Core frameworks: NSCA velocity-based training principles, elite-sport power monitoring, and neural-fatigue assessment.
+- Pareja-Blanco F et al. 2017. Scand J Med Sci Sports 27:724–35. doi:10.1111/sms.12678
+- Cormie P et al. 2007. Med Sci Sports Exerc 39:340–9. doi:10.1249/01.mss.0000246993.71599.bf
+
+Velocity-based training framework also draws on: average vs. peak velocity distinction in biomechanics and power physiology; velocity-loss zones and neuromuscular fatigue management (Sports Physiology); open-sets methodology (Bosco, Squillante protocols); Rate of Force Development (RFD) as a power-speed metric; and readiness monitoring via velocity trends and countermovement jump (CMJ). Core frameworks: NSCA velocity-based training principles, elite-sport power monitoring, and neural-fatigue assessment.
 
 ## Scope
 

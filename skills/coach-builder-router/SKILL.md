@@ -35,7 +35,7 @@ Focus: aerobic engine, LT1/LT2, compromised running, strength reserve.
 
 ### Profile 5 — General population / Fitness
 Stack: `elite-sc-system` (simplified use) → `general-population-fitness` → optionally `vbt-rfd-open-sets` and a reduced version of `programming-audit-council` if the client converges toward more specific goals.
-Focus: 10 fundamental patterns, adherence, safety, conservative progression.
+Focus: fundamental movement patterns, adherence, safety, conservative progression.
 
 ### Profile 6 — Multi-athlete coach
 No fixed stack: use `coach-builder-router` for each individual athlete managed, keeping profiles separate. Use `programming-audit-council` as cross-cutting governance for all athletes.

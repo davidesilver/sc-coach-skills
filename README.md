@@ -52,9 +52,16 @@ Loads are autoregulated, not pulled from a spreadsheet someone wrote three weeks
 
 Anything touching an athlete's body and health deserves scrutiny, so here's exactly how this pack got built.
 
-The core framework started from one real athlete's own S&C dossier — a competitive American football running back — then got generalized and checked against published sports-science literature: RTS block periodization, NSCA movement-pattern guidelines, the Sanford Soreness Rules, the Copenhagen adduction protocol, velocity-based training research, and combine/positional benchmark data. Every skill lists its specific sources at the bottom of its `SKILL.md`, so nothing here is unsourced.
+The core framework started from one real athlete's own S&C dossier — a competitive American football running back — then got generalized and checked against published sports-science literature: the Sanford MTSS guideline and soreness rules, the Copenhagen adduction trials, tendon-loading research, energy-system physiology, velocity-based training research, and the official HYROX rulebook. Every skill lists its specific sources at the bottom of its `SKILL.md`.
 
-Part of the research — searching and synthesizing existing literature — was done with AI tools: Perplexity for finding sources, NotebookLM for organizing them. Those tools didn't generate any claims; they helped find and summarize what's already published, and everything they surfaced was reviewed before being structured into a skill. This gets said out loud rather than left unmentioned, because in a domain like this one, being upfront about method is part of being trustworthy, not a liability.
+Part of the research — searching and synthesizing existing literature — was done with AI tools: Perplexity for finding sources, NotebookLM for organizing them. Those summaries were not always right. In October 2026 every factual claim was re-checked against original texts (full text where open, otherwise the verbatim abstract or the official rulebook). Wrong numbers were corrected or removed, and every number that remains carries a tag in the form `[Source Year, doi, grade]`:
+
+- **VERIFIED**: the passage is quoted verbatim from the source ("abstract" when only the abstract was read);
+- **UNVERIFIABLE**: no original text supports it; kept only as a warning, never as a prescription;
+- **OPINION**: coaching practice, useful but not tested;
+- **C**: an internal rule of this skill set (governance, not science).
+
+This gets said out loud rather than left unmentioned, because in a domain like this one, being upfront about method is part of being trustworthy, not a liability.
 
 One more thing worth being direct about: this is educational and methodological content, not medical advice, and it doesn't replace an in-person assessment by a qualified coach or clinician. Every skill hands off to a human the moment pain, injury, or any medical red flag shows up. If you're going to apply a specific number or protocol to a real athlete, check it against the source cited for it first.
 
@@ -111,7 +118,7 @@ Left out of this version, simply because I didn't have verified sources solid en
 
 **Can I actually use this on a real athlete?** Yes, as a programming and governance framework, but keep human oversight in the loop — yourself as coach, or a qualified professional — and don't override the clinical-gate rules in `clinical-prehab-system` and `athlete-profiling-benchmarking`.
 
-**Where do the numbers and protocols come from?** Published, checkable sources, listed per skill under each `SKILL.md`'s "References" section. See [Where this comes from](#where-this-comes-from-and-why-you-should-trust-it) above for how the research itself was put together.
+**Where do the numbers and protocols come from?** Published, checkable sources, listed per skill under each `SKILL.md`'s "References" section and tagged inline with their evidence grade. See [Where this comes from](#where-this-comes-from-and-why-you-should-trust-it) above for how the research itself was put together.
 
 **Can I add a sport or population this pack doesn't cover yet?** Yes — see [Coverage and stated limits](#coverage-and-stated-limits) and [CONTRIBUTING.md](CONTRIBUTING.md) for how to propose one.
 

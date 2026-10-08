@@ -13,16 +13,18 @@ Individualize load and intensity around the athlete's real reported cycle respon
 
 ## Cycle Phases and Practical Modulation
 
-### Follicular Phase (approx. days 1-14 of cycle)
-Window that often tolerates higher intensity and strength. Estrogen rising, metabolic rate may increase, perceived effort may feel lower relative to load.
+**Evidence.** A meta-analysis found that performance "might be trivially reduced during the early follicular phase of the MC, compared to all other phases", and that "general guidelines on exercise performance across the MC cannot be formed; rather, it is recommended that a personalised approach should be taken" [McNulty 2020, doi:10.1007/s40279-020-01319-3, full text, VERIFIED]. No phase is a fixed "best window" for PRs. The phase notes below are prompts for what to ask and track, not rules [OPINION].
 
-**Practical modulation:** if the athlete reports feeling strong and recovered, this window can bias toward:
+### Follicular Phase (approx. days 1-14 of cycle)
+Some athletes report feeling stronger later in this phase; the early days (menstruation) may be slightly worse on average (McNulty 2020).
+
+**Practical modulation:** only if the athlete's own logs show she feels strong and recovered, bias toward:
 - Higher-intensity strength work
 - Peak power/RFD days
 - Maximum effort sessions
 
 ### Ovulatory Phase (approx. day 12-16)
-Often a secondary strength peak before luteal fatigue sets in.
+Some athletes report a strength peak here [OPINION].
 
 **Practical modulation:** maintain intensity from follicular if the athlete is feeling capable. Monitor closely for fatigue signals.
 
@@ -68,4 +70,4 @@ Skill dedicated to female-athlete programming. Cross-reference `elite-sc-system`
 
 ## References
 
-Female-athlete programming framework grounded in: menstrual-cycle physiology and performance variation per sports endocrinology; RED-S (Relative Energy Deficiency in Sport) screening and clinical thresholds per ACSM/IOC/FASEB; autoregulation via RPE and feedback data; and individual cycle-response tracking per sports science consensus. Core frameworks: ACSM menstrual-function screening, sports medicine RED-S protocols, and female-athlete health standards.
+Female-athlete programming framework grounded in: menstrual-cycle physiology and performance variation per sports endocrinology; RED-S (Relative Energy Deficiency in Sport) screening per the IOC consensus (RED-S was "first introduced in 2014 by the International Olympic Committee's expert writing panel" [Mountjoy 2023, doi:10.1136/bjsports-2023-106994, abstract, VERIFIED]); autoregulation via RPE and feedback data; and individual cycle-response tracking per sports science consensus. Core frameworks: ACSM menstrual-function screening, sports medicine RED-S protocols, and female-athlete health standards.
