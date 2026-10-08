@@ -55,4 +55,4 @@ Cross-reference `programming-audit-council` and `elite-sc-system`. This skill en
 
 ## References
 
-Exercise naming framework grounded in: biomechanical movement taxonomy (primary pattern, implement, mechanical variant); exercise-demonstration standards from coaching education; and practical naming conventions in strength-training literature (NSCA, IWF, APTA). The goal is clarity and reproducibility: one name, one movement, one video per exercise.
+Exercise naming framework grounded in: biomechanical movement taxonomy (primary pattern, implement, mechanical variant); exercise-demonstration standards from coaching education; and practical naming conventions in strength-training practice [OPINION; no NSCA, IWF or APTA document was checked]. The goal is clarity and reproducibility: one name, one movement, one video per exercise.

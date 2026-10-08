@@ -11,6 +11,8 @@ argument-hint: [meet prep, peaking block, tapering, RPE autoregulation, attempt 
 
 A powerlifter doesn't train to "feel strong" — they train to express maximum strength on three lifts on one specific day. Every block must serve that date, not some abstract ideal of general strength.
 
+**Evidence tags.** `[Source Year, doi, grade]`; grades VERIFIED, UNVERIFIABLE, OPINION (coaching practice), C (internal rule). Audit: 2026-10-08. The RTS and JTS models are coaching systems [OPINION].
+
 ## Development Block / Pivot Block Model (RTS)
 
 A bottom-up approach to periodization, an alternative to classic linear periodization.
@@ -44,7 +46,7 @@ Intensity preserves fitness better than volume. Reaching maximal strength requir
 ## Pre-Competition Tapering
 
 Tapering (or in some cases a temporary cessation of training) before a major competition serves to improve performance by dissipating accumulated fatigue while retaining strength adaptations. Practical rules:
-- Progressively reduce volume in the final 1-3 weeks pre-meet, keeping intensity peaks low in frequency but still present (openers at meet weight).
+- Progressively reduce volume in the final 1-3 weeks pre-meet (for strength athletes the "optimal taper duration may only be 2 weeks", up to 4 [Travis 2020, doi:10.3390/sports8090125, full text, VERIFIED]), keeping intensity peaks low in frequency but still present (openers at meet weight).
 - Never introduce new exercises or technical patterns during the taper phase.
 - The goal of the taper is to arrive on meet day "fresh but not stale": a taper that's too long or too aggressive can cause a loss of neural specificity.
 
@@ -55,7 +57,7 @@ Every main session should be managed with daily RPE/RIR (see also `elite-sc-syst
 ## Attempt Selection on Meet Day
 
 General principles derived from competitive practice:
-- First attempt: 90-93% of estimated max, a near-certain lift, to build confidence and "open up" the nervous system.
+- First attempt: about 90-93% of estimated max [OPINION; no study found], a near-certain lift, to build confidence and "open up" the nervous system.
 - Second attempt: toward the personal record or slightly above, based on how the first attempt felt.
 - Third attempt: a maximal attempt, decided only after seeing the technical quality of the second.
 - Never change attempt selection strategy under the emotional pressure of meet day: the decision should be made with a clear head, ideally pre-planned with the coach.

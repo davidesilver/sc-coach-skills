@@ -60,7 +60,7 @@ The Segment Power Snatch isolates the phases of the lift with 1-3 second pauses 
 
 ## References
 
-Olympic weightlifting technique framework grounded in: snatch and clean-and-jerk phase biomechanics (first pull, second pull, turnover, catch); International Weightlifting Federation (IWF) technical standards; bar-path and force-production principles; foot positioning and split/power-jerk mechanics; common technical faults (early arm bend, arm-compensatory patterns); progression drills (segment/pause work, tall snatch, combo pull + lift); and learning-hierarchy methodology for technique acquisition. Core frameworks: IWF coaching standards, Olympic-sport biomechanics, and elite-weightlifting coaching consensus.
+Olympic weightlifting technique framework grounded in: snatch and clean-and-jerk phase biomechanics (first pull, second pull, turnover, catch); bar-path and force-production principles; foot positioning and split/power-jerk mechanics; common technical faults (early arm bend, arm-compensatory patterns); progression drills (segment/pause work, tall snatch, combo pull + lift); and learning-hierarchy methodology for technique acquisition. Technique content is coaching practice [OPINION]; no IWF document was checked.
 
 ## Scope
 

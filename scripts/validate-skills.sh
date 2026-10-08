@@ -7,7 +7,9 @@ SKILLS_DIR="$ROOT/skills"
 errors=0
 warnings=0
 
-mapfile -t SKILL_NAMES < <(find "$SKILLS_DIR" -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
+# bash 3.2 (macOS default) has no mapfile
+SKILL_NAMES=()
+while IFS= read -r n; do SKILL_NAMES+=("$n"); done < <(find "$SKILLS_DIR" -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
 
 is_known_skill() {
   local name="$1"

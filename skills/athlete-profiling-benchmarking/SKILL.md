@@ -34,7 +34,7 @@ The interview always precedes programming. It must collect data in blocks:
 | Order | Test | What it measures | Link |
 |---|---|---|---|
 | 1 | 6-pattern screening | Movement quality, asymmetries, pain | `biomechanics-movement-screen` |
-| 2 | Tendon isometric tests | SL heel raises, SL hops, Squat 60%BW 6x6 | `clinical-prehab-system` |
+| 2 | Tendon isometric tests | >25 SL heel raises per leg, 15 SL hops, squat 60% BW for 6 reps of 6 s [Sanford 2024, p.3, VERIFIED] | `clinical-prehab-system` |
 | 3 | 1RM or RPE-based estimate | Main squat, hinge, press, pull | `periodization-block-planner` |
 | 4 | Speed/power tests | 10-20m sprint, vertical/horizontal jump | `vbt-rfd-open-sets` (if an encoder is available) |
 | 5 | Specific energy-system test | RSA if team sport, estimated LT1/LT2 if hybrid | `energy-systems-recovery` / `hyrox-hybrid-system` |
@@ -57,7 +57,7 @@ Before administering the full battery, always verify: the athlete's readiness to
 
 ### Operating rule for a deconditioned athlete
 
-If the intake reveals >4 weeks off: main lift RPE ≤6.5 for the first 2 weeks, no exceptions — this rule overrides any of the athlete's enthusiasm to "make up for lost time."
+[C, internal rule] If the intake reveals >4 weeks off: main lift RPE ≤6.5 for the first 2 weeks, no exceptions — this rule overrides any of the athlete's enthusiasm to "make up for lost time."
 
 ## Positional reference benchmarks (Running Back)
 

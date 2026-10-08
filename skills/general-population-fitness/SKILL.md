@@ -1,6 +1,6 @@
 ---
 name: general-population-fitness
-description: "General population program design skill based on NSCA guidelines. Covers the 10 fundamental movement patterns, needs analysis, safe progressive overload for non-athletes, facility/equipment considerations, and adherence-focused coaching for fitness/health-oriented clients."
+description: "General population program design skill based on NSCA guidelines. Covers the fundamental movement patterns, needs analysis, safe progressive overload for non-athletes, facility/equipment considerations, and adherence-focused coaching for fitness/health-oriented clients."
 compatibility: "Amp (.agents/skills, ~/.config/agents/skills) and Claude Code (~/.claude/skills)"
 argument-hint: [general population, beginner client, fitness goal, movement pattern]
 ---
@@ -11,9 +11,11 @@ argument-hint: [general population, beginner client, fitness goal, movement patt
 
 A non-athlete client does not need to be treated as a miniature elite athlete. The primary goal is sustainable adherence, safety, and progress toward health/body-composition goals, not maximization of competitive performance.
 
-## The 10 fundamental movement patterns (NSCA)
+## The fundamental movement patterns
 
-According to NSCA guidelines for general population programming, a complete program must cover a set of fundamental movement patterns that reflect the motor demands of daily life, not just weight-room patterns. This approach ensures the client develops transferable functional capacity, not just numbers on isolated single exercises.
+[OPINION: the attribution of a fixed pattern list to the NSCA was not checked against NSCA texts.]
+
+A complete general-population program must cover a set of fundamental movement patterns that reflect the motor demands of daily life, not just weight-room patterns. This approach ensures the client develops transferable functional capacity, not just numbers on isolated single exercises.
 
 When building a program for the general population, always verify coverage of: horizontal and vertical push patterns, horizontal and vertical pull patterns, squat patterns, hinge patterns (hip hinge), locomotion patterns, core rotation/anti-rotation patterns, carry/load-transport patterns.
 
@@ -33,7 +35,7 @@ For general clients, the principle of progressive overload must be applied with 
 
 ## Gym safety considerations (NSCA facility guidelines)
 
-For those programming or managing the training environment, some NSCA guidelines on space and safety are also relevant to individual coaching:
+For those programming or managing the training environment, some facility guidelines on space and safety are also relevant to individual coaching [UNVERIFIABLE: NSCA facility standards not consulted; treat the figures as rough guides]:
 - Exercises requiring a spotter should be placed away from windows, mirrors, and doors to avoid distractions.
 - In the free-weight lifting area, maintain sufficient space between equipment (2-3 feet) for safe movement.
 - The stretching area requires 40-60 square feet per user.
@@ -60,7 +62,7 @@ Some general clients with specific goals (aggressive fat loss, advanced body rec
 
 ## References
 
-General population fitness framework grounded in: NSCA guidelines and ten fundamental movement patterns (push, pull, squat, hinge, rotation, locomotion, carry); safe progressive overload principles; facility safety and environmental design per NSCA standards; adherence-focused coaching and behavior change science; and adapted intake/assessment protocols for non-competitive populations. Core frameworks: NSCA general-population training standards, fitness industry best practices, and health-focused program design.
+General population fitness framework grounded in: fundamental movement patterns (push, pull, squat, hinge, rotation, locomotion, carry); safe progressive overload principles; facility safety and environmental design per NSCA standards; adherence-focused coaching and behavior change science; and adapted intake/assessment protocols for non-competitive populations. Core frameworks: NSCA general-population training standards, fitness industry best practices, and health-focused program design.
 
 ## Scope
 

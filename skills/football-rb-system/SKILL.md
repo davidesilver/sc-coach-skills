@@ -1,6 +1,6 @@
 ---
 name: football-rb-system
-description: "Football and running back specific performance system. Covers first-step dominance, the 200ms window, tendon stiffness, deceleration/COD mechanics, contact balance, ball security, field transfer priorities, and structural resilience for collision-sport athletes."
+description: "Football and running back specific performance system. Covers first-step dominance, the early-force (0-200 ms) window, tendon stiffness, deceleration/COD mechanics, contact balance, ball security, field transfer priorities, and structural resilience for collision-sport athletes."
 compatibility: "Amp (.agents/skills, ~/.config/agents/skills) and Claude Code (~/.claude/skills)"
 allowed-tools:
   - Read
@@ -14,30 +14,31 @@ argument-hint: [RB task, field transfer, acceleration, contact balance, ball sec
 
 Build a football athlete who transfers strength to the field within the usable window of the movement — not a weight-room phenomenon who arrives late to the real action.
 
-## The 200ms Window
+**Evidence tags.** `[Source Year, doi, grade]`; grades VERIFIED, UNVERIFIABLE, OPINION (coaching practice), C (internal rule). Audit: 2026-10-08.
 
-In elite football, most decisive actions (sprints, contacts, changes of direction) happen in under 200 milliseconds. Training must prioritize Rate of Force Development (RFD) over slow maximal strength: strength that takes 600ms to express is less useful than a lower level of strength that is available within the real window of play.
+## The early-force window
 
-## Tendon Stiffness as a Priority
+RFD "determines the force that can be generated in the early phase of muscle contraction (0-200 ms)" [Aagaard 2002, doi:10.1152/japplphysiol.00283.2002, abstract, VERIFIED]. Sprint ground contacts are short (in jumps, time to peak force was about 130 ms vs about 380 ms in isometric contractions [Bohm 2014, doi:10.1242/jeb.112268, full text, VERIFIED]). The claims that "most decisive football actions" happen in under 200 ms and that a squat needs about 600 ms to peak force have no source [UNVERIFIABLE]; wide cuts have longer contacts. Practical rule: once a strength base exists, train force that is available quickly, not only slow maximal strength [OPINION].
 
-For RBs and power athletes, tendon stiffness determines RFD: high stiffness means muscular force is transmitted immediately to the ground instead of being absorbed by an elastic tendon. This translates into explosive acceleration, lower metabolic cost of sprinting, and more violent changes of direction.
+## Tendon Stiffness
 
-### Power vs. Endurance Trade-off
-High stiffness = better RFD and lower metabolic cost of sprinting. High compliance = better energy storage/return, preferred by endurance athletes but counterproductive for an RB's explosive demands. An RB should not be programmed like an endurance athlete: excess compliance and generic conditioning degrade stiffness and first-step dominance.
+Tendon stiffness is associated with RFD, not its sole determinant: tendon properties "may account for up to 30% of the variance in RTD" [Bojsen-Møller 2005, doi:10.1152/japplphysiol.01305.2004, abstract, VERIFIED].
+
+There is no simple "stiff = sprinter, compliant = endurance" trade-off: sprinters had a more compliant vastus lateralis tendon than controls, and VL compliance correlated with faster 100-m times [Kubo 2000, doi:10.1046/j.1365-201x.2000.00653.x, abstract, VERIFIED]. Details and the tendon loading protocol in `tendon-power-architecture`. An RB should still not be conditioned like an endurance athlete [OPINION].
 
 ## Running Back Priorities
 
 1. First-step dominance (0-10m).
 2. Horizontal force production.
 3. Deceleration competency.
-4. Penultimate step mechanics.
+4. Braking mechanics over the last 2–3 steps.
 5. Contact balance.
 6. Ball security under redirection and contact.
 7. Structural resilience to repeated collisions.
 
-## The Penultimate Step
+## Braking before the plant
 
-The penultimate step (the second-to-last foot contact before the plant) is the true engine of deceleration: it manages Ground Reaction Force up to 2.7x body weight. If the athlete fails to absorb force on this step, the plant becomes a survival action rather than a genuine redirection tool. Technical markers: controlled lowering of the center of mass in the steps leading into the plant, trunk lean consistent with the exit vector, positive tibia angle (shin inclined toward the exit direction), no knee valgus collapse.
+Braking is spread over the last two or three contacts; in 180° turns the antepenultimate (third-to-last) contact brakes most [Dos'Santos 2021, doi:10.1080/02640414.2020.1823130, abstract, VERIFIED]. The "2.7× body weight" figure has no source [UNVERIFIABLE]. If the athlete fails to brake early, the plant becomes a survival action rather than a redirection tool [OPINION]. Details in `football-cod-footwork`. Technical markers [OPINION]: controlled lowering of the center of mass in the steps leading into the plant, trunk lean consistent with the exit vector, positive tibia angle (shin inclined toward the exit direction), no knee valgus collapse.
 
 ## Contact Balance
 
@@ -79,7 +80,13 @@ Every productive week for an RB must include: a power day, field speed/accelerat
 
 ## References
 
-Running back performance framework grounded in: the 200ms window concept and RFD priorities from elite-sport physiology; tendon stiffness as a driver of explosive performance (Sports Medicine and Applied Physiology); penultimate-step load management from biomechanics; contact-balance and hand-down stabilization from elite RB coaching technique; and collision-sport structural resilience (cervical/thoracic stabilization, groin injury prevention). Core frameworks: NSCA training principles, APTA return-to-play standards, and operational elite-RB coaching consensus.
+- Aagaard P et al. 2002. J Appl Physiol 93:1318–26. doi:10.1152/japplphysiol.00283.2002
+- Bohm S et al. 2014. J Exp Biol 217:4010–7. doi:10.1242/jeb.112268
+- Bojsen-Møller J et al. 2005. J Appl Physiol 99:986–94. doi:10.1152/japplphysiol.01305.2004
+- Kubo K et al. 2000. Acta Physiol Scand 168:327–35. doi:10.1046/j.1365-201x.2000.00653.x
+- Dos'Santos T, Thomas C, Jones PA. 2021. J Sports Sci. doi:10.1080/02640414.2020.1823130
+
+Contact balance, ball security, push-pull mechanics and priorities are coaching practice [OPINION].
 
 ## Scope
 
