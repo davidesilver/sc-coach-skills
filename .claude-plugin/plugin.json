@@ -1,7 +1,7 @@
 {
   "name": "sc-coach-skills",
-  "description": "Elite Strength & Conditioning coach skill pack: 16 skills covering intake, clinical screening, periodization, weekly programming governance, and sport-specific domains (powerlifting, olympic weightlifting, football/RB, HYROX/hybrid, general population)",
-  "version": "1.0.0",
+  "description": "Elite Strength & Conditioning coach skill pack: 20 skills covering intake, clinical screening, periodization, weekly programming governance, and sport-specific domains (powerlifting, olympic weightlifting, football/RB, HYROX/hybrid, general population)",
+  "version": "1.1.0",
   "author": {
     "name": "Davide Silvestri"
   },
