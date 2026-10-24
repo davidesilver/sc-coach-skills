@@ -12,11 +12,7 @@ SKILL_NAMES=()
 while IFS= read -r n; do SKILL_NAMES+=("$n"); done < <(find "$SKILLS_DIR" -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
 
 is_known_skill() {
-  local name="$1"
-  for s in "${SKILL_NAMES[@]}"; do
-    [ "$s" = "$name" ] && return 0
-  done
-  return 1
+  [[ " ${SKILL_NAMES[*]} " =~ " $1 " ]]
 }
 
 for dir in "$SKILLS_DIR"/*/; do
