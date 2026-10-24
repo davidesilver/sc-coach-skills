@@ -29,13 +29,21 @@ for dir in "$SKILLS_DIR"/*/; do
     continue
   fi
 
-  fm_name=$(awk '/^---$/{c++; next} c==1 && /^name:/{print; exit}' "$file" | sed 's/^name:[[:space:]]*//')
+  {
+    read -r fm_name
+    read -r fm_desc
+  } < <(awk '
+    /^---$/{c++; if (c==2) exit; next}
+    c==1 && /^name:/{ sub(/^name:[ 	]*/, ""); n=$0 }
+    c==1 && /^description:/{ sub(/^description:[ 	]*/, ""); d=$0 }
+    END{ print (n ? n : ""); print (d ? d : "") }
+  ' "$file")
+
   if [ "$fm_name" != "$name" ]; then
     echo "ERROR: $name — frontmatter name '$fm_name' does not match the folder name"
     errors=$((errors + 1))
   fi
 
-  fm_desc=$(awk '/^---$/{c++; next} c==1 && /^description:/{print; exit}' "$file")
   if [ -z "$fm_desc" ]; then
     echo "ERROR: $name — missing or empty description in frontmatter"
     errors=$((errors + 1))
