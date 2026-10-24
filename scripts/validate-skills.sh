@@ -41,13 +41,13 @@ for dir in "$SKILLS_DIR"/*/; do
     errors=$((errors + 1))
   fi
 
-  refs=$(grep -oE '`[a-z]+(-[a-z]+)+`' "$file" | tr -d '`' | sort -u || true)
-  for ref in $refs; do
+  while IFS= read -r ref; do
+    [ -z "$ref" ] && continue
     if [ "$ref" != "$name" ] && ! is_known_skill "$ref"; then
       echo "WARN: $name — references '$ref', which is not (or no longer) a skill in skills/. Leftover from a rename/merge, or just a technical term?"
       warnings=$((warnings + 1))
     fi
-  done
+  done < <(grep -oE '`[a-z]+(-[a-z]+)+`' "$file" | tr -d '`' | sort -u || true)
 done
 
 echo ""
