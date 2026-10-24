@@ -63,14 +63,22 @@ WHERE pain_check >= 3;
 
 -- Example view: weekly progression readiness check (per programming-audit-council rules)
 CREATE VIEW IF NOT EXISTS progression_readiness AS
+WITH agg AS (
+    SELECT
+        f.athlete_id,
+        f.week_number,
+        AVG(f.sleep_hours) AS avg_sleep,
+        MAX(f.pain_check) AS max_pain
+    FROM feedback_sheet f
+    GROUP BY f.athlete_id, f.week_number
+)
 SELECT
-    f.athlete_id,
-    f.week_number,
-    AVG(f.sleep_hours) AS avg_sleep,
-    MAX(f.pain_check) AS max_pain,
+    athlete_id,
+    week_number,
+    avg_sleep,
+    max_pain,
     CASE
-        WHEN AVG(f.sleep_hours) >= 7 AND MAX(f.pain_check) < 3 THEN 'ADVANCE_ELIGIBLE'
+        WHEN avg_sleep >= 7 AND max_pain < 3 THEN 'ADVANCE_ELIGIBLE'
         ELSE 'HOLD_OR_SCALE'
     END AS progression_flag
-FROM feedback_sheet f
-GROUP BY f.athlete_id, f.week_number;
+FROM agg;
