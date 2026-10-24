@@ -19,40 +19,42 @@ is_known_skill() {
   return 1
 }
 
-for dir in "$SKILLS_DIR"/*/; do
-  name=$(basename "$dir")
-  file="${dir}SKILL.md"
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  for dir in "$SKILLS_DIR"/*/; do
+    name=$(basename "$dir")
+    file="${dir}SKILL.md"
 
-  if [ ! -f "$file" ]; then
-    echo "ERROR: $name — missing SKILL.md"
-    errors=$((errors + 1))
-    continue
-  fi
-
-  fm_name=$(awk '/^---$/{c++; next} c==1 && /^name:/{print; exit}' "$file" | sed 's/^name:[[:space:]]*//')
-  if [ "$fm_name" != "$name" ]; then
-    echo "ERROR: $name — frontmatter name '$fm_name' does not match the folder name"
-    errors=$((errors + 1))
-  fi
-
-  fm_desc=$(awk '/^---$/{c++; next} c==1 && /^description:/{print; exit}' "$file")
-  if [ -z "$fm_desc" ]; then
-    echo "ERROR: $name — missing or empty description in frontmatter"
-    errors=$((errors + 1))
-  fi
-
-  refs=$(grep -oE '`[a-z]+(-[a-z]+)+`' "$file" | tr -d '`' | sort -u || true)
-  for ref in $refs; do
-    if [ "$ref" != "$name" ] && ! is_known_skill "$ref"; then
-      echo "WARN: $name — references '$ref', which is not (or no longer) a skill in skills/. Leftover from a rename/merge, or just a technical term?"
-      warnings=$((warnings + 1))
+    if [ ! -f "$file" ]; then
+      echo "ERROR: $name — missing SKILL.md"
+      errors=$((errors + 1))
+      continue
     fi
+
+    fm_name=$(awk '/^---$/{c++; next} c==1 && /^name:/{print; exit}' "$file" | sed 's/^name:[[:space:]]*//')
+    if [ "$fm_name" != "$name" ]; then
+      echo "ERROR: $name — frontmatter name '$fm_name' does not match the folder name"
+      errors=$((errors + 1))
+    fi
+
+    fm_desc=$(awk '/^---$/{c++; next} c==1 && /^description:/{print; exit}' "$file")
+    if [ -z "$fm_desc" ]; then
+      echo "ERROR: $name — missing or empty description in frontmatter"
+      errors=$((errors + 1))
+    fi
+
+    refs=$(grep -oE '`[a-z]+(-[a-z]+)+`' "$file" | tr -d '`' | sort -u || true)
+    for ref in $refs; do
+      if [ "$ref" != "$name" ] && ! is_known_skill "$ref"; then
+        echo "WARN: $name — references '$ref', which is not (or no longer) a skill in skills/. Leftover from a rename/merge, or just a technical term?"
+        warnings=$((warnings + 1))
+      fi
+    done
   done
-done
 
-echo ""
-echo "Skills checked: ${#SKILL_NAMES[@]} — errors: $errors, warnings: $warnings"
+  echo ""
+  echo "Skills checked: ${#SKILL_NAMES[@]} — errors: $errors, warnings: $warnings"
 
-if [ "$errors" -gt 0 ]; then
-  exit 1
+  if [ "$errors" -gt 0 ]; then
+    exit 1
+  fi
 fi
