@@ -19,6 +19,12 @@ is_known_skill() {
   return 1
 }
 
+get_frontmatter_field() {
+  local field="$1"
+  local file="$2"
+  awk -v f="^$field:" '/^---$/{c++; next} c==1 && $0 ~ f {print; exit}' "$file" | sed "s/^$field:[[:space:]]*//"
+}
+
 for dir in "$SKILLS_DIR"/*/; do
   name=$(basename "$dir")
   file="${dir}SKILL.md"
@@ -29,13 +35,13 @@ for dir in "$SKILLS_DIR"/*/; do
     continue
   fi
 
-  fm_name=$(awk '/^---$/{c++; next} c==1 && /^name:/{print; exit}' "$file" | sed 's/^name:[[:space:]]*//')
+  fm_name=$(get_frontmatter_field name "$file")
   if [ "$fm_name" != "$name" ]; then
     echo "ERROR: $name — frontmatter name '$fm_name' does not match the folder name"
     errors=$((errors + 1))
   fi
 
-  fm_desc=$(awk '/^---$/{c++; next} c==1 && /^description:/{print; exit}' "$file")
+  fm_desc=$(get_frontmatter_field description "$file")
   if [ -z "$fm_desc" ]; then
     echo "ERROR: $name — missing or empty description in frontmatter"
     errors=$((errors + 1))
